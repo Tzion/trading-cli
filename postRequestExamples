@@ -1,0 +1,40 @@
+curl 'https://demostocks.bigshot-station.com/dark/cancel_order?cid=170794' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _kyc_session=wnzPpkE2fitpcWMgr7wzd1dGuDAgV2MeGUd4AWtP9DvywbqjrBBctaF%2BYS6uYNwdkLwZGlXOF8VPSbQFkLUHsMifBX438K21%2BpQuyyqtu6kWQ8k14VfCxJVsp23UeVor2iIdAFsjaqfBO8T3QxQ2SnxsfB6P2WGl9GBWeAk%3D--3y%2BMtDgFNZC9bXbQ--EqySE1E8sKmGWalHRdN3Bw%3D%3D' \
+  -H 'DNT: 1' \
+  -H 'Referer: https://demostocks.bigshot-station.com/dark/symbol?symbol=WBD' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="119", "Not?A_Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --compressed
+
+
+curl 'https://demostocks.bigshot-station.com/front/trader/place_order' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Cookie: _kyc_session=8E5DgA8CoAEHW4NV6zOOgPAkg8jxFYyxjfy9J%2FT9I1gT59PsAygqRswZmkW%2B7KTV%2FMs7H138IXMfk4jtvNdD5CaDvcdBTpNT7gVKLNUwWUJayBHOqlaQoSZngcG7eMAwlRLElfHkFgqazTpJ7EoUWo9IR6Un9DjKHfLUREE%3D--SNrjomu21q6cslHi--6jyrUvR9nAhpx68e0JXasg%3D%3D' \
+  -H 'DNT: 1' \
+  -H 'Origin: https://demostocks.bigshot-station.com' \
+  -H 'Referer: https://demostocks.bigshot-station.com/dark/symbol?symbol=WBD' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="119", "Not?A_Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'utf8=%E2%9C%93&authenticity_token=ZC0A%2BKGvEbru0iqGjl3bKxt%2FohlgTmY9nqniPL%2Bufm9wNQwICffvxR06V5QdHT4ZLg1sJVUbslzGbJjnQvWNEg%3D%3D&symbol=WBD&account=2636&account_uid=2636&user=2447&market_price=11.25&op=SELL&order_type=STP+LMT&aux_price=10&lmt_price=10&stop_loss_price=13&take_profit_price=5.50&qty=7&tif=DAY&commit=%D7%A9%D7%99%D7%92%D7%95%D7%A8+%D7%94%D7%95%D7%A8%D7%90%D7%94' \
+  --compressed
