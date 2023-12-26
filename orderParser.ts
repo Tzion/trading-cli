@@ -1,6 +1,12 @@
-// I want a parser for trading command in
-// orderParser.js
-export function parseOrder(orderString) {
+export interface Order {
+  symbol: string;
+  orderType: string;
+  limitPrice: number;
+  stopPrice: number;
+  takeProfitPrice: number;
+}
+
+export function parseOrder(orderString: string): Order | null {
   const regex =
     /(\w+)\s(\w+)\slimit\s([\d.]+)\sstop\s([\d.]+)\stake-profit\s([\d.]+)/;
   const match = orderString.match(regex);
@@ -18,7 +24,7 @@ export function parseOrder(orderString) {
   return null;
 }
 
-// Example usage
-const orderString = "NVDA buy limit 152.2 stop 152.1 take-profit 153";
-const parsedOrder = parseOrder(orderString);
-console.log(parsedOrder);
+export function validateOrder(order: Order | null): Order {
+  // TODO
+  return order!;
+}
