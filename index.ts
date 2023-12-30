@@ -16,8 +16,7 @@ function question(query: string): Promise<string> {
 // Async function to handle the order processing
 async function processOrder() {
   try {
-    // const orderQuery = await question("Enter your order: ");
-    const orderQuery = "NVDA buy limit 1 stop 0.5 take-profit 2";
+    const orderQuery = await question("Enter your order: ");
     let order = parseOrder(orderQuery);
     order = validateOrder(order);
     console.log("Parsed Order:", order);

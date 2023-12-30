@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<!-- saved from url=(0105)layout_2_sidebars_2_sides.html -->
+<html lang="en" dir="rtl">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>מערכת מסחר מניות</title>
+        <script src="https://use.fontawesome.com/0993f94123.js"></script>
+        <script src="https://www.google.com/jsapi"></script>
+        <meta name="csrf-param" content="authenticity_token"/>
+        <meta name="csrf-token" content="2XX0yjQySJ0SMQaYrST0n0lDD+GMuQ43pQslHn6uYKPNbfg6nGq24uHZe4o+ZBGtfDHB3bns2lb9zl/Fg/WT3g=="/>
+        <script src="/assets/rails-ujs.self-d566664a35961bf73356d87d752d70648f3f8626faefa906d9b96b82069cb45a.js?body=1"></script>
+        <script src="/assets/dark/jquery.min.self-0a298daa5744bff4e32e9592c1fbbfa53a7a09870fe7b2f959a01de00f97ff29.js?body=1"></script>
+        <script src="/assets/dark/bootstrap.bundle.min.self-76045134d66c2442592abec1070f45dd7096c961a75eba1b372916086115be63.js?body=1"></script>
+        <script src="/assets/dark/app.self-8979ed843ea5e046d1d23a1b462a2c1ffed52e2e92aed833c3b91ce01401f62f.js?body=1"></script>
+        <script src="/assets/moment.self-c33f09a4e1230f3075be8d2a94081108d52f62d3c30b9a238941fe80790267c6.js?body=1"></script>
+        <script src="/assets/jsapi.self-2aff8987c1d5ad505293a1c8e994160d73a5fe423530943ae57ee5ef5fa4cb98.js?body=1"></script>
+        <script src="/assets/chartkick.self-c33f97212de7f499029d66ddf93fb10e12286d4bf207b6fbeaabb0e93a03e9f7.js?body=1"></script>
+        <script src="/assets/tv_charts/bundle.self-368faf828f71d90c8bfeacc91fcfa25b904670e955206acab516f007d1bbd02e.js?body=1"></script>
+        <script src="/assets/tv_charts/charting_library.self-eb841e85bb2faeb6d8aecaecf7c283a4a8455c6996a727805dbcc5e8a9cc3adf.js?body=1"></script>
+        <script src="/assets/tv_charts/polyfills.self-c657cd353060876d49394e99595866b9cb76b1a45c492a35da7300d203a079be.js?body=1"></script>
+        <script src="/assets/dark.self-c4a0399c8f528fc01867c05afc6bb801d0f61a4ce6a350a7c65616e07260d6ae.js?body=1"></script>
+        <link rel="stylesheet" media="all" href="/assets/dark/all.min.self-2378f8d7e175ceda6afea8564557f98c3b402200e386d0227a8f7f79defb7a2f.css?body=1"/>
+        <link rel="stylesheet" media="all" href="/assets/dark/styles.min.self-347461e38f910deea2585e11049c2ac451656d9c6c1f8646718227fc3c881f58.css?body=1"/>
+        <link rel="stylesheet" media="all" href="/assets/dark.self-2ce6a7a4018b7771ec1b1d6605c9d9021cf49c9f1235b5922a7d815a09d71af6.css?body=1"/>
+        <link rel="apple-touch-icon" href="assets/bs-logo-sq.ico"/>
+        <link rel="apple-touch-icon" sizes="128x128" href="/assets/bs-logo-sq.png">
+        <!--
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integr>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity=>   
+     -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css>    <!-- /global stylesheets -->
+    <link rel=" preconnect " href=" https://fonts.googleapis.com ">
+    <link rel=" preconnect " href=" https://fonts.gstatic.com " crossorigin>
+    <link href=" https://fonts.googleapis.com/css2?family=Secular+One&display= swap " rel=" stylesheet ">
+    <!-- Bootstrap typeahead -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js " integrity=" sha512-HWlJyU4ut5HkEj0QsK/IxBCY55n5ZpskyjVlAoV9Z7XQwwkqXoYdCIC93/htL3Gu5H3R4an/S0h2NXfbZk3g7w==" crossorigin=" anonymous "></script>
+    <!-- Datatable -->
+    <script src=" https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js " ></script>
+  </head>
+  <body class=" custom-scrollbars ">
+    <!-- Main navbar -->
+    <div class=" navbar navbar-expand-lg navbar-light navbar-static ">
+      <div class=" d-flex flex-1 d-lg-none ">
+        <button type=" button " class=" navbar-toggler " data-toggle=" collapse " data-target=" #navbar-mobile ">
+          <i class=" icon-paragraph-justify3 "></i>
+        </button>
+        <button type=" button " class=" navbar-toggler sidebar-mobile-main-toggle ">
+          <i class=" icon-transmission "></i>
+        </button>
+        <button type=" button " class=" navbar-toggler sidebar-mobile-right-toggle ">
+          <i class=" icon-arrow-right8 "></i>
+        </button>
+      </div>
+      <div class=" navbar-brand text-center text-lg-left text-white ">
+        <img src=" /assets/bs-logo.png " style=" height:40px ">
+      </div>
+      <div class=" collapse navbar-collapse order-2 order-lg-1 " id=" navbar-mobile ">
+        <ul class=" navbar-nav ">
+          <li class=" nav-item active ">
+            <a class=" nav-link " href=" /dark/home ">
+              <i class=" fa fa-briefcase "></i>
+              החשבון שלי </a>
+          </li>
+          <li class=" nav-item ">
+            <a class=" nav-link " href=" /dark/deals ">
+              <i class=" fa fa-handshake-o "></i>
+              עסקאות</a>
+          </li>
+          <li class=" nav-item dropdown show ">
+            <a href=" #" class=" nav-link dropdown-toggle " data-toggle=" dropdown " aria-expanded=" true ">
+              <i class=" fa fa-globe "></i>
+              השוק</a>
+            <div class=" dropdown-menu dropdown-menu-left ">
+              <a href=" https://il.investing.com/economic-calendar " target=" _BLANK " class=" dropdown-item " >
+                <i class=" fa fa-line-chart "></i>
+                נתונים כלכליים
+              </a>
+              <a href=" https://elite.finviz.com/map.ashx?t=sec_all " target=" _BLANK "  class=" dropdown-item ">
+                <i class=" fa fa-line-chart "></i>
+                פינויז מפה
+              </a>
+              <a href=" /dark/ipo_calendar " class=" dropdown-item ">
+                <i class=" fa fa-calendar "></i>
+                הנפקות
+              </a>
+              <a href=" /dark/rss " class=" dropdown-item ">
+                <i class=" fa fa-briefcase "></i>
+                חדשות
+              </a>
+            </div>
+          </li>
+          <li class=" nav-item ">
+            <a class=" nav-link " href=" /dark/trading_room ">
+              <i class=" fa fa-globe "></i>
+              חדר מסחר </a>
+          </li>
+          <li class=" nav-item ">
+            <a class=" nav-link " href=" /dark/screener ">
+              <i class=" fa fa-filter "></i>
+              סורקים </a>
+          </li>
+          <li class=" nav-item ">
+            <a class=" nav-link " href=" /dark/watchlist ">
+              <i class=" fa fa-heart "></i>
+              מניות במעקב </a>
+          </li>
+        </ul>
+      </div>
+      <ul class=" navbar-nav flex-row order-1 order-lg-2 flex-1 flex-lg-0 justify-content-end align-items-center ">
+        <li style=" direction:ltr;">
+          <input data-provide=" typeahead " class=" typeahead form-control " type=" text " id=" query " style=" direction:ltr;margin-top:22px; width:130px;" placeholder=" סימבול לחיפוש ">
+        </li>
+        <li class=" nav-item text-bold text-yellow text-center ">
+          &nbsp;
+          &nbsp;
+          &nbsp;
+        </li>
+        <li class=" nav-item text-bold text-white text-center account-title ">
+          כח קניה<br/>
+          <span id=" td-free-margin " class=" account-value ">
+            $10,000.00
+          </span>
+        </li>
+        <li class=" nav-item text-bold text-white text-center ">
+          <div class=" vl "></div>
+        </li>
+        <li class=" nav-item text-bold text-white text-center account-title ">
+          בשימוש<br/>
+          <span id=" td-free-margin " class=" account-value ">
+            $0.00
+          </span>
+        </li>
+        <li class=" nav-item text-bold text-pink text-center ">
+          <div class=" vl "></div>
+        </li>
+        <li class=" nav-item text-bold text-gray text-center ">
+          &nbsp;
+          &nbsp;
+          &nbsp;
+        </li>
+          <li class=" menu-item " style=" margin-top:13px;">
+              <span class=" label label-danger account-into-label " >Demo Server</span>
+          </li>
+        <li class=" nav-item nav-item-dropdown-lg dropdown dropdown-user h-100 ">
+          <a href=" layout_2_sidebars_2_sides.html#" class=" navbar-nav-link navbar-nav-link-toggler dropdown-toggle d-inline-flex align-items-center h-100 " data-toggle=" dropdown ">
+            <span class=" d-none d-lg-inline-block ">ציון ששון</span>
+          </a>
+          <div class=" dropdown-menu dropdown-menu-right ">
+            <a href=" /dark/profile " class=" dropdown-item ">הפרופיל שלי</a>
+            <a href=" /dark/tradelog " class=" dropdown-item ">יומן מסחר</a>
+            <a href=" /dark/help " class=" dropdown-item ">עזרה</a>
+            <a href=" /dark/updates " class=" dropdown-item ">עדכונים</a>
+            <a href=" /logout " class=" dropdown-item "> יציאה </a>
+          </div>
+        </li>
+        <li>
+            <a >
+              <span id=" account-status "  class=" badge badge-success account-into-badge ">
+                פעיל
+              </span>
+            </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /main navbar -->
+    <!-- Page content -->
+    <div class=" page-content ">
+      <!-- Main sidebar -->
+      <!-- /main sidebar -->
+      <!-- Main content -->
+      <div class=" content-wrapper ">
+        <!-- Inner content -->
+        <div class=" content-inner ">
+            <div class=" alert alert-success " id=" notice ">
+            <h1> הוראה נשלחה </h1>
+            </div>
+          <div class=" content pt-0 ">
+            <br/>
+            <script>
+  var cur_user_id = 2447
+  var cur_account_id = 2636
+</script>
+<div class=" row ">
+  <div class=" col-lg-3 ">
+    <div id=" order_buy_card " class=" collapse ">
+      <div class='card card-default '>
+        <div class='card-heading bg-red'>
+          חשבון חסום 
+        </div>
+        <div class='card-body bg-danger text-white'>
+          יש לך כבר הוראה או פוזיציה פתוחה בסימבול זה
+        </div>
+      </div>
+</div>
+<script>
+  $(" form ").bind(" keypress ", function (e) {
+      if (e.keyCode == 13) {
+          $(" #btnSearch ").attr('value');
+          //add more buttons here
+          return false;
+      }
+  });
+
+  function diff_percent(a, b){
+    return ((a - b ) / b * 100);
+  }
+
+  //  VALIDATION
+  //  (Triger price - limit_price).abs shoud be less than 20% of stop_size
+  //  STOP TRIGGER should be > STOP PRICE IF OP == BUY
+  //  STOP TRIGGER should be < STOP PRICE IF OP == SELL
+  //  IF BUY LIMIT SHOUD BE > STOP TRIGGER
+  //  IF SELL LIMIT SHOUD BE < STOP TRIGGER
+  //  IF BUY TAKE PROFIT SHOUD BE > STOP_LOSS
+  //  IF SELL TAKE PROFIT SHOUD BE < STOP_LOSS
+  //  COMMAND MUST BE BRACKET.
+
+  function validateOrder() {
+      calcBuyOrderTotal();
+      calcStopSize();
+      var op = $(" #form-order-op ").val();
+      var order_type = $(" #form-order-type ").val();
+      var qty = $(" #form-qty ").val();
+      var limit_price = Number($(" #form-lmt-price ").val());
+      var trigger_price = Number($(" #form-trigger-price ").val());
+      var stop_loss_price = Number($(" #form-stop-loss-price ").val());
+      var take_profit_price = Number($(" #form-take-profit-price ").val());
+      var stop_size = Number($(" #stop-size ").text());
+      //var total = Number($(" #form-total ").text());
+      var commissions = Number($(" #form-commission ").text());
+      var available_cash = 10000;
+      var total = limit_price * qty;
+      var commission = "";
+      if (qty <= 180) {
+          commission = 1.80
+      } else {
+          commission = qty * 0.005
+      }
+
+      console.log({stop_loss_price,total ,op, order_type, qty, limit_price, trigger_price, market_price, take_profit_price, stop_size,  commissions, available_cash});
+
+      var message = "";
+
+
+
+      if (order_type === " STP LMT " || order_type === " STP ") {
+          if (op == " BUY ") {
+              if (stop_loss_price > trigger_price) {
+                  message = " מחיר סטופ גבוה ממחיר הטריגר ";
+              }
+          } else {
+              if (stop_loss_price < trigger_price) {
+                  message = " מחיר סטופ נמוך ממחיר הטריגר ";
+              }
+          }
+      }
+
+      if (stop_loss_price < 5 || stop_loss_price == 0) {
+          message = " ערך מחיר הסטופ צריך להיות 5$ ומעלה וגם לא ניתן לסחור במניות שקטנות מ5 דולר ";
+      }
+      if (total > available_cash) {
+          message = " אין מספיק מזומנים ";
+      }
+
+      if (Number(qty) === 0 || qty === " undefined ") {
+          message = " כמות בעייתית ";
+      }
+
+      if (stop_loss_price > 0 && trigger_price > 0) {
+          if (stop_size < 0.07) {
+              message = " גודל הסטופ חייב להיות מעל 7 סנט "
+          }
+      }
+      if (stop_loss_price > 0 && limit_price > 0) {
+          if (stop_size < 0.07) {
+              message = " גודל הסטופ חייב להיות מעל 7 סנט "
+          }
+      }
+
+      if (order_type === " STP LMT ") {
+          var diff = Math.abs(trigger_price - limit_price)
+          if (diff >= stop_size * 0.2) {
+              message = " המרווח שנתת גדול מידי - מותר עד 20 אחוזים מגודל הסטופ - נא להקטין את מחיר הלימיט "
+          }
+      }
+
+
+      if (op === " SELL " && order_type === " STP LMT ") {
+          if (limit_price > trigger_price) {
+              message = " הלימיט חייב להיות קטן או שווה לטריגר "
+          }
+      }
+
+      if (op === " BUY " && order_type === " STP LMT ") {
+          if (limit_price < trigger_price) {
+              message = " הלימיט חייב להיות גדול או שווה לטריגר "
+          }
+      }
+
+
+      if (op === " BUY " && order_type === " MKT ") {
+          if (market_price < stop_loss_price) {
+              message = " מחיר הסטופ חייב להיות נמוך ממחיר השוק "
+          }
+      }
+
+      if (op === " SELL " && order_type === " MKT ") {
+          if (market_price > stop_loss_price) {
+              message = " מחיר הסטופ חייב להיות גבוה ממחיר השוק "
+          }
+      }
+
+      if (op === " BUY " && order_type === " LMT ") {
+          // if (diff_percent(market_price , limit_price) < 1.0 ) {
+          //     message = " בהוראת לימיט מחיר הלימיט חייב להיות נמוך ממחיר השוק ב1%"
+          // }
+
+          // if (diff_percent(limit_price , stop_loss_price) < 1.0 ) {
+          //    message = " בהוראת לימיט ההפרש בין הלימיט לסטופ לוס צריך להיות גבוה מ1%"
+          // }
+
+          
+          if (limit_price >= market_price) {
+              message = " מחיר הלימיט חייב להיות נמוך ממחיר השוק "
+          }
+          
+          if (stop_loss_price > limit_price) {
+              message = " מחיר הסטופ חייב להיות נמוך ממחיר הלימיט "
+          }
+      }
+
+      if (op === " SELL " && order_type === " LMT ") {
+        //  if (diff_percent( limit_price, market_price) < 1.0 ) {
+        //   message = " בהוראת לימיט מחיר הלימיט חייב להיות גבוה ממחיר השוק ב1%"
+        //   }
+
+        //   if (diff_percent( stop_loss_price, limit_price) < 1.0 ) {
+        //       message = " בהוראת לימיט ההפרש בין הלימיט לסטופ לוס צריך להיות גבוה מ1%"
+        //   }
+
+          if (limit_price <= market_price) {
+              message = " מחיר הלימיט חייב להיות גבוה ממחיר השוק "
+          }
+
+          if (stop_loss_price < limit_price) {
+              message = " מחיר הסטופ חייב להיות גבוה ממחיר הלימיט "
+          }
+      }
+
+
+      if (op === " BUY " && order_type === " STP ") {
+          if (market_price > trigger_price) {
+              message = " מחיר הטריגר חייב להיות גבוה ממחיר השוק "
+          }
+
+          if (stop_loss_price > trigger_price) {
+              message = " מחיר הסטופ חייב להיות נמוך ממחיר הטריגר "
+          }
+      }
+
+      if (op === " SELL " && order_type === " STP ") {
+          if (market_price < trigger_price) {
+              message = " מחיר הטריגר חייב להיות נמוך ממחיר השוק "
+          }
+
+          if (stop_loss_price < trigger_price) {
+              message = " מחיר הסטופ חייב להיות גבוה ממחיר הטריגר "
+          }
+      }
+
+      if (op === " BUY " && order_type === " STP LMT ") {
+          if (market_price > trigger_price) {
+              message = " מחיר הטריגר חייב להיות גבוה ממחיר השוק "
+          }
+      }
+
+      if (op === " SELL " && order_type === " STP LMT ") {
+          if (market_price < trigger_price) {
+              message = " מחיר הטריגר חייב להיות נמוך ממחיר השוק "
+          }
+      }
+
+
+      if (message === "") {
+          $(" #error-message ").addClass(" hidden ");
+          $(" #form-submit ").removeClass(" hidden ");
+      } else {
+          $(" #error-message ").removeClass(" hidden ");
+          $(" #form-submit ").addClass(" hidden ");
+          $(" #error-message ").html(message);
+      }
+  }
+
+
+
+  function calcStopSize() {
+      var r = 20.0;
+      var op = $(" #form-order-op ").val();
+      var otype = $(" #form-order-type ").val();
+      var mkt_price = Number($(" #form-mkt-price ").val());
+      var lmt_price = Number($(" #form-lmt-price ").val());
+      var stp_price = Number($(" #form-trigger-price ").val());
+      var stop_loss_price = Number($(" #form-stop-loss-price ").val());
+      var stop_size = 0;
+      if (otype === " MKT ") {
+          stop_size = Math.abs(mkt_price - stop_loss_price);
+      }
+      if (otype === " LMT ") {
+          stop_size = Math.abs(lmt_price - stop_loss_price);
+      }
+
+      if (otype === " STP ") {
+          stop_size = Math.abs(stp_price - stop_loss_price);
+      }
+
+      if (otype === " STP LMT ") {
+          stop_size = Math.abs(stp_price - stop_loss_price);
+      }
+
+
+      var qty = Math.round(r / stop_size);
+      var goal = 1.5;
+      take_profit_price = 0
+
+
+
+      if (otype === " STP LMT " || otype === " STP ") {
+          if (op === " BUY ") {
+              take_profit_price = Number(stop_size * goal) + Number(stp_price);
+          } else {
+              take_profit_price = Number(stp_price) - Number(stop_size * goal);
+          }
+      }
+
+      if (otype === " LMT ") {
+          if (op === " BUY ") {
+              take_profit_price = Number(stop_size * goal) + Number(lmt_price);
+          } else {
+              take_profit_price = Number(lmt_price) - Number(stop_size * goal);
+          }
+      }
+
+      if (otype === " MKT ") {
+          if (op === " BUY ") {
+              take_profit_price = Number(stop_size * goal) + Number(mkt_price);
+          } else {
+              take_profit_price = Number(mkt_price) - Number(stop_size * goal);
+          }
+      }
+
+
+
+
+
+      $(" #stop-size ").html(stop_size.toFixed(2));
+      $(" #form-qty ").val(qty);
+      $(" #form-take-profit-price ").val(take_profit_price.toFixed(2));
+  }
+
+  function calcBuyOrderTotal() {
+      var price = $(" #form-lmt-price ").val();
+      var qty = $(" #form-qty ").val();
+      var total = price * qty;
+      var commission = "";
+
+
+      if (qty <= 180) {
+          commission = 1.80
+      } else {
+          commission = qty * 0.005
+      }
+
+      $(" #form-total ").html(total.toFixed(1));
+      $(" #form-commission ").html(commission);
+  }
+
+
+
+  $(document).ready(function () {
+
+      $(" #form-aux-price-tr ").hide();
+      $(" #form-trail-tr ").hide();
+      $(" #form-target-price-tr ").hide();
+      $(" #form-lmt-cents-tr ").hide();
+
+      $(" #form-aux-price-tr ").show();
+      $(" #form-trail-tr ").show();
+      /* remark this two bottom for hide stop limit */
+      $(" #form-target-price-tr ").show();
+      $(" #form-lmt-cents-tr ").show();
+
+      $('#form-order-type').on('change', function () {
+          calcStopSize();
+          validateOrder();
+
+          if (this.value === " MKT ") {
+              $(" #form-aux-price-tr ").hide();
+              $(" #form-trail-tr ").hide();
+              $(" #form-target-price-tr ").hide();
+              $(" #form-lmt-cents-tr ").hide();
+          }
+
+          if (this.value === " LMT ") {
+              $(" #form-aux-price-tr ").hide();
+              $(" #form-aux-price-tr ").hide();
+              $(" #form-trail-tr ").show();
+              $(" #form-target-price-tr ").show();
+              $(" #form-trigger-price ").val("")
+          }
+
+          if (this.value === " STP ") {
+               $(" #form-aux-price-tr ").show();
+              $(" #form-trail-tr ").show();
+              $(" #form-target-price-tr ").hide();
+              $(" #form-lmt-cents-tr ").hide();
+              $(" #form-lmt-price ").val("")
+          }
+          if (this.value === " STP LMT ") {
+              $(" #form-aux-price-tr ").show();
+              $(" #form-trail-tr ").show();
+              $(" #form-target-price-tr ").show();
+              $(" #form-lmt-cents-tr ").show();
+          }
+
+      });
+
+
+      $(" #form-trigger-price ").change(function () {
+          var trigger_price = Number($(" #form-trigger-price ").val());
+          var limit_price = Number($(" #form-lmt-price ").val());
+          if (limit_price == 0) {
+              $(" #form-lmt-price ").val(trigger_price);
+          }
+      });
+
+      $(" #form-order-op ").change(function () {
+          validateOrder();
+      });
+      $(" #form-target-price ").change(function () {
+          validateOrder();
+          calcBuyOrderTotal();
+      });
+
+      $(" #form-qty ").change(function () {
+          validateOrder();
+          calcBuyOrderTotal();
+      });
+      $(" #form-target-price ").change(function () {
+          validateOrder();
+          calcStopSize();
+      });
+      $(" #form-stop-loss-price ").change(function () {
+          validateOrder();
+          calcStopSize();
+          calcBuyOrderTotal();
+      });
+
+
+      $('#form-lmt-price').on('change', function (e) {
+          validateOrder();
+          calcBuyOrderTotal();
+      });
+      $('#form-lmt-price').on('change', function (e) {
+          validateOrder();
+          calcBuyOrderTotal();
+      });
+      $('#form-trigger-price').on('change', function (e) {
+          validateOrder();
+          calcBuyOrderTotal();
+      });
+
+      $('#form-take-profit-price').on('change', function (e) {
+          validateOrder();
+          calcStopSize();
+          calcBuyOrderTotal();
+      });
+
+
+  });
+</script>
+<style>
+  .hidden{
+    display:none;
+  }
+</style>
+
+    <div class='card '>
+  <div class='card-header'>
+    <div class=" pull-left ">
+      <a href=" #"  data-toggle=" collapse " data-target=" #order_buy_card " class=" btn btn-success ">
+        הוראה חדשה
+      </a>
+    </div>
+    <h3 style=" margin-top:-0px;">
+      <span class=" pull-right ">
+        TSLA
+        &nbsp;
+        &nbsp;
+        &nbsp;
+      </span>
+      <span class=" text-small text-english ">
+        <span class=" text-english ">
+          <span  class=" text-english " id=" f-change ">
+            0.44
+          </span>
+        </span>
+        |
+        <span id=" last-price ">
+          253.649
+        </span>
+        $
+      </span>
+    </h3>
+    <br/>
+    <div class=" row text-center ">
+      <div class=" col-lg-3 ">
+        גבוה יומי
+        <br/>
+        <span class=" text-bold text-success " id=" high ">
+          255.37
+        </span>
+      </div>
+      <div class=" col-lg-3 ">
+        נמוך יומי
+        <br/>
+        <span class=" text-bold text-danger " id=" low ">
+          252
+        </span>
+      </div>
+      <div class=" col-lg-3 ">
+        ווליום
+        <br/>
+        <span class=" text-bold text-info "  id=" volume ">
+          6.85 Million
+        </span>
+      </div>
+      <div class=" col-lg-3 ">
+        ווליום ממוצע
+        <br/>
+        <span class=" text-bold text-info " >
+          0
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class='card-body text-center'>
+    <div class=" row " style='margin:0px;'>
+      <div class=" col-lg-5 btn-primary " >
+        <b> BID </b><br/>
+        <span class=" text-price "  id=" bid-price ">
+          $253.60
+        </span>
+        *
+        <span class=" text-size " id=" bid-size ">
+          1.0
+        </span>
+      </div>
+      <div class=" col-lg-2 ">
+        <b> Spread </b><br/>
+        <span class=" text-price " id=" spread ">
+        </span>
+      </div>
+      <div class=" col-lg-5 btn-danger ">
+        <b> Ask </b><br/>
+        <span class=" text-price " id=" ask-price ">
+          $253.70
+        </span>
+        * 
+        <span class=" text-size " id=" ask-size ">
+          2.0
+        </span>
+      </div>
+    </div>
+    <br/>
+    <div class=" row text-right ">
+      <table class=" table table-smaller " style='font-size:15px;'>
+        <tbody>
+          <tr>
+            <td width='150px'> שם החברה</td>
+            <td class='text-english text-left'>
+              <span class=" text-bold " >
+                Tesla Inc
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td> שווי שוק</td>
+            <td class='text-english text-left'>
+              <span class=" text-bold " >
+                
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td> סקטור</td>
+            <td class='text-english text-left'>
+              <span class=" text-bold " >
+                Manufacturing
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td> תעשייה</td>
+            <td class='text-english text-left'>
+              <span class=" text-bold " >
+                Automobile Manufacturing 
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<script>
+  var market_price = 0
+  function updateSymbolUI(value) {
+      var symbol = value.symbol;
+      var last_price = value.last_price;
+  
+      var bid_price = value.bid_price;
+      var bid_size = value.bid_size;
+      var ask_price = value.ask_price;
+      var ask_size = value.ask_size;
+      var volume = value.volume * 10;
+      var close = value.close_price;
+      var low = value.low;
+      var high = value.high;
+      var changeP =  (Number(last_price) * 100 / Number(close) - 100 ).toFixed(2);
+      var spread = Math.abs(Number(bid_price - ask_price)).toFixed(2);
+  
+      var colorField = " .field-" + value.symbol + " -color ";
+      market_price = value.last_price;
+  
+      // console.log({symbol,market_price ,last_price, changeP, bid_price, ask_price, close, high, low, volume});
+      var change = Number(changeP).toFixed(2)
+  
+  
+      //if (change > 0){
+      //    $(" #f-change ").html(Math.abs(change) + " %");
+      //    $(" #f-change ").addClass(" text-english ")
+      //    $(" #f-change ").addClass(" text-success ")
+      //} else {
+      //    $(" #f-change ").html(Math.abs(change) + " %" + " -");
+      //    $(" #f-change ").addClass(" text-english ")
+      //    $(" #f-change ").addClass(" text-danger ")
+      //}
+  
+  
+  
+  
+  
+  
+      $(" #last-price ").text(last_price);
+      $(" #bid-price ").text(bid_price);
+      $(" #ask-price ").text(ask_price);
+      $(" #bid-size ").text(bid_size);
+      $(" #ask-size ").text(ask_size);
+      $(" #ask-size ").text(ask_size);
+      $(" #close ").text(close);
+      $(" #high ").text(high);
+      $(" #low ").text(low);
+      //$(" #volume ").text( Humanize.intword(volume, 'this is a nop', 3) );
+      $(" #spread ").html(spread);
+  
+  }
+  
+  setInterval(function () {
+      $.getJSON(" /front/trader/quotes?symbol=TSLA ", function (data) {
+          (updateSymbolUI(data));
+      });
+  }, 1500);
+</script>
+
+    <br/>
+    <div class=" mb-3 ">
+      <ul class=" nav nav-tabs nav-tabs-highlight nav-justified border-0 mb-0 ">
+        <li class=" nav-item "><a href=" #tab-notes " class=" nav-link border-transparent " data-toggle=" tab "> פורטפוליו</a></li>
+        <li class=" nav-item "><a href=" #tab-tasks " class=" nav-link border-transparent active " data-toggle=" tab "> מניות במעקב</a></li>
+      </ul>
+      <div class=" tab-content card card-body border-top-0 rounded-top-0 mb-0 ">
+        <div class=" tab-pane fade " id=" tab-notes ">
+          <table class='table table-condensed table-stripped'>
+  <thead>
+    <tr>
+      <th width=" 90px "> סימבול </th>
+      <th width=" 90px "> כמות </th>
+      <th width=" 120px "> עלות </th>
+      <th width=" 150px "> סה" כ </th>
+      <th width="120px">רווח 
+</th><th></th>
+</tr></thead><tbody></tbody>
+</table></div>
+<div class="tab-pane active" id="tab-tasks">
+    <div class='card-header'>
+        <div class="pull-left">
+            <select id="category-list" class="form-control" name="category">
+                <option value="14865">מדדים </option>
+                <option value="14866">הנפקות </option>
+                <option value="14867">מעקב יומי </option>
+                <option value="14868">פוטנציאליות יומי </option>
+                <option value="14869">מעקב סווינג </option>
+                <option value="14870">פוטנציאליות סווינג </option>
+            </select>
+        </div>
+    </div>
+    <div class='card-body'>
+        <table class="table table-condensed ">
+            <thead>
+                <tr>
+                    <th width="100px">סימול</th>
+                    <th width="100px">מחיר </th>
+                    <th width="120px">%שינוי</th>
+                    <th>ווליום</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script>
+        $("#category-list").change(function() {
+            window.location.href = "/dark/symbol?symbol=TSLA&size=5&category=" + this.value;
+        });
+    </script>
+</div>
+</div></div></div>
+<div class="col-lg-9">
+    <div class='row'>
+        <div class='col-lg-12'>
+            <div class='panel panel-default'>
+                <div class='panel-heading text-bold'></div>
+                <div class='panel-body'>
+                    <script>
+                        var currentSymbol = "TSLA";
+                        $(document).ready(function() {
+                            initOnReady()
+                        })
+                    </script>
+                    <div class="page-tv-chart-container" id="tv_chart_container" style="height:800px"></div>
+                    <script>
+                        function getLanguageFromURL() {
+                            const regex = new RegExp('[\\?&]lang=([^&#]*)');
+                            const results = regex.exec(location.search);
+                            return results === null ? null : decodeURIComponent(results[1].replace(/\+/g, ' '));
+                        }
+
+                        function getChartServerUrl() {
+                            var ips = ['https://puma1.bigshot-station.com:4567/tv_chart', 'https://puma2.bigshot-station.com:4567/tv_chart', 'https://puma3.bigshot-station.com:4567/tv_chart'];
+                            return ips[Math.floor(Math.random() * ips.length)]
+                        }
+
+                        function initOnReady() {
+                            var widget = window.tvWidget = new TradingView.widget({
+                                symbol: "TSLA",
+                                debug: true,
+                                datafeed: new Datafeeds.UDFCompatibleDatafeed(getChartServerUrl(),100),
+                                //datafeed: new Datafeeds.UDFCompatibleDatafeed("http://polygon.bigshot-station.com/tv_chart",100),
+                                interval: '5',
+                                timeframe: '1D',
+                                container_id: 'tv_chart_container',
+                                library_path: '/assets/charting_library/',
+                                locale: getLanguageFromURL() || 'en',
+                                disabled_features: ['use_localstorage_for_settings', "header_symbol_search", "header_compare"],
+                                enabled_features: ['study_templates'],
+                                charts_storage_url: 'https://charts-store.bigshot-station.com',
+                                charts_storage_api_version: '1.1',
+                                client_id: 2447,
+                                user_id: 2447,
+                                fullscreen: false,
+                                theme: "Dark",
+                                //loading_screen: { backgroundColor: "#000000" , foregroundColor: "#fff" },
+                                autosize: true,
+                                timezone: "Asia/Jerusalem",
+                                studies_overrides: {},
+                                auto_save_delay: 5,
+                                load_last_chart: true,
+                            });
+
+                        }
+                        ;</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="mb-3">
+        <ul class="nav nav-tabs nav-tabs-highlight nav-justified border-0 mb-0">
+            <li class="nav-item">
+                <a href="#tab-open" class="nav-link border-transparent active" data-toggle="tab">הוראות פתוחות</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tab-filled" class="nav-link border-transparent" data-toggle="tab">הוראות שבוצעו</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tab-trades" class="nav-link border-transparent" data-toggle="tab">עסקאות</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tab_technical" class="nav-link border-transparent" data-toggle="tab">טכני</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tab_ratings" class="nav-link border-transparent" data-toggle="tab">אנליסטים</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tab-inside" class="nav-link border-transparent" data-toggle="tab">עסקאות פנימיות</a>
+            </li>
+        </ul>
+        <div class="tab-content card card-body border-top-0 rounded-top-0 mb-0">
+            <div class="tab-pane show active" id="tab-open">
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <th width='70px'>סטטוס</th>
+                            <th width="180px">שעה</th>
+                            <th width="100px">מספר</th>
+                            <th width="100px">סימבול</th>
+                            <th width="70px">כיוון</th>
+                            <th width="120px">סוג </th>
+                            <th width="120px">כמות</th>
+                            <th width="120px">טריגר</th>
+                            <th width="120px">מחיר</th>
+                            <th width="450px"></th>
+                            <th width="200px"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class='label label-info'>Submitted</span>
+                            </td>
+                            <td>2023-12-26 16:43:54</td>
+                            <td>171168
+          
+        </td>
+                            <td>
+                                <a href="/dark/symbol?symbol=TSLA">TSLA</a>
+                            </td>
+                            <td>
+                                <span class="label label-success">BUY
+            </span>
+                            </td>
+                            <td>
+                                <span class="label label-info">STP LMT </span>
+                            </td>
+                            <td>20 </td>
+                            <td>300.0</td>
+                            <td>300.0</td>
+                            <td>
+                                <div id="o-171168-form" class="collapse">
+                                    <form action="/dark/update_order" accept-charset="UTF-8" method="post">
+                                        <input name="utf8" type="hidden" value="&#x2713;" autocomplete="off"/>
+                                        <input type="hidden" name="authenticity_token" value="NFCU3qmCDfjhX4lH+L60K5nfk96C+nB942sJBUwGQLyQ/JvLn+r8sdSrok/1dxjLbX4cLc/6LRsYeSyI2iMLww==" autocomplete="off"/>
+                                    </form>
+                                </div>
+                                <div id="o-171168-form-r" class="collapse">
+                                    <form action="/dark/update_order" accept-charset="UTF-8" method="post">
+                                        <input name="utf8" type="hidden" value="&#x2713;" autocomplete="off"/>
+                                        <input type="hidden" name="authenticity_token" value="aJyHhUDQgspx+9IP5g3O5di0V7PYjK0xneQ0OmTOcXjMMIiQdrhzg0QP+QfrxGIFLBXYQJWM8Fdm9hG38us6Bw==" autocomplete="off"/>
+                                    </form>
+                                </div>
+                            </td>
+                            <td class="text-right">
+                                <a href="/dark/cancel_order?cid=171168" class="btn btn-sm btn-danger" data-confirm="האם לבטל את  ההוראה?" title="ביטול הוראה">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="tab-trades">
+                <table class="table table-condensed table-striped datatable">
+                    <thead>
+                        <tr>
+                            <th width="220px">תאריך</th>
+                            <th width="50px">סימבול</th>
+                            <th width="50px">כיוון כניסה</th>
+                            <th width="120px">כמות כניסה</th>
+                            <th width="120px">כמות יציאה</th>
+                            <th width="120px">מחיר כניסה</th>
+                            <th width="120px">מחיר יציאה</th>
+                            <th width='120px'>עמלות</th>
+                            <th width='60px'>R</th>
+                            <th width='60px'>PNL</th>
+                            <th width='60px'>PNL IN R</th>
+                            <th width='60px'>MTM IN R</th>
+                            <th>הערות</th>
+                            <th width='80px'></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="tab-filled">
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <th width="180px">שעה</th>
+                            <th width="180px">מספר</th>
+                            <th width="70px">סימבול</th>
+                            <th width="70px">כיוון</th>
+                            <th width="70px">סוג </th>
+                            <th width="100px">כמות</th>
+                            <th width="100px">טריגר</th>
+                            <th width="100px">לימיט</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="tab-files">
+                <table class="table table-condensed table-striped datatable">
+                    <thead>
+                        <tr>
+                            <th width="150px">זמן</th>
+                            <th width="50px">סימבול</th>
+                            <th width="50px">כיוון כניסה</th>
+                            <th width="120px">כמות כניסה</th>
+                            <th width="120px">כמות יציאה</th>
+                            <th width="120px">מחיר כניסה</th>
+                            <th width="120px">מחיר יציאה</th>
+                            <th width="120px">MTM</th>
+                            <th width='120px'>עמלות</th>
+                            <th width='60px'>R</th>
+                            <th width='60px'>PNL</th>
+                            <th>הערות</th>
+                            <th width='80px'></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class='tab-pane ' id='tab_technical'>
+                <div class="row ">
+                    <div class="col-lg-2">
+                        <table class="table table-condensed">
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-2">
+                        <table class="table table-condensed">
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-2">
+                        <table class="table table-condensed">
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-2">
+                        <table class="table table-condensed">
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-2">
+                        <table class="table table-condensed">
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-2">
+                        <table class="table table-condensed">
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class='tab-pane' id='tab_2'>
+                <table class="table table-condensed datatable text-english text-left">
+                    <thead>
+                        <tr>
+                            <th>Column 1</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class='tab-pane' id='tab_ratings'>
+                <table class="table table-condensed datatable  text-english">
+                    <thead>
+                        <tr>
+                            <th>Symbol</th>
+                            <th>Date </th>
+                            <th>Estimation </th>
+                            <th>Who </th>
+                            <th>Estimation </th>
+                            <th>Prices</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class='tab-pane' id='tab-inside'>
+                <table class="table table-condensed datatable">
+                    <thead>
+                        <tr>
+                            <th>שם הסוחר</th>
+                            <th>קרבה</th>
+                            <th>תאריך </th>
+                            <th>פעולה </th>
+                            <th>עלות </th>
+                            <th>מספר מניות </th>
+                            <th>ערך ב$ </th>
+                            <th>סה"כ מניות </th>
+                            <th>תאריך הגשה </th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div></div>
+<div class="navbar navbar-expand-lg navbar-light">
+    <div class="text-center d-lg-none w-100">
+        <button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
+            <i class="icon-unfold mr-2"></i>
+            Footer
+              
+        </button>
+    </div>
+</div>
+<!-- /footer -->
+</div>
+<!-- /inner content -->
+<div class="btn-to-top">
+    <button type="button" class="btn btn-secondary btn-icon rounded-pill">
+        <i class="fa-arrow-circle-up"></i>
+    </button>
+</div>
+</div></div>
+<!-- /page content -->
+<style>
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .text-green {
+        color: #0dfa9e;
+        font-weight: bold;
+    }
+
+    .text-red {
+        font-weight: bold;
+        color: #e34156;
+    }
+
+    .price-field {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .symbol-field {
+        color: #fff;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .text-tr {
+        font-size: 18px;
+    }
+
+    .text-th {
+        font-size: 16px;
+    }
+
+    .btn-orange {
+        background-color: #faa917;
+    }
+
+    .font-heavy {
+        font-family: 'Secular One', sans-serif;
+        /* font-family: "Bebas Neue", cursive; */
+        font-size: 20px;
+    }
+
+    .text-heavy {
+        /* font-family: "Bebas Neue", cursive; */
+        font-family: 'Secular One', sans-serif;
+        font-size: 18px;
+    }
+
+    .text-assistent {
+        font-family: "Assistant", sans-serif;
+    }
+
+    .text-huge {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .text-smaller {
+        font-size: 13px;
+    }
+
+    body {
+        font-family: "Assistant", sans-serif;
+    }
+
+    .navbar {
+        font-family: 'Secular One', sans-serif;
+        /* font-family: "Bebas Neue", cursive; */
+        font-size: 17px;
+    }
+
+    .vl {
+        border-left: 1px solid gray;
+        height: 20px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .text-big {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .account-into-badge {
+        font-size: 13px;
+    }
+
+    .navbar-nav .dropdown-menu > li > a:hover, .navbar-nav .dropdown-menu > li > a:focus {
+        background-color: #333;
+        color: #fff;
+    }
+
+    .account-title {
+        padding-top: 0px;
+        margin-top: 8px;
+        font-size: 14px;
+        margin-bottom: 5px;
+        vertical-align: bottom;
+        color: #fff;
+    }
+
+    .account-value {
+        font-size: 18px;
+    }
+
+    ul.typeahead > li.active {
+        background-color: #222;
+        color: #fff;
+    }
+</style>
+</body><script>
+    $(document).ready(function() {
+
+        var $input = $(".typeahead")
+        var slist = ["A", "AA", "AAA", "AAAU", "AABB", "AAC", "AACAY", "AACG", "AACI", "AACS", "AADI", "AADR", "AAGC", "AAGH", "AAGIY", "AAGRY", "AAIC", "AAL", "AAMC", "AAME", "AAN", "AAOI", "AAON", "AAP", "AAPB", "AAPD", "AAPJ", "AAPL", "AAPT", "AAPU", "AAQC", "AASP", "AAT", "AATC", "AATV", "AAU", "AAVMY", "AAWW", "AAXJ", "AAYYY", "AB", "ABB", "ABBB", "ABBV", "ABC", "ABCB", "ABCE", "ABCL", "ABCM", "ABCP", "ABEO", "ABEQ", "ABEV", "ABG", "ABGI", "ABILF", "ABIO", "ABIT", "ABM", "ABMC", "ABMD", "ABML", "ABMT", "ABNB", "ABOS", "ABQQ", "ABR", "ABSI", "ABST", "ABT", "ABTI", "ABTO", "ABUS", "ABVC", "ABVG", "ABWN", "ABZT", "AC", "ACA", "ACAB", "ACAC", "ACAD", "ACAH", "ACAI", "ACAN", "ACAQ", "ACAX", "ACB", "ACBA", "ACBD", "ACCA", "ACCD", "ACCO", "ACCR", "ACCYY", "ACDC", "ACDI", "ACEL", "ACER", "ACES", "ACET", "ACEV", "ACFL", "ACFN", "ACGBY", "ACGL", "ACGX", "ACHC", "ACHHY", "ACHL", "ACHN", "ACHR", "ACHV", "ACI", "ACII", "ACIO", "ACIU", "ACIW", "ACKAY", "ACLLY", "ACLS", "ACLX", "ACM", "ACMB", "ACMC", "ACMR", "ACMTA", "ACN", "ACNB", "ACNT", "ACON", "ACOPY", "ACOR", "ACQR", "ACR", "ACRE", "ACRG", "ACRL", "ACRO", "ACRS", "ACRU", "ACRV", "ACRX", "ACSAY", "ACSI", "ACST", "ACT", "ACTG", "ACTL", "ACTV", "ACTX", "ACU", "ACUR", "ACUS", "ACUT", "ACVA", "ACVF", "ACWF", "ACWI", "ACWV", "ACWX", "ACXP", "ADAG", "ADAL", "ADAP", "ADBE", "ADBN", "ADC", "ADCT", "ADCV", "ADD", "ADDYY", "ADEA", "ADER", "ADERY", "ADES", "ADEX", "ADFI", "ADFS", "ADGO", "ADHC", "ADHI", "ADI", "ADIA", "ADIL", "ADIV", "ADLDY", "ADM", "ADMA", "ADME", "ADMG", "ADMP", "ADMQ", "ADMT", "ADN", "ADNT", "ADOC", "ADOOY", "ADP", "ADPT", "ADPV", "ADPXY", "ADRA", "ADRE", "ADRNY", "ADRT", "ADRZY", "ADSE", "ADSK", "ADST", "ADSV", "ADT", "ADTH", "ADTM", "ADTN", "ADTX", "ADUS", "ADV", "ADVM", "ADVT", "ADXN", "ADXS", "ADYEY", "ADYX", "AE", "AEAC", "AEAE", "AEBZY", "AEDC", "AEE", "AEGY", "AEHA", "AEHL", "AEHR", "AEI", "AEIS", "AEL", "AELIY", "AEM", "AEMB", "AEMD", "AEMMY", "AENG", "AENZ", "AEO", "AEP", "AEPT", "AER", "AERC", "AERG", "AERI", "AERN", "AERS", "AES", "AESE", "AESO", "AESR", "AEVA", "AEXAY", "AEXE", "AEY", "AEYE", "AEZS", "AFAC", "AFAQ", "AFAR", "AFBG", "AFBI", "AFCG", "AFDG", "AFFL", "AFFU", "AFFY", "AFG", "AFGVY", "AFHIF", "AFIB", "AFIF", "AFIIQ", "AFK", "AFL", "AFLG", "AFLYY", "AFMC", "AFMD", "AFML", "AFNL", "AFOM", "AFPW", "AFRI", "AFRM", "AFSM", "AFTC", "AFTM", "AFTR", "AFTY", "AFYA", "AFYG", "AG", "AGAC", "AGBA", "AGCB", "AGCO", "AGDY", "AGE", "AGEN", "AGESY", "AGFS", "AGFY", "AGG", "AGGH", "AGGI", "AGGR", "AGGY", "AGI", "AGIH", "AGIL", "AGIN", "AGIO", "AGL", "AGLE", "AGLXY", "AGM", "AGM.A", "AGMH", "AGNC", "AGNG", "AGO", "AGOV", "AGOX", "AGPYY", "AGQ", "AGR", "AGRH", "AGRI", "AGRO", "AGRPY", "AGRX", "AGS", "AGSS", "AGTC", "AGTI", "AGTK", "AGTT", "AGX", "AGYP", "AGYS", "AGZ", "AGZD", "AHAG", "AHCHY", "AHCO", "AHEXY", "AHFD", "AHFI", "AHG", "AHH", "AHHX", "AHI", "AHII", "AHIX", "AHKSY", "AHOY", "AHPA", "AHPI", "AHRN", "AHT", "AHYB", "AI", "AIA", "AIAD", "AIAGY", "AIB", "AIBGY", "AIDA", "AIEQ", "AIFS", "AIG", "AIH", "AIHS", "AIIXY", "AIKI", "AILG", "AILV", "AIM", "AIMC", "AIMD", "AIMH", "AIN", "AINC", "AIOM", "AIP", "AIPUY", "AIQ", "AIQUY", "AIR", "AIRC", "AIRG", "AIRI", "AIRR", "AIRS", "AIRT", "AIRYY", "AIT", "AITUY", "AITX", "AIU", "AIV", "AIVI", "AIVL", "AIVN", "AIXN", "AIZ", "AJG", "AJINY", "AJOY", "AJRD", "AJX", "AJYG", "AKA", "AKAM", "AKAN", "AKBA", "AKBTY", "AKIC", "AKLI", "AKO.A", "AKO.B", "AKR", "AKRO", "AKSY", "AKTS", "AKTX", "AKU", "AKUS", "AKVA", "AKYA", "AKZOY", "AL", "ALB", "ALBBY", "ALBKY", "ALBO", "ALBT", "ALBY", "ALC", "ALCC", "ALCO", "ALDA", "ALDS", "ALDX", "ALE", "ALEC", "ALEX", "ALF", "ALFIQ", "ALFVY", "ALG", "ALGGY", "ALGM", "ALGN", "ALGS", "ALGT", "ALHC", "ALID", "ALIF", "ALIM", "ALIT", "ALIZY", "ALJJ", "ALK", "ALKM", "ALKN", "ALKS", "ALKT", "ALL", "ALLE", "ALLG", "ALLK", "ALLO", "ALLR", "ALLT", "ALLY", "ALMC", "ALME", "ALMU", "ALMY", "ALNAQ", "ALNPY", "ALNY", "ALOD", "ALOR", "ALORY", "ALOT", "ALPA", "ALPE", "ALPIB", "ALPMY", "ALPN", "ALPP", "ALPS", "ALR", "ALRM", "ALRN", "ALRS", "ALRT", "ALRTF", "ALSA", "ALSI", "ALSMY", "ALSN", "ALST", "ALT", "ALTD", "ALTG", "ALTL", "ALTO", "ALTR", "ALTU", "ALTX", "ALTY", "ALV", "ALVO", "ALVR", "ALX", "ALXO", "ALYA", "ALYI", "ALZN", "AM", "AMADY", "AMAL", "AMAM", "AMAO", "AMAT", "AMAX", "AMBA", "AMBBY", "AMBC", "AMBK", "AMBO", "AMBP", "AMBS", "AMBZ", "AMC", "AMCF", "AMCI", "AMCR", "AMCX", "AMD", "AME", "AMED", "AMEGF", "AMEH", "AMEN", "AMER", "AMFC", "AMFL", "AMG", "AMGN", "AMGY", "AMH", "AMHD", "AMHG", "AMHV", "AMID", "AMIGY", "AMIH", "AMK", "AMKBY", "AMKR", "AMLH", "AMLM", "AMLP", "AMLX", "AMMJ", "AMMX", "AMN", "AMNB", "AMNC", "AMNCB", "AMNE", "AMNF", "AMNL", "AMNP", "AMOM", "AMOT", "AMOV", "AMP", "AMPE", "AMPED", "AMPG", "AMPH", "AMPI", "AMPL", "AMPS", "AMPX", "AMPY", "AMR", "AMRC", "AMRK", "AMRN", "AMRR", "AMRS", "AMRX", "AMS", "AMSA", "AMSC", "AMSF", "AMSIY", "AMSSY", "AMST", "AMSU", "AMSWA", "AMT", "AMTB", "AMTD", "AMTI", "AMTX", "AMTY", "AMV", "AMWD", "AMWL", "AMX", "AMXX", "AMYT", "AMZA", "AMZD", "AMZN", "AMZU", "AN", "ANAB", "ANAC", "ANAS", "ANDC", "ANDE", "ANDI", "ANDR", "ANEB", "ANET", "ANEW", "ANF", "ANFIF", "ANGH", "ANGI", "ANGL", "ANGN", "ANGO", "ANGPY", "ANIK", "ANIOY", "ANIP", "ANIX", "ANNX", "ANPC", "ANPCY", "ANPDY", "ANSLY", "ANSS", "ANSU", "ANTE", "ANTH", "ANTI", "ANTX", "ANVS", "ANY", "ANYYY", "ANZBY", "ANZLY", "ANZU", "AOA", "AOAO", "AOGO", "AOK", "AOLS", "AOM", "AOMR", "AON", "AONNY", "AOR", "AORT", "AOS", "AOSL", "AOTG", "AOUT", "AOXG", "AOXY", "AOZOY", "AP", "APA", "APAC", "APAM", "APCA", "APCX", "APD", "APDN", "APEI", "APELY", "APEN", "APG", "APGB", "APGI", "APGN", "APGT", "APH", "APHD", "APHE", "APHP", "API", "APLD", "APLE", "APLO", "APLS", "APLT", "APM", "APMI", "APN", "APNHY", "APO", "APOG", "APP", "APPF", "APPH", "APPM", "APPN", "APPS", "APPZ", "APQT", "APRE", "APRN", "APRT", "APRU", "APRW", "APRZ", "APSI", "APT", "APTL", "APTM", "APTO", "APTV", "APTX", "APTY", "APVO", "APVS", "APWC", "APWL", "APXH", "APXI", "APXYY", "APYP", "APYX", "AQB", "AQGX", "AQIS", "AQMS", "AQN", "AQPW", "AQQSQ", "AQST", "AQU", "AQUA", "AQUI", "AQWA", "AR", "ARAO", "ARAT", "ARAV", "ARAY", "ARB", "ARBE", "ARBG", "ARBK", "ARBV", "ARC", "ARCB", "ARCC", "ARCE", "ARCH", "ARCK", "ARCM", "ARCO", "ARCS", "ARCT", "ARCW", "ARDS", "ARDX", "ARE", "AREB", "AREC", "AREN", "ARES", "ARET", "ARGGY", "ARGO", "ARGQ", "ARGT", "ARGU", "ARGW", "ARGX", "ARHS", "ARI", "ARIS", "ARIZ", "ARKAY", "ARKF", "ARKG", "ARKK", "ARKO", "ARKQ", "ARKR", "ARKW", "ARKX", "ARL", "ARLO", "ARLP", "ARMK", "ARMM", "ARMP", "ARMR", "ARNC", "AROC", "AROW", "ARQQ", "ARQT", "ARR", "ARRPY", "ARRW", "ARRY", "ARSC", "ARTE", "ARTH", "ARTL", "ARTM", "ARTNA", "ARTNB", "ARTW", "ARVL", "ARVN", "ARVR", "ARVY", "ARW", "ARWR", "ARYC", "ARYD", "ARYE", "ARZGY", "ARZTY", "ASAI", "ASAN", "ASAQ", "ASAV", "ASAX", "ASAZY", "ASB", "ASBFY", "ASC", "ASCA", "ASCB", "ASCC", "ASCCY", "ASCK", "ASCN", "ASDN", "ASEA", "ASEKY", "ASET", "ASFT", "ASFX", "ASGLY", "ASGN", "ASH", "ASHI", "ASHR", "ASHS", "ASHTY", "ASHX", "ASIX", "ASKE", "ASKH", "ASLE", "ASLN", "ASM", "ASMB", "ASML", "ASMVY", "ASNB", "ASND", "ASNS", "ASO", "ASOMY", "ASPA", "ASPI", "ASPN", "ASPS", "ASPT", "ASPU", "ASPY", "ASPZ", "ASR", "ASRE", "ASRT", "ASRV", "ASSF", "ASTA", "ASTC", "ASTE", "ASTI", "ASTL", "ASTO", "ASTR", "ASTS", "ASUR", "ASX", "ASXC", "ASXFY", "ASYS", "ASZ", "ATA", "ATAI", "ATAK", "ATAO", "ATAQ", "ATAR", "ATASY", "ATAT", "ATCN", "ATCO", "ATCV", "ATCX", "ATDRY", "ATDS", "ATEAY", "ATEC", "ATEK", "ATEN", "ATER", "ATEX", "ATEYY", "ATFV", "ATGE", "ATGN", "ATGSY", "ATHA", "ATHC", "ATHE", "ATHM", "ATHX", "ATI", "ATIF", "ATIG", "ATIP", "ATKR", "ATLC", "ATLCY", "ATLKY", "ATLO", "ATLX", "ATMH", "ATMP", "ATMS", "ATNF", "ATNI", "ATNM", "ATNP", "ATNX", "ATO", "ATOM", "ATONY", "ATOS", "ATR", "ATRA", "ATRC", "ATRI", "ATRO", "ATROB", "ATRX", "ATRXD", "ATSG", "ATTO", "ATUS", "ATVDY", "ATVI", "ATVK", "ATWT", "ATXG", "ATXI", "ATXS", "ATY", "ATYG", "AU", "AUB", "AUBN", "AUCOY", "AUD", "AUDC", "AUGX", "AUGZ", "AUID", "AUKNY", "AUMC", "AUMN", "AUOTY", "AUPH", "AUR", "AURA", "AURC", "AURI", "AURT", "AURX", "AUS", "AUSF", "AUSI", "AUST", "AUTL", "AUUD", "AUVI", "AUY", "AVA", "AVAC", "AVAH", "AVAL", "AVAN", "AVAV", "AVB", "AVBH", "AVCO", "AVCT", "AVD", "AVDE", "AVDL", "AVDV", "AVDX", "AVEM", "AVEO", "AVES", "AVGE", "AVGO", "AVGR", "AVHI", "AVID", "AVIE", "AVIFY", "AVIG", "AVIR", "AVIV", "AVLR", "AVLS", "AVLV", "AVMR", "AVMU", "AVNI", "AVNS", "AVNT", "AVNW", "AVO", "AVOA", "AVOI", "AVOZ", "AVPI", "AVPT", "AVRE", "AVRI", "AVRO", "AVSC", "AVSD", "AVSE", "AVSF", "AVSU", "AVT", "AVTE", "AVTI", "AVTR", "AVTX", "AVUS", "AVUV", "AVVH", "AVVIY", "AVVYY", "AVXL", "AVXT", "AVY", "AVYA", "AWAW", "AWAY", "AWCA", "AWCMY", "AWH", "AWI", "AWK", "AWON", "AWR", "AWRE", "AWSL", "AWWI", "AWX", "AWYX", "AX", "AXAC", "AXAHY", "AXAS", "AXCG", "AXDX", "AXGC", "AXGN", "AXH", "AXIM", "AXL", "AXLA", "AXLX", "AXMP", "AXNX", "AXON", "AXP", "AXPWQ", "AXR", "AXS", "AXSM", "AXTA", "AXTG", "AXTI", "AXXA", "AY", "AYALY", "AYI", "AYLA", "AYRO", "AYTU", "AYX", "AZ", "AZAA", "AZAJ", "AZAL", "AZAO", "AZBA", "AZBJ", "AZBL", "AZBO", "AZEK", "AZFL", "AZGSQ", "AZLCZ", "AZN", "AZO", "AZPN", "AZRE", "AZTA", "AZTD", "AZUL", "AZYO", "AZZ", "B", "BA", "BAB", "BABA", "BABB", "BABL", "BAC", "BACA", "BACHY", "BACK", "BAD", "BAESY", "BAFN", "BAFYY", "BAH", "BAK", "BALL", "BALT", "BALY", "BAM", "BAMR", "BANC", "BAND", "BANF", "BANI", "BANR", "BANT", "BANX", "BAOB", "BAOS", "BAP", "BAPR", "BAR", "BARK", "BASA", "BASE", "BASFY", "BATL", "BATRA", "BATRB", "BATRK", "BATT", "BAUG", "BAX", "BAYP", "BAYRY", "BB", "BBAI", "BBAR", "BBAX", "BBBT", "BBBY", "BBC", "BBCA", "BBCP", "BBD", "BBDA", "BBDC", "BBDO", "BBEU", "BBGI", "BBH", "BBIG", "BBIN", "BBIO", "BBJP", "BBLC", "BBLG", "BBLN", "BBLR", "BBLU", "BBMC", "BBOP", "BBP", "BBRE", "BBRW", "BBSA", "BBSC", "BBSEY", "BBSI", "BBU", "BBUC", "BBUS", "BBVA", "BBW", "BBWI", "BBXIA", "BBXIB", "BBY", "BC", "BCAB", "BCAL", "BCAN", "BCAP", "BCBP", "BCC", "BCCI", "BCCOY", "BCD", "BCDA", "BCDF", "BCDS", "BCE", "BCEL", "BCH", "BCHEY", "BCHG", "BCHPY", "BCI", "BCII", "BCIM", "BCKIY", "BCLI", "BCML", "BCMXY", "BCND", "BCNN", "BCO", "BCOR", "BCOV", "BCOW", "BCPC", "BCRHF", "BCRX", "BCS", "BCSA", "BCSF", "BCTF", "BCTX", "BCUCY", "BCYC", "BDC", "BDCM", "BDCO", "BDDDY", "BDEC", "BDGR", "BDGY", "BDL", "BDN", "BDNNY", "BDORY", "BDOUY", "BDPT", "BDRFY", "BDRL", "BDRY", "BDSX", "BDTX", "BDUUY", "BDVB", "BDVSY", "BDWBY", "BDX", "BDYS", "BE", "BEAM", "BEAT", "BEBE", "BECN", "BECO", "BECTY", "BEDU", "BEDZ", "BEEI", "BEEM", "BEEN", "BEGI", "BEHL", "BEKE", "BELFA", "BELFB", "BEN", "BENE", "BEP", "BEPC", "BERI", "BERK", "BERY", "BEST", "BETZ", "BEUT", "BF.A", "BF.B", "BFAC", "BFAM", "BFC", "BFCC", "BFCH", "BFDE", "BFEB", "BFH", "BFI", "BFIN", "BFIT", "BFIX", "BFLBY", "BFLY", "BFNH", "BFOR", "BFRI", "BFS", "BFST", "BFTR", "BFYW", "BG", "BGAOY", "BGCP", "BGEM", "BGFV", "BGI", "BGLC", "BGLD", "BGMD", "BGNE", "BGRN", "BGRY", "BGS", "BGSF", "BGSX", "BGTK", "BGXX", "BH", "BH.A", "BHAC", "BHAT", "BHB", "BHBCQ", "BHC", "BHE", "BHF", "BHG", "BHIL", "BHKLY", "BHLB", "BHM", "BHMw", "BHOOY", "BHP", "BHPA", "BHR", "BHRB", "BHSE", "BHVN", "BHWB", "BIAF", "BIB", "BIBL", "BICB", "BICEY", "BICK", "BICX", "BIDS", "BIDU", "BIEI", "BIEL", "BIG", "BIGC", "BIGG", "BIIB", "BIIO", "BIL", "BILI", "BILL", "BILS", "BIMI", "BINP", "BIO", "BIO.B", "BIOC", "BIOF", "BIOGY", "BIOL", "BIONQ", "BIOQ", "BIOR", "BIOS", "BIOT", "BIOX", "BIP", "BIPC", "BIRD", "BIS", "BISA", "BITCF", "BITE", "BITF", "BITI", "BITO", "BITQ", "BITS", "BIV", "BIVI", "BIXT", "BIZD", "BJ", "BJAN", "BJCHY", "BJDX", "BJK", "BJRI", "BJUL", "BJUN", "BK", "BKAG", "BKCC", "BKCH", "BKCI", "BKD", "BKE", "BKEAY", "BKEM", "BKES", "BKF", "BKGFY", "BKGI", "BKH", "BKHY", "BKHYY", "BKI", "BKIE", "BKIS", "BKISF", "BKKLY", "BKKT", "BKLC", "BKLN", "BKMC", "BKMP", "BKNG", "BKNIY", "BKOR", "BKQNY", "BKR", "BKRIY", "BKRKY", "BKRP", "BKSB", "BKSC", "BKSE", "BKSY", "BKTI", "BKU", "BKUH", "BKUI", "BKUS", "BKUTK", "BKYI", "BL", "BLBD", "BLBX", "BLCM", "BLCN", "BLCO", "BLD", "BLDE", "BLDG", "BLDP", "BLDR", "BLDV", "BLEG", "BLES", "BLEU", "BLFE", "BLFR", "BLFS", "BLFY", "BLGI", "BLGO", "BLHEY", "BLHK", "BLHY", "BLI", "BLIAQ", "BLIBQ", "BLIN", "BLIS", "BLK", "BLKB", "BLKC", "BLKIF", "BLKXF", "BLLB", "BLLD", "BLMC", "BLMN", "BLMS", "BLNC", "BLND", "BLNG", "BLNK", "BLOK", "BLPG", "BLPH", "BLQC", "BLRDY", "BLRX", "BLSA", "BLSFY", "BLSP", "BLSTF", "BLTE", "BLTS", "BLU", "BLUA", "BLUE", "BLUU", "BLV", "BLX", "BLXX", "BLZE", "BMA", "BMAC", "BMAQ", "BMAR", "BMAY", "BMBL", "BMBN", "BMBOY", "BMCS", "BMEA", "BMED", "BMGP", "BMI", "BMMVF", "BMNM", "BMNR", "BMO", "BMRA", "BMRC", "BMRN", "BMRRY", "BMTM", "BMTX", "BMWYY", "BMXC", "BMXI", "BMXXY", "BMY", "BNCC", "BNCM", "BND", "BNDC", "BNDD", "BNDI", "BNDSY", "BNDW", "BNDX", "BNE", "BNED", "BNET", "BNFT", "BNGE", "BNGI", "BNGO", "BNIX", "BNKL", "BNKSF", "BNL", "BNNR", "BNO", "BNOV", "BNOW", "BNOX", "BNPQY", "BNR", "BNRG", "BNS", "BNSO", "BNTC", "BNTGY", "BNTX", "BNXR", "BNYN", "BOAC", "BOALY", "BOAS", "BOAT", "BOB", "BOC", "BOCN", "BOCT", "BODY", "BOH", "BOID", "BOIL", "BOKF", "BOLSY", "BOLT", "BOMH", "BOMO", "BON", "BOND", "BONTQ", "BONZ", "BOOM", "BOOT", "BOPO", "BORK", "BORNY", "BORR", "BORT", "BOSC", "BOSS", "BOSSY", "BOTJ", "BOTY", "BOTZ", "BOUT", "BOUYY", "BOWL", "BOX", "BOXD", "BOXL", "BOXS", "BOZTY", "BP", "BPAC", "BPAY", "BPCP", "BPHLY", "BPIRY", "BPMC", "BPOP", "BPOSY", "BPRN", "BPT", "BPTH", "BPTS", "BPXXY", "BQ", "BQST", "BR", "BRAC", "BRAG", "BRAV", "BRBL", "BRBOY", "BRBR", "BRBS", "BRBW", "BRC", "BRCC", "BRD", "BRDCY", "BRDG", "BRDS", "BREZ", "BRF", "BRFH", "BRFS", "BRG", "BRGC", "BRGO", "BRID", "BRIV", "BRK.A", "BRK.B", "BRKH", "BRKL", "BRKR", "BRKY", "BRLI", "BRLL", "BRLN", "BRLT", "BRMK", "BRMSY", "BRN", "BRNE", "BRNY", "BRO", "BROE", "BROG", "BROS", "BRP", "BRQS", "BRRAY", "BRRLY", "BRRN", "BRSE", "BRSF", "BRSH", "BRSI", "BRSP", "BRST", "BRT", "BRTHY", "BRTX", "BRVMF", "BRVO", "BRWC", "BRX", "BRY", "BRYN", "BRZE", "BRZL", "BRZU", "BRZV", "BSAC", "BSAQ", "BSBE", "BSBK", "BSBR", "BSCE", "BSCM", "BSCN", "BSCO", "BSCP", "BSCQ", "BSCR", "BSCS", "BSCT", "BSCU", "BSCV", "BSCW", "BSDE", "BSDGY", "BSEA", "BSEFY", "BSEG", "BSEM", "BSEP", "BSET", "BSFC", "BSFO", "BSGA", "BSGC", "BSGM", "BSHI", "BSIG", "BSJM", "BSJN", "BSJO", "BSJP", "BSJQ", "BSJR", "BSJS", "BSJT", "BSJU", "BSKY", "BSM", "BSMM", "BSMN", "BSMO", "BSMP", "BSMQ", "BSMR", "BSMS", "BSMT", "BSMU", "BSMV", "BSMX", "BSPK", "BSQR", "BSRR", "BSSP", "BSTG", "BSTK", "BSTO", "BSTP", "BSV", "BSVN", "BSX", "BSY", "BTAI", "BTAL", "BTB", "BTBD", "BTBT", "BTCM", "BTCR", "BTCS", "BTCY", "BTDG", "BTDPY", "BTEC", "BTEK", "BTF", "BTG", "BTGN", "BTHM", "BTI", "BTIM", "BTLCY", "BTMD", "BTN", "BTNY", "BTOG", "BTOW", "BTRS", "BTSR", "BTTC", "BTTR", "BTTX", "BTU", "BTVCY", "BTWN", "BTX", "BTZI", "BUCK", "BUD", "BUDZ", "BUFB", "BUFD", "BUFF", "BUFG", "BUFQ", "BUFR", "BUFT", "BUG", "BUKS", "BUL", "BULD", "BULT", "BUR", "BURBY", "BURCA", "BURL", "BUSC", "BUSE", "BUUZ", "BUYW", "BUYZ", "BUZZ", "BV", "BVFL", "BVH", "BVN", "BVNRY", "BVS", "BVTK", "BVVBY", "BVXV", "BW", "BWA", "BWAC", "BWAQ", "BWAY", "BWB", "BWC", "BWEB", "BWEL", "BWEN", "BWFG", "BWMG", "BWMN", "BWMX", "BWMY", "BWPC", "BWTL", "BWTX", "BWV", "BWVI", "BWX", "BWXT", "BWZ", "BX", "BXBLY", "BXC", "BXLC", "BXMT", "BXNG", "BXP", "BXPHF", "BXRX", "BXSL", "BXXY", "BY", "BYCRF", "BYD", "BYDDY", "BYDIY", "BYFC", "BYLB", "BYLD", "BYLG", "BYN", "BYND", "BYNO", "BYOB", "BYOC", "BYRE", "BYRG", "BYRN", "BYSD", "BYSI", "BYTE", "BYTS", "BZ", "BZDYF", "BZFD", "BZH", "BZLFY", "BZQ", "BZQIY", "BZRD", "BZRT", "BZTG", "BZUN", "BZWR", "BZYR", "BZZUY", "C", "CAAP", "CAAS", "CABA", "CABGY", "CABO", "CAC", "CACC", "CACG", "CACH", "CACI", "CADE", "CADL", "CAE", "CAFI", "CAFS", "CAG", "CAGR", "CAH", "CAIB", "CAIXY", "CAJ", "CAKE", "CAL", "CALA", "CALB", "CALF", "CALIQ", "CALM", "CALT", "CALX", "CAMG", "CAMP", "CAMT", "CAN", "CANB", "CANE", "CANF", "CANG", "CANL", "CANN", "CANO", "CANX", "CAOVY", "CAOX", "CAPC", "CAPE", "CAPL", "CAPR", "CAPV", "CAR", "CARA", "CARCY", "CARE", "CARG", "CARR", "CARS", "CARV", "CARY", "CARZ", "CASA", "CASBF", "CASH", "CASI", "CASS", "CASY", "CAT", "CATC", "CATG", "CATH", "CATI", "CATO", "CATV", "CATY", "CAVG", "CAVR", "CAWW", "CB", "CBAF", "CBAN", "CBAT", "CBAY", "CBBB", "CBBI", "CBCA", "CBCY", "CBCYB", "CBD", "CBDD", "CBDG", "CBDL", "CBDS", "CBDX", "CBDY", "CBEX", "CBFC", "CBFV", "CBGH", "CBGI", "CBGL", "CBGPY", "CBIA", "CBIO", "CBKCQ", "CBKM", "CBL", "CBLS", "CBMJ", "CBNK", "CBNT", "CBOBA", "CBOE", "CBOF", "CBON", "CBRE", "CBRG", "CBRI", "CBRL", "CBSC", "CBSE", "CBSH", "CBT", "CBTC", "CBTN", "CBU", "CBUMY", "CBWA", "CBYI", "CBZ", "CC", "CCAI", "CCAJ", "CCAP", "CCB", "CCBC", "CCBG", "CCCC", "CCCS", "CCD", "CCEL", "CCEP", "CCF", "CCFC", "CCFN", "CCGM", "CCGPY", "CCGY", "CCHGY", "CCI", "CCJ", "CCK", "CCL", "CCLP", "CCLX", "CCM", "CCNB", "CCNC", "CCNE", "CCO", "CCOB", "CCOEY", "CCOI", "CCOJY", "CCOR", "CCOZY", "CCRD", "CCRN", "CCRV", "CCS", "CCSI", "CCSO", "CCTC", "CCTL", "CCTR", "CCTS", "CCU", "CCV", "CCVI", "CCVS", "CCWF", "CCXI", "CCYY", "CD", "CDAB", "CDAK", "CDAQ", "CDAY", "CDBT", "CDC", "CDE", "CDEVY", "CDGLY", "CDGXY", "CDIO", "CDIV", "CDIX", "CDJM", "CDL", "CDLX", "CDMO", "CDNA", "CDNO", "CDNS", "CDRE", "CDRO", "CDSG", "CDTI", "CDTX", "CDW", "CDX", "CDXC", "CDXS", "CDZI", "CDZIP", "CE", "CEA", "CEAD", "CECE", "CECO", "CEF", "CEFA", "CEFC", "CEFS", "CEG", "CEI", "CEIX", "CELC", "CELH", "CELU", "CELV", "CELX", "CELZ", "CEMB", "CEMI", "CENN", "CENQ", "CENT", "CENTA", "CENX", "CEOS", "CEPU", "CEQP", "CERE", "CERS", "CERT", "CESX", "CETFF", "CETI", "CETX", "CETY", "CEVA", "CEVE", "CEVIY", "CEW", "CEY", "CEZYY", "CF", "CFA", "CFB", "CFBK", "CFCV", "CFCX", "CFEIY", "CFFE", "CFFI", "CFFN", "CFFS", "CFG", "CFGW", "CFGX", "CFIC", "CFIGY", "CFIN", "CFIV", "CFLT", "CFMS", "CFNB", "CFO", "CFOK", "CFR", "CFRUY", "CFRX", "CFSB", "CFST", "CFSU", "CFTN", "CG", "CGA", "CGAAY", "CGAC", "CGAU", "CGBD", "CGC", "CGCO", "CGCP", "CGDI", "CGDV", "CGEI", "CGEM", "CGEMY", "CGEN", "CGGO", "CGGR", "CGGYY", "CGHLY", "CGIP", "CGLD", "CGLO", "CGMS", "CGMU", "CGNH", "CGNT", "CGNX", "CGO", "CGRA", "CGRN", "CGRW", "CGSD", "CGSHY", "CGSI", "CGTX", "CGUD", "CGUS", "CGUSY", "CGV", "CGW", "CGXU", "CHAA", "CHAD", "CHAG", "CHAM", "CHAU", "CHB", "CHBH", "CHCI", "CHCJY", "CHCLY", "CHCO", "CHCR", "CHCT", "CHD", "CHDN", "CHDRY", "CHE", "CHEA", "CHEF", "CHEK", "CHEOY", "CHFFY", "CHG", "CHGCY", "CHGG", "CHGI", "CHGS", "CHGX", "CHH", "CHHE", "CHHL", "CHHQY", "CHI", "CHIC", "CHIE", "CHIF", "CHIH", "CHII", "CHIK", "CHIM", "CHIQ", "CHIR", "CHIS", "CHIT", "CHIU", "CHIX", "CHJI", "CHK", "CHKP", "CHME", "CHMG", "CHMI", "CHMX", "CHNA", "CHNC", "CHND", "CHNGQ", "CHNR", "CHNYF", "CHPT", "CHRA", "CHRD", "CHRS", "CHRW", "CHRYY", "CHS", "CHSH", "CHT", "CHTH", "CHTR", "CHUC", "CHUY", "CHW", "CHWE", "CHWY", "CHX", "CHY", "CHYCY", "CHYHY", "CHYI", "CHYL", "CHZQ", "CI", "CIA", "CIADY", "CIB", "CIBEY", "CIBH", "CIBN", "CIBR", "CIBY", "CICHY", "CICOY", "CID", "CIDM", "CIEN", "CIFR", "CIG", "CIG.C", "CIGI", "CIH", "CIHKY", "CIIG", "CIIHY", "CIIT", "CIL", "CIM", "CINC", "CINF", "CING", "CINT", "CIO", "CION", "CIOXY", "CIPI", "CIR", "CIRC", "CIRX", "CISO", "CITE", "CITZ", "CIVB", "CIVI", "CIVX", "CIWT", "CIWV", "CIX", "CIXX", "CIZ", "CIZN", "CJAX", "CJEWY", "CJJD", "CJPRY", "CKEFF", "CKHUY", "CKISY", "CKPT", "CKSNY", "CKX", "CKYS", "CL", "CLAA", "CLAR", "CLAS", "CLAY", "CLB", "CLBEY", "CLBK", "CLBR", "CLBT", "CLCGY", "CLCL", "CLCS", "CLDL", "CLDT", "CLDX", "CLEGF", "CLEU", "CLEV", "CLF", "CLFD", "CLGN", "CLH", "CLHI", "CLIM", "CLIN", "CLIR", "CLIS", "CLIX", "CLLNY", "CLLS", "CLMB", "CLMT", "CLNE", "CLNN", "CLNR", "CLNV", "CLOE", "CLOI", "CLOQ", "CLOU", "CLOV", "CLOW", "CLPBY", "CLPHY", "CLPR", "CLPS", "CLPT", "CLPXY", "CLR", "CLRB", "CLRC", "CLRD", "CLRG", "CLRI", "CLRM", "CLRN", "CLRO", "CLS", "CLSA", "CLSC", "CLSD", "CLSE", "CLSK", "CLSM", "CLST", "CLTH", "CLTL", "CLTS", "CLUBQ", "CLVLY", "CLVR", "CLVS", "CLVT", "CLW", "CLWT", "CLWY", "CLX", "CLXS", "CLXT", "CLYAF", "CLZNY", "CM", "CMA", "CMAKY", "CMAX", "CMBM", "CMBS", "CMC", "CMCA", "CMCL", "CMCM", "CMCO", "CMCSA", "CMCT", "CMCZ", "CMDY", "CME", "CMEY", "CMF", "CMFO", "CMG", "CMGHY", "CMGMY", "CMGO", "CMGR", "CMHF", "CMI", "CMIM", "CMKI", "CMLS", "CMMB", "CMND", "CMOT", "CMP", "CMPD", "CMPGY", "CMPO", "CMPR", "CMPS", "CMPUY", "CMPX", "CMPY", "CMRA", "CMRB", "CMRE", "CMRF", "CMRX", "CMS", "CMSQY", "CMT", "CMTG", "CMTL", "CMTOY", "CMTV", "CMTX", "CMUV", "CMWAY", "CMXC", "CN", "CNA", "CNAF", "CNBB", "CNBL", "CNBN", "CNBP", "CNBS", "CNBW", "CNBX", "CNBZ", "CNC", "CNCC", "CNCE", "CNCR", "CNCT", "CND", "CNDA", "CNDB", "CNDT", "CNER", "CNET", "CNEY", "CNF", "CNFN", "CNFR", "CNGA", "CNGI", "CNGL", "CNGT", "CNHC", "CNHI", "CNI", "CNK", "CNM", "CNMD", "CNNA", "CNNB", "CNNC", "CNNE", "CNO", "CNOB", "CNP", "CNQ", "CNRD", "CNRG", "CNS", "CNSL", "CNSP", "CNTA", "CNTB", "CNTG", "CNTO", "CNTQ", "CNTX", "CNTY", "CNVAF", "CNVT", "CNVVY", "CNVY", "CNWGQ", "CNWT", "CNX", "CNXA", "CNXC", "CNXN", "CNXS", "CNXT", "CNYA", "COCO", "COCP", "CODA", "CODI", "CODX", "CODYY", "COE", "COEP", "COF", "COFE", "COFS", "COGNY", "COGT", "COHN", "COHR", "COHU", "COIHY", "COIN", "COKE", "COLB", "COLD", "COLI", "COLL", "COLM", "COM", "COMB", "COMM", "COMP", "COMS", "COMT", "CONL", "CONMF", "CONN", "CONX", "COO", "COOK", "COOL", "COOP", "COP", "COPX", "CORG", "CORN", "CORP", "CORR", "CORS", "CORT", "CORZ", "COSG", "COSM", "COSO", "COST", "COTY", "COUP", "COUR", "COUV", "COVA", "COVTY", "COWI", "COWN", "COWZ", "CP", "CPA", "CPAA", "CPAC", "CPAQ", "CPAR", "CPB", "CPCAY", "CPE", "CPER", "CPF", "CPG", "CPHC", "CPHI", "CPI", "CPII", "CPIX", "CPK", "CPKF", "CPLCF", "CPLP", "CPLT", "CPMD", "CPMV", "CPNG", "CPOP", "CPPCY", "CPQQ", "CPRI", "CPRT", "CPRX", "CPS", "CPSH", "CPSI", "CPSS", "CPT", "CPTFF", "CPTK", "CPTN", "CPTP", "CPUH", "CPWR", "CPWY", "CPYJ", "CPYYY", "CPZ", "CQP", "CQQQ", "CR", "CRAI", "CRAK", "CRARY", "CRAWA", "CRBG", "CRBJY", "CRBN", "CRBP", "CRBU", "CRC", "CRCT", "CRCW", "CRD.A", "CRD.B", "CRDF", "CRDIY", "CRDL", "CRDO", "CRDV", "CREC", "CREG", "CRESY", "CREX", "CRFU", "CRGE", "CRGP", "CRGY", "CRH", "CRHC", "CRHKY", "CRI", "CRIS", "CRIT", "CRK", "CRKN", "CRKR", "CRL", "CRM", "CRMD", "CRMK", "CRMT", "CRMZ", "CRNC", "CRNCY", "CRNT", "CRNX", "CRON", "CROX", "CRPHY", "CRPJY", "CRPT", "CRRFY", "CRS", "CRSB", "CRSM", "CRSP", "CRSR", "CRSS", "CRT", "CRTD", "CRTG", "CRTL", "CRTO", "CRU", "CRUS", "CRUZ", "CRVH", "CRVL", "CRVS", "CRVW", "CRWD", "CRWE", "CRWG", "CRWGD", "CRWS", "CRXTQ", "CRYCY", "CRYM", "CRYO", "CRYP", "CRZBY", "CRZN", "CRZY", "CS", "CSA", "CSAN", "CSB", "CSBB", "CSBR", "CSCMY", "CSCO", "CSCW", "CSD", "CSF", "CSGP", "CSGS", "CSH", "CSHI", "CSHX", "CSII", "CSIOY", "CSIQ", "CSKRF", "CSL", "CSLI", "CSLLY", "CSLM", "CSM", "CSML", "CSNVY", "CSOC", "CSOL", "CSPCY", "CSPI", "CSPKY", "CSQ", "CSR", "CSSE", "CSSI", "CSTA", "CSTE", "CSTI", "CSTJ", "CSTL", "CSTM", "CSTR", "CSUAY", "CSUI", "CSV", "CSVI", "CSWC", "CSWI", "CSWYY", "CSX", "CSXXY", "CSYJY", "CSYS", "CTA", "CTAM", "CTAQ", "CTAS", "CTBI", "CTBK", "CTDT", "CTEC", "CTEX", "CTG", "CTGL", "CTGO", "CTHR", "CTIB", "CTIC", "CTIHY", "CTKB", "CTKYY", "CTLP", "CTLT", "CTM", "CTMX", "CTO", "CTOS", "CTPCY", "CTPZY", "CTRA", "CTRE", "CTRM", "CTRN", "CTRYY", "CTS", "CTSH", "CTSO", "CTTAY", "CTTC", "CTTH", "CTUY", "CTV", "CTVA", "CTXAY", "CTXR", "CTYP", "CUBA", "CUBE", "CUBI", "CUBS", "CUBT", "CUBV", "CUE", "CUEN", "CUK", "CULL", "CULP", "CURE", "CURI", "CURO", "CURR", "CURV", "CUSI", "CUT", "CUTR", "CUYTY", "CUZ", "CVAC", "CVAR", "CVAT", "CVBF", "CVCO", "CVCY", "CVE", "CVEO", "CVET", "CVGI", "CVGW", "CVHL", "CVI", "CVII", "CVLG", "CVLT", "CVLY", "CVM", "CVNA", "CVR", "CVRX", "CVS", "CVSC", "CVSI", "CVST", "CVT", "CVU", "CVV", "CVX", "CVY", "CW", "CWAN", "CWB", "CWBC", "CWBK", "CWBR", "CWCO", "CWEB", "CWEN", "CWEN.A", "CWGL", "CWH", "CWI", "CWIR", "CWK", "CWPE", "CWQXY", "CWRN", "CWS", "CWST", "CWT", "CWTC", "CX", "CXAC", "CXDC", "CXDO", "CXIA", "CXKJ", "CXM", "CXSE", "CXW", "CYA", "CYAD", "CYAN", "CYAP", "CYAPD", "CYB", "CYBE", "CYBF", "CYBL", "CYBN", "CYBQY", "CYBR", "CYCA", "CYCC", "CYCN", "CYD", "CYDX", "CYDY", "CYFL", "CYGIY", "CYGT", "CYH", "CYIO", "CYLC", "CYN", "CYNS", "CYRBY", "CYRD", "CYRN", "CYRX", "CYSM", "CYT", "CYTH", "CYTK", "CYTO", "CYVF", "CYXT", "CZA", "CZBC", "CZBS", "CZBT", "CZFS", "CZMWY", "CZNC", "CZNL", "CZOO", "CZR", "CZWI", "D", "DAAT", "DAC", "DADA", "DAIO", "DAKT", "DAL", "DALI", "DALN", "DALS", "DALT", "DAM", "DAN", "DANOY", "DAO", "DAOO", "DAPP", "DAPR", "DAR", "DARE", "DASH", "DASTY", "DAT", "DATI", "DATS", "DAUG", "DAVA", "DAVE", "DAWN", "DAX", "DB", "DBA", "DBAW", "DBB", "DBC", "DBD", "DBE", "DBEF", "DBEH", "DBEM", "DBEU", "DBEZ", "DBGI", "DBGR", "DBI", "DBIN", "DBJA", "DBJP", "DBMF", "DBMG", "DBMM", "DBND", "DBO", "DBOC", "DBOEY", "DBP", "DBRG", "DBRM", "DBS", "DBSDY", "DBTX", "DBV", "DBVT", "DBX", "DBXKF", "DC", "DCAC", "DCBO", "DCFC", "DCGO", "DCHIY", "DCI", "DCLT", "DCO", "DCOM", "DCP", "DCPH", "DCRD", "DCT", "DCTH", "DCYHY", "DD", "DDD", "DDDX", "DDEC", "DDI", "DDIV", "DDL", "DDLS", "DDM", "DDOG", "DDS", "DDWM", "DE", "DEA", "DECA", "DECK", "DECN", "DECZ", "DEED", "DEEF", "DEEP", "DEER", "DEF", "DEFI", "DEHP", "DEI", "DEIF", "DELHY", "DELKY", "DELL", "DEM", "DEMWF", "DEMZ", "DEN", "DENI", "DENN", "DEO", "DEQI", "DERM", "DES", "DESP", "DESTQ", "DEUS", "DEVM", "DEVOY", "DEW", "DEWM", "DEWY", "DFAC", "DFAE", "DFAI", "DFAR", "DFAS", "DFAT", "DFAU", "DFAX", "DFCF", "DFCO", "DFE", "DFEB", "DFEL", "DFEM", "DFEN", "DFEV", "DFFN", "DFH", "DFHY", "DFIC", "DFIHY", "DFIN", "DFIP", "DFIS", "DFIV", "DFJ", "DFKCY", "DFLI", "DFND", "DFNL", "DFNM", "DFNV", "DFRA", "DFS", "DFSB", "DFSD", "DFSE", "DFSI", "DFSU", "DFSV", "DFTC", "DFUS", "DFUV", "DG", "DGHI", "DGICA", "DGICB", "DGII", "DGIN", "DGL", "DGLY", "DGNU", "DGRE", "DGRO", "DGRS", "DGRW", "DGS", "DGT", "DGTW", "DGWR", "DGX", "DH", "DHAC", "DHBC", "DHCA", "DHCC", "DHHC", "DHI", "DHIL", "DHR", "DHS", "DHT", "DHX", "DHYAF", "DIA", "DIAH", "DIAL", "DIBS", "DICE", "DIDIY", "DIEM", "DIFTY", "DIG", "DIGI", "DIGP", "DIHP", "DIISY", "DILA", "DIM", "DIMC", "DIN", "DINO", "DINT", "DIOD", "DIRV", "DIS", "DISA", "DISH", "DISV", "DIT", "DIV", "DIVB", "DIVD", "DIVI", "DIVO", "DIVS", "DIVZ", "DJAN", "DJCO", "DJD", "DJIA", "DJUL", "DJUN", "DK", "DKAM", "DKDCA", "DKGR", "DKILY", "DKL", "DKNG", "DKS", "DKSC", "DKTS", "DLA", "DLAD", "DLAKY", "DLB", "DLCA", "DLCR", "DLHC", "DLICY", "DLMI", "DLN", "DLNDY", "DLNG", "DLO", "DLOC", "DLPN", "DLPX", "DLR", "DLS", "DLTA", "DLTH", "DLTI", "DLTR", "DLUEY", "DLX", "DLYT", "DM", "DMAC", "DMAN", "DMAQ", "DMAR", "DMAT", "DMAY", "DMCY", "DMDD", "DMDV", "DMFG", "DMLP", "DMRC", "DMS", "DMSI", "DMTK", "DMXF", "DMYS", "DMZPY", "DNA", "DNAB", "DNAD", "DNAG", "DNAX", "DNAY", "DNB", "DNBBY", "DNDT", "DNFGY", "DNKEY", "DNKLY", "DNL", "DNLI", "DNLMY", "DNMR", "DNN", "DNNGY", "DNOPY", "DNOV", "DNOW", "DNPLY", "DNTUY", "DNUT", "DNZ", "DNZOY", "DO", "DOC", "DOCN", "DOCS", "DOCT", "DOCU", "DOG", "DOGZ", "DOL", "DOLE", "DOMA", "DOMO", "DON", "DOOO", "DOOR", "DORM", "DOUG", "DOV", "DOW", "DOX", "DOYU", "DOZR", "DPAT", "DPBE", "DPCS", "DPDW", "DPFD", "DPHAY", "DPLS", "DPRO", "DPSGY", "DPSI", "DPSM", "DPST", "DPUI", "DPUKY", "DPWW", "DPZ", "DQ", "DQJCY", "DRAY", "DRCAF", "DRCR", "DRCT", "DRD", "DREM", "DRFS", "DRFSD", "DRGV", "DRH", "DRI", "DRIO", "DRIP", "DRIV", "DRKTY", "DRLL", "DRMA", "DRMTY", "DRN", "DRNG", "DRNK", "DROP", "DRPRY", "DRQ", "DRRX", "DRSK", "DRTS", "DRTT", "DRUG", "DRV", "DRVN", "DRXGY", "DS", "DSAQ", "DSBX", "DSCF", "DSCR", "DSCSY", "DSDVY", "DSEEY", "DSEP", "DSEY", "DSFGY", "DSGN", "DSGR", "DSGT", "DSGX", "DSI", "DSJA", "DSKE", "DSMC", "DSNKY", "DSOC", "DSP", "DSPC", "DSRO", "DSS", "DSTL", "DSTX", "DSUS", "DSWL", "DSX", "DT", "DTC", "DTCWY", "DTD", "DTE", "DTEA", "DTEC", "DTEGY", "DTGI", "DTH", "DTII", "DTIL", "DTM", "DTOC", "DTRE", "DTRK", "DTRT", "DTRUY", "DTSS", "DTST", "DTTLY", "DUDE", "DUET", "DUFRY", "DUG", "DUHP", "DUK", "DUNE", "DUO", "DUOL", "DUOT", "DURA", "DURYY", "DUSA", "DUSL", "DUST", "DUTV", "DUUO", "DV", "DVA", "DVAL", "DVAX", "DVCMY", "DVFI", "DVLN", "DVLP", "DVLU", "DVN", "DVND", "DVOL", "DVTC", "DVY", "DVYA", "DVYE", "DWAC", "DWAHY", "DWAS", "DWAT", "DWAW", "DWAY", "DWCR", "DWEQ", "DWIS", "DWLD", "DWM", "DWMC", "DWMF", "DWNX", "DWOG", "DWPP", "DWSH", "DWSN", "DWUS", "DWX", "DX", "DXC", "DXCM", "DXD", "DXF", "DXGE", "DXJ", "DXJJF", "DXJS", "DXLG", "DXMEF", "DXPE", "DXR", "DXYN", "DY", "DYAI", "DYLD", "DYN", "DYNA", "DYNF", "DYNR", "DYNT", "DYSL", "DZCA", "DZSI", "E", "EA", "EAC", "EACO", "EADSY", "EAF", "EAFD", "EAGG", "EAOA", "EAOK", "EAOM", "EAOR", "EAPH", "EAPR", "EAR", "EARI", "EARN", "EASG", "EAST", "EAT", "EATR", "EATV", "EATZ", "EAWD", "EAXR", "EB", "EBAC", "EBAY", "EBC", "EBCOY", "EBET", "EBF", "EBIX", "EBIZ", "EBKDY", "EBLU", "EBML", "EBMT", "EBND", "EBON", "EBR", "EBR.B", "EBRPY", "EBS", "EBSH", "EBTC", "EBYH", "EBZT", "EC", "ECBK", "ECCE", "ECCI", "ECDD", "ECDP", "ECEZ", "ECGI", "ECGP", "ECGR", "ECGS", "ECH", "ECIA", "ECIFY", "ECL", "ECLN", "ECMH", "ECNS", "ECOM", "ECON", "ECOR", "ECOW", "ECOX", "ECOZ", "ECPG", "ECPL", "ECPN", "ECRO", "ECSL", "ECSTF", "ECUI", "ECVT", "ECYWF", "ED", "EDAP", "EDBL", "EDC", "EDEN", "EDIT", "EDIV", "EDMCQ", "EDN", "EDNC", "EDNMY", "EDOC", "EDOG", "EDOW", "EDPFY", "EDR", "EDRWY", "EDRY", "EDSA", "EDTK", "EDTX", "EDU", "EDUC", "EDUT", "EDV", "EDVR", "EDXC", "EDZ", "EE", "EEFT", "EEGI", "EEIQ", "EELV", "EEM", "EEMA", "EEMD", "EEMO", "EEMS", "EEMV", "EEMX", "EES", "EESE", "EESH", "EESO", "EET", "EEV", "EEX", "EFA", "EFAD", "EFAS", "EFAV", "EFAX", "EFBI", "EFC", "EFFDF", "EFG", "EFGSY", "EFIN", "EFIR", "EFIV", "EFIX", "EFLN", "EFNL", "EFO", "EFOI", "EFOT", "EFRA", "EFSC", "EFSG", "EFSH", "EFSI", "EFTR", "EFU", "EFV", "EFX", "EFXT", "EFZ", "EGAN", "EGBB", "EGBN", "EGDD", "EGFEY", "EGGF", "EGHT", "EGIEY", "EGIL", "EGIO", "EGIS", "EGLE", "EGLX", "EGO", "EGOC", "EGP", "EGPT", "EGRNY", "EGRX", "EGTK", "EGY", "EGYF", "EH", "EHAB", "EHC", "EHOS", "EHTH", "EHYD", "EIDO", "EIG", "EIGH", "EIGR", "EINC", "EIPX", "EIRL", "EIS", "EIX", "EJAN", "EJH", "EJPRY", "EJUL", "EKAR", "EKCS", "EKG", "EKSN", "EKSO", "EKTAY", "EKWX", "EL", "ELA", "ELAN", "ELBM", "ELCR", "ELD", "ELDN", "ELEK", "ELEV", "ELEZY", "ELF", "ELGL", "ELIO", "ELLH", "ELLO", "ELLRY", "ELMA", "ELMD", "ELME", "ELMSQ", "ELNX", "ELOX", "ELP", "ELQD", "ELRA", "ELS", "ELSE", "ELST", "ELTK", "ELTP", "ELUXY", "ELV", "ELVG", "ELVT", "ELYM", "ELYS", "EM", "EMAN", "EMB", "EMBA", "EMBC", "EMBD", "EMBK", "EMBR", "EMCA", "EMCB", "EMCF", "EMCG", "EMCH", "EMCR", "EMDF", "EMDV", "EME", "EMED", "EMFM", "EMFQ", "EMGC", "EMGD", "EMGE", "EMGF", "EMHC", "EMHXY", "EMHY", "EMIF", "EMITF", "EMKR", "EML", "EMLC", "EMLD", "EMLP", "EMMA", "EMMF", "EMMS", "EMN", "EMNC", "EMNT", "EMOR", "EMP", "EMPO", "EMPS", "EMPW", "EMQQ", "EMR", "EMRH", "EMSG", "EMSQF", "EMTL", "EMTY", "EMX", "EMXC", "EMXF", "EMYB", "EMZA", "ENB", "ENBP", "ENCC", "ENCP", "ENCR", "ENCS", "ENDI", "ENDO", "ENDPQ", "ENDV", "ENEAY", "ENER", "ENFN", "ENFR", "ENG", "ENGA", "ENGGY", "ENGH", "ENGIY", "ENIC", "ENJPY", "ENJYQ", "ENLAY", "ENLC", "ENLV", "ENMI", "ENMPY", "ENOB", "ENOR", "ENOV", "ENPC", "ENPH", "ENR", "ENRG", "ENS", "ENSC", "ENSG", "ENSV", "ENTA", "ENTF", "ENTG", "ENTI", "ENTR", "ENTX", "ENV", "ENVA", "ENVB", "ENVS", "ENVX", "ENZ", "ENZC", "ENZL", "ENZN", "EOCT", "EOCW", "EOG", "EOLS", "EONGY", "EOPS", "EOSC", "EOSE", "EOSI", "EOSS", "EP", "EPAC", "EPAM", "EPAZ", "EPC", "EPD", "EPEO", "EPGG", "EPGRQ", "EPHE", "EPHY", "EPI", "EPIX", "EPM", "EPOKY", "EPOL", "EPOR", "EPOW", "EPP", "EPR", "EPRE", "EPRF", "EPRSQ", "EPRT", "EPS", "EPSN", "EPTI", "EPU", "EPV", "EPWR", "EQ", "EQAL", "EQBK", "EQC", "EQFN", "EQH", "EQHA", "EQIX", "EQL", "EQLB", "EQNR", "EQOP", "EQOS", "EQR", "EQRR", "EQRX", "EQS", "EQT", "EQTD", "EQTL", "EQUEY", "EQUL", "EQUR", "EQWL", "EQX", "ERAO", "ERAS", "ERBB", "ERELY", "ERES", "ERET", "ERF", "ERGO", "ERHE", "ERIC", "ERIE", "ERII", "ERINQ", "ERJ", "ERKH", "ERM", "ERMAY", "ERNA", "ERNXY", "ERO", "ERSX", "ERTH", "ERUC", "ERX", "ERY", "ERYP", "ES", "ESAB", "ESAC", "ESALY", "ESBS", "ESCA", "ESCR", "ESE", "ESEA", "ESEB", "ESFS", "ESG", "ESGA", "ESGB", "ESGD", "ESGE", "ESGG", "ESGN", "ESGR", "ESGS", "ESGU", "ESGV", "ESGY", "ESHY", "ESI", "ESINQ", "ESIX", "ESLOY", "ESLT", "ESM", "ESMC", "ESML", "ESMT", "ESMV", "ESNC", "ESNR", "ESNT", "ESOA", "ESP", "ESPGY", "ESPO", "ESPR", "ESQ", "ESRT", "ESS", "ESSA", "ESSC", "ESSE", "ESTA", "ESTC", "ESTE", "ESWW", "ESYJY", "ESYL", "ET", "ETBI", "ETCC", "ETCG", "ETCIA", "ETCK", "ETCMY", "ETD", "ETEK", "ETER", "ETHE", "ETHO", "ETII", "ETN", "ETNB", "ETNI", "ETON", "ETPA", "ETR", "ETRN", "ETST", "ETSY", "ETWLF", "ETWO", "EUBG", "EUCR", "EUDG", "EUDV", "EUFN", "EUM", "EUO", "EUOT", "EURI", "EURL", "EURN", "EUSA", "EUSB", "EUSC", "EUSP", "EVA", "EVAV", "EVAX", "EVBC", "EVBG", "EVBN", "EVC", "EVCI", "EVCM", "EVE", "EVEN", "EVER", "EVEX", "EVFM", "EVGN", "EVGO", "EVGR", "EVH", "EVI", "EVIO", "EVK", "EVKIY", "EVLI", "EVLO", "EVLV", "EVMT", "EVNIF", "EVNT", "EVNVY", "EVO", "EVOJ", "EVOK", "EVOL", "EVOP", "EVR", "EVRC", "EVRG", "EVRI", "EVSBY", "EVSO", "EVSP", "EVSV", "EVTC", "EVTK", "EVTL", "EVTN", "EVTV", "EVVL", "EVVTY", "EVX", "EW", "EWA", "EWBC", "EWC", "EWCO", "EWCZ", "EWD", "EWEB", "EWG", "EWGS", "EWH", "EWI", "EWJ", "EWJV", "EWK", "EWKS", "EWL", "EWLL", "EWLU", "EWM", "EWMC", "EWN", "EWO", "EWP", "EWQ", "EWQQF", "EWRC", "EWRE", "EWS", "EWSC", "EWT", "EWTX", "EWU", "EWUS", "EWV", "EWW", "EWX", "EWY", "EWZ", "EWZS", "EXAI", "EXAS", "EXBX", "EXC", "EXCC", "EXCE", "EXCL", "EXEL", "EXEO", "EXFY", "EXHI", "EXI", "EXK", "EXLA", "EXLS", "EXMT", "EXN", "EXOD", "EXP", "EXPD", "EXPE", "EXPGY", "EXPH", "EXPI", "EXPO", "EXPR", "EXR", "EXRG", "EXSO", "EXSR", "EXTN", "EXTR", "EYE", "EYEN", "EYLD", "EYPT", "EZA", "EZEN", "EZFL", "EZGO", "EZJ", "EZM", "EZOO", "EZPW", "EZRG", "EZU", "F", "FA", "FAAR", "FAB", "FABP", "FACA", "FACO", "FACT", "FAD", "FAF", "FAGI", "FAHYF", "FAIL", "FALC", "FALN", "FAMI", "FAN", "FANDY", "FANG", "FANH", "FANUY", "FAPR", "FARM", "FARO", "FAS", "FAST", "FAT", "FATBB", "FATE", "FATH", "FATP", "FAUG", "FAVO", "FAZ", "FAZE", "FBAK", "FBC", "FBCD", "FBCE", "FBCG", "FBCV", "FBDS", "FBEC", "FBHS", "FBIO", "FBIZ", "FBK", "FBMS", "FBNC", "FBND", "FBP", "FBPA", "FBPI", "FBRT", "FBRX", "FBSE", "FBSI", "FBT", "FBTT", "FBVA", "FBVI", "FBZ", "FC", "FCA", "FCAL", "FCAP", "FCAX", "FCBC", "FCCI", "FCCN", "FCCO", "FCCT", "FCEF", "FCEL", "FCF", "FCFS", "FCG", "FCGD", "FCGY", "FCHS", "FCIC", "FCIT", "FCLD", "FCN", "FCNCA", "FCNCB", "FCNE", "FCOB", "FCOM", "FCOR", "FCPB", "FCPI", "FCPT", "FCRD", "FCREY", "FCRM", "FCSH", "FCTI", "FCTR", "FCUV", "FCVT", "FCX", "FDBC", "FDBL", "FDCT", "FDD", "FDEC", "FDEI", "FDEM", "FDEV", "FDFT", "FDG", "FDHC", "FDHT", "FDHY", "FDIG", "FDIS", "FDIT", "FDL", "FDLO", "FDLS", "FDM", "FDMO", "FDMT", "FDN", "FDNI", "FDOC", "FDP", "FDRR", "FDRV", "FDS", "FDT", "FDTS", "FDUS", "FDV", "FDVA", "FDVV", "FDWM", "FDX", "FE", "FEAM", "FEBZ", "FEDM", "FEDU", "FEDX", "FEEM", "FEEXY", "FEHY", "FEIG", "FEIM", "FELE", "FELTY", "FEM", "FEMA", "FEMB", "FEMS", "FEMY", "FENC", "FENG", "FENY", "FEP", "FERG", "FERL", "FERN", "FET", "FETM", "FEUS", "FEUZ", "FEVR", "FEX", "FEXD", "FEZ", "FF", "FFBC", "FFBW", "FFDF", "FFEB", "FFHG", "FFHL", "FFIC", "FFIE", "FFIN", "FFIU", "FFIV", "FFLO", "FFMH", "FFMR", "FFND", "FFNW", "FFPP", "FFSG", "FFTG", "FFTI", "FFTY", "FFWC", "FFWM", "FFZY", "FGBI", "FGD", "FGEN", "FGF", "FGFH", "FGFI", "FGI", "FGLD", "FGM", "FGMC", "FGRO", "FGROY", "FHAI", "FHB", "FHBC", "FHI", "FHLB", "FHLC", "FHLD", "FHLT", "FHN", "FHNGY", "FHRT", "FHS", "FHTX", "FHYS", "FIAC", "FIBH", "FIBK", "FIBR", "FICO", "FICS", "FICV", "FID", "FIDI", "FIDS", "FIDU", "FIEB", "FIFG", "FIG", "FIGB", "FIGS", "FILG", "FILL", "FIND", "FINM", "FINMY", "FINN", "FINV", "FINW", "FINX", "FIP", "FIS", "FISB", "FISI", "FISR", "FISV", "FITB", "FITBI", "FITE", "FITX", "FIVA", "FIVE", "FIVG", "FIVN", "FIVR", "FIW", "FIX", "FIXD", "FIXX", "FIZN", "FIZZ", "FJAN", "FJHL", "FJLLF", "FJP", "FJTCY", "FJTNY", "FJTSY", "FJUL", "FJUN", "FKKFY", "FKST", "FKU", "FKWL", "FKYS", "FL", "FLAC", "FLAG", "FLAU", "FLAX", "FLBL", "FLBR", "FLCA", "FLCB", "FLCH", "FLCO", "FLCX", "FLDR", "FLDZ", "FLEE", "FLEH", "FLES", "FLEW", "FLEX", "FLFG", "FLFR", "FLFV", "FLGB", "FLGC", "FLGR", "FLGT", "FLGV", "FLGZY", "FLHK", "FLHY", "FLIA", "FLIC", "FLIDY", "FLIN", "FLIY", "FLJ", "FLJH", "FLJP", "FLKI", "FLKR", "FLL", "FLLA", "FLLV", "FLMB", "FLME", "FLMI", "FLMNY", "FLMP", "FLMX", "FLN", "FLNC", "FLNG", "FLNT", "FLO", "FLOD", "FLOT", "FLQL", "FLQM", "FLQS", "FLR", "FLRE", "FLRG", "FLRN", "FLRT", "FLS", "FLSA", "FLSP", "FLSS", "FLST", "FLSW", "FLT", "FLTB", "FLTN", "FLTR", "FLTW", "FLUD", "FLUX", "FLV", "FLWS", "FLXI", "FLXS", "FLXT", "FLYA", "FLYW", "FLZA", "FM", "FMAG", "FMAO", "FMAR", "FMAT", "FMAY", "FMB", "FMBH", "FMBL", "FMBM", "FMBN", "FMBV", "FMC", "FMCB", "FMCC", "FMCX", "FMET", "FMF", "FMFG", "FMFP", "FMHI", "FMHS", "FMIA", "FMIL", "FMIV", "FMNB", "FMNJ", "FMNY", "FMPR", "FMQQ", "FMS", "FMTX", "FMX", "FMYR", "FN", "FNA", "FNB", "FNBT", "FNCB", "FNCDY", "FNCH", "FNCL", "FND", "FNDA", "FNDB", "FNDC", "FNDE", "FNDF", "FNDX", "FNEC", "FNEVY", "FNF", "FNFI", "FNGG", "FNGR", "FNHC", "FNI", "FNK", "FNKO", "FNLC", "FNMA", "FNOV", "FNRN", "FNTC", "FNV", "FNVT", "FNWB", "FNWD", "FNX", "FNY", "FOA", "FOCS", "FOCT", "FOJCY", "FOLD", "FOMC", "FOMO", "FONR", "FONU", "FOR", "FORA", "FORD", "FORG", "FORH", "FORM", "FORR", "FORTY", "FORU", "FORW", "FORZ", "FOSL", "FOTB", "FOUR", "FOVL", "FOVSY", "FOX", "FOXA", "FOXF", "FOXO", "FOXW", "FOYJ", "FPA", "FPAC", "FPAFY", "FPAG", "FPAY", "FPE", "FPEI", "FPFD", "FPH", "FPI", "FPLF", "FPMI", "FPPP", "FPRO", "FPRUY", "FPWM", "FPX", "FPXE", "FPXI", "FQAL", "FR", "FRAF", "FRAZ", "FRBA", "FRBK", "FRBN", "FRC", "FRCN", "FRCOY", "FRD", "FRDM", "FREE", "FREL", "FREQ", "FREY", "FRFC", "FRFR", "FRG", "FRGE", "FRGI", "FRGT", "FRHC", "FRI", "FRLA", "FRLI", "FRLN", "FRMA", "FRME", "FRMO", "FRNV", "FRNW", "FRO", "FROG", "FRON", "FRPH", "FRPT", "FRRVY", "FRSB", "FRSG", "FRSH", "FRST", "FRSX", "FRT", "FRTD", "FRTG", "FRTN", "FRTX", "FRTY", "FRVWY", "FRW", "FRXB", "FRZA", "FRZT", "FSBC", "FSBD", "FSBW", "FSCO", "FSCR", "FSEA", "FSEC", "FSEI", "FSEN", "FSEP", "FSFG", "FSGB", "FSI", "FSIG", "FSK", "FSLD", "FSLR", "FSLY", "FSM", "FSMB", "FSMD", "FSMO", "FSNB", "FSNUY", "FSP", "FSPM", "FSR", "FSRD", "FSRL", "FSRX", "FSS", "FSSI", "FSSN", "FSST", "FSTA", "FSTF", "FSTGF", "FSTJ", "FSTR", "FSTX", "FSUGY", "FSUN", "FSV", "FSWA", "FSYD", "FSZ", "FTA", "FTAA", "FTAG", "FTAI", "FTC", "FTCH", "FTCI", "FTCO", "FTCPF", "FTCS", "FTCV", "FTDL", "FTDR", "FTDS", "FTEC", "FTEG", "FTEK", "FTEV", "FTFI", "FTFT", "FTFY", "FTGC", "FTGPF", "FTGS", "FTHI", "FTHM", "FTI", "FTII", "FTK", "FTLF", "FTLS", "FTNT", "FTPA", "FTQI", "FTRI", "FTRS", "FTS", "FTSD", "FTSL", "FTSM", "FTV", "FTVI", "FTWS", "FTXG", "FTXH", "FTXL", "FTXN", "FTXO", "FTXP", "FTXR", "FUBO", "FUCIF", "FUJHY", "FUJIY", "FUL", "FULC", "FULO", "FULT", "FUMB", "FUN", "FUNC", "FUND", "FUNL", "FUNN", "FUNR", "FUNTF", "FUPBY", "FURY", "FUSB", "FUSN", "FUTL", "FUTS", "FUTU", "FUTY", "FUUN", "FUV", "FUWAY", "FV", "FVAL", "FVAM", "FVC", "FVCB", "FVD", "FVIV", "FVRR", "FVT", "FVTI", "FWAC", "FWAV", "FWBI", "FWDG", "FWFW", "FWONA", "FWONB", "FWONK", "FWP", "FWRD", "FWRG", "FXA", "FXB", "FXBY", "FXC", "FXCNY", "FXCO", "FXD", "FXE", "FXF", "FXG", "FXH", "FXI", "FXL", "FXLG", "FXLV", "FXN", "FXNC", "FXO", "FXP", "FXR", "FXTGY", "FXU", "FXY", "FXZ", "FYBR", "FYC", "FYGGY", "FYLD", "FYT", "FYX", "FYXGF", "FZMD", "FZRO", "FZT", "G", "GAA", "GABC", "GABF", "GACQ", "GACR", "GADS", "GAEC", "GAHC", "GAHCD", "GAIA", "GAIN", "GAL", "GALT", "GAMB", "GAMC", "GAME", "GAMI", "GAMN", "GAMR", "GAN", "GANX", "GAPA", "GAPJ", "GAQ", "GARB", "GARPY", "GASE", "GASNY", "GASS", "GAST", "GATE", "GATO", "GATX", "GAU", "GAWK", "GAXY", "GB", "GBAT", "GBBK", "GBBT", "GBCI", "GBCMY", "GBCS", "GBDC", "GBEI", "GBERY", "GBF", "GBFH", "GBGD", "GBHL", "GBIL", "GBIM", "GBIO", "GBL", "GBLBY", "GBLD", "GBLI", "GBLX", "GBNH", "GBNW", "GBNY", "GBOOY", "GBOX", "GBR", "GBRG", "GBS", "GBT", "GBTC", "GBTG", "GBUX", "GBUY", "GBX", "GBXI", "GCAN", "GCBC", "GCC", "GCCO", "GCEA", "GCEH", "GCEI", "GCEVF", "GCFB", "GCHK", "GCI", "GCIG", "GCLL", "GCLN", "GCLT", "GCMG", "GCO", "GCOR", "GCOW", "GCT", "GCTAY", "GCTK", "GD", "GDDY", "GDE", "GDEN", "GDET", "GDEV", "GDIV", "GDMA", "GDMK", "GDMN", "GDNGY", "GDNR", "GDOC", "GDOT", "GDRX", "GDS", "GDSI", "GDST", "GDVD", "GDVM", "GDX", "GDXJ", "GDYN", "GE", "GEBEY", "GEBHY", "GECC", "GEEX", "GEF", "GEF.B", "GEG", "GEGI", "GEGP", "GEGR", "GEGYY", "GEHI", "GEL", "GELYY", "GEM", "GEMD", "GEMZ", "GEN", "GENC", "GENE", "GENH", "GENI", "GENN", "GENQ", "GENY", "GEO", "GEOS", "GEPC", "GERM", "GERN", "GERS", "GES", "GESI", "GET", "GETH", "GETY", "GEVI", "GEVO", "GFAI", "GFASD", "GFASY", "GFCI", "GFF", "GFGD", "GFGF", "GFGU", "GFI", "GFKSY", "GFL", "GFMH", "GFOF", "GFOO", "GFOR", "GFS", "GFTX", "GFX", "GGAA", "GGAL", "GGB", "GGDVY", "GGE", "GGG", "GGGSY", "GGII", "GGLL", "GGLS", "GGMC", "GGR", "GGRW", "GGSM", "GH", "GHAC", "GHAV", "GHC", "GHG", "GHIX", "GHL", "GHLD", "GHM", "GHMP", "GHRS", "GHSI", "GHST", "GHTA", "GHYB", "GHYCF", "GHYG", "GIA", "GIAC", "GIB", "GIBX", "GIC", "GIFI", "GIFX", "GIGA", "GIGB", "GIGM", "GIGNY", "GII", "GIII", "GIIX", "GIKLY", "GIL", "GILD", "GILT", "GINN", "GIPL", "GIPR", "GIS", "GIVPY", "GIW", "GJCU", "GJNSY", "GJST", "GK", "GKIN", "GKIT", "GKOS", "GL", "GLAD", "GLAE", "GLAPY", "GLBB", "GLBE", "GLBL", "GLBR", "GLBS", "GLBZ", "GLCN", "GLCO", "GLD", "GLDB", "GLDD", "GLDG", "GLDI", "GLDM", "GLDX", "GLEC", "GLEE", "GLFH", "GLFN", "GLG", "GLGI", "GLHA", "GLIF", "GLIN", "GLIV", "GLL", "GLLI", "GLLL", "GLMD", "GLNCY", "GLNG", "GLNK", "GLNS", "GLOB", "GLOP", "GLOV", "GLP", "GLPEY", "GLPG", "GLPI", "GLRE", "GLRI", "GLRY", "GLS", "GLSI", "GLST", "GLT", "GLTA", "GLTO", "GLTR", "GLUC", "GLUE", "GLW", "GLXZ", "GLYC", "GLYE", "GLYYY", "GM", "GMAB", "GMBL", "GMDA", "GME", "GMED", "GMEI", "GMER", "GMET", "GMEV", "GMF", "GMFI", "GMGI", "GMGT", "GMGZ", "GMNI", "GMOM", "GMPR", "GMPW", "GMRE", "GMS", "GMTX", "GMVD", "GMVHY", "GMZP", "GNAC", "GNAL", "GNBT", "GNBTQ", "GNCA", "GNCC", "GNCGY", "GNCP", "GNE", "GNENY", "GNFT", "GNGBY", "GNGR", "GNHAY", "GNK", "GNL", "GNLN", "GNMA", "GNNDY", "GNOM", "GNPG", "GNPX", "GNR", "GNRC", "GNRS", "GNRV", "GNS", "GNSS", "GNTA", "GNTX", "GNTY", "GNUS", "GNW", "GO", "GOAI", "GOAU", "GOCH", "GOCO", "GOEV", "GOEX", "GOFPY", "GOGL", "GOGN", "GOGO", "GOGR", "GOGY", "GOL", "GOLD", "GOLF", "GOLQ", "GOOD", "GOOG", "GOOGL", "GOOS", "GORO", "GOSS", "GOSY", "GOTU", "GOVB", "GOVT", "GOVX", "GOVZ", "GP", "GPAC", "GPAL", "GPC", "GPDB", "GPFT", "GPGC", "GPI", "GPK", "GPKE", "GPLB", "GPLL", "GPLS", "GPMT", "GPN", "GPOR", "GPOVY", "GPOX", "GPRE", "GPRK", "GPRO", "GPS", "GPXM", "GQRE", "GRAB", "GRAY", "GRBG", "GRBK", "GRC", "GRCL", "GRCO", "GRCU", "GRCY", "GREE", "GREI", "GREK", "GRES", "GRFS", "GRFX", "GRGR", "GRHI", "GRID", "GRIL", "GRIN", "GRLF", "GRLT", "GRMC", "GRMN", "GRNA", "GRNB", "GRNF", "GRNH", "GRNL", "GRNO", "GRNQ", "GRNR", "GRNT", "GROM", "GROV", "GROW", "GROY", "GRPH", "GRPI", "GRPN", "GRPS", "GRPTY", "GRPX", "GRRB", "GRSO", "GRST", "GRTS", "GRTX", "GRVE", "GRVY", "GRWC", "GRWG", "GRYEF", "GRYN", "GRZZ", "GS", "GSAC", "GSAT", "GSBC", "GSBD", "GSBX", "GSD", "GSDC", "GSEE", "GSEU", "GSEV", "GSEW", "GSFD", "GSFI", "GSFP", "GSG", "GSHD", "GSHN", "GSID", "GSIE", "GSIG", "GSIH", "GSIL", "GSIT", "GSJY", "GSK", "GSL", "GSLC", "GSLO", "GSM", "GSMG", "GSNC", "GSPE", "GSPH", "GSPI", "GSPT", "GSPY", "GSQB", "GSQD", "GSRFF", "GSRM", "GSRX", "GSSC", "GSST", "GSTC", "GSTX", "GSUN", "GSUS", "GSY", "GT", "GTAC", "GTBP", "GTBT", "GTCH", "GTE", "GTEC", "GTEH", "GTEK", "GTES", "GTH", "GTHP", "GTHR", "GTHX", "GTII", "GTIM", "GTIP", "GTKP", "GTLB", "GTLL", "GTLS", "GTMAY", "GTN", "GTN.A", "GTO", "GTOR", "GTPA", "GTPB", "GTPS", "GTR", "GTRL", "GTTNQ", "GTVH", "GTVI", "GTX", "GTY", "GUDDY", "GUER", "GULRY", "GUNR", "GURE", "GURU", "GUSA", "GUSH", "GUYGF", "GVA", "GVAL", "GVCI", "GVDI", "GVDNY", "GVFF", "GVI", "GVIP", "GVLU", "GVP", "GVSI", "GVYB", "GWAV", "GWBK", "GWGHQ", "GWH", "GWHP", "GWII", "GWIN", "GWLL", "GWLLY", "GWOX", "GWRE", "GWRS", "GWSO", "GWTI", "GWTR", "GWW", "GWX", "GXC", "GXG", "GXII", "GXLM", "GXO", "GXTG", "GXXM", "GXXY", "GXYYY", "GYGC", "GYLD", "GYOG", "GYRO", "GYSN", "GYST", "GZIC", "GZPZY", "H", "HA", "HAAC", "HACBY", "HACK", "HADV", "HAE", "HAFC", "HAFG", "HAGHY", "HAIA", "HAIL", "HAIN", "HAL", "HALB", "HALL", "HALMY", "HALO", "HAON", "HAP", "HAPI", "HAPP", "HAPY", "HARL", "HARP", "HART", "HAS", "HASI", "HAUS", "HAUZ", "HAWX", "HAYN", "HAYPY", "HAYW", "HAZH", "HBAN", "HBB", "HBCP", "HBGRY", "HBI", "HBIA", "HBIE", "HBIO", "HBIS", "HBISD", "HBM", "HBNC", "HBRIY", "HBRM", "HBSI", "HBT", "HBTPF", "HCA", "HCAR", "HCAT", "HCBC", "HCBN", "HCC", "HCCI", "HCDI", "HCGI", "HCGS", "HCI", "HCIC", "HCII", "HCKG", "HCKT", "HCM", "HCMA", "HCMC", "HCMLY", "HCNE", "HCOM", "HCP", "HCRB", "HCSG", "HCTI", "HCVI", "HCWB", "HCXLY", "HCYT", "HD", "HDAW", "HDB", "HDEF", "HDELY", "HDG", "HDGE", "HDIH", "HDII", "HDIV", "HDMV", "HDRO", "HDSN", "HDST", "HDUP", "HDUS", "HDV", "HDVTY", "HDVY", "HDYNQ", "HE", "HEAR", "HEDJ", "HEEM", "HEES", "HEET", "HEFA", "HEGD", "HEGIY", "HEI", "HEI.A", "HEINY", "HELE", "HELFY", "HELX", "HEMP", "HENC", "HENI", "HENKY", "HENOY", "HEP", "HEPA", "HEPS", "HEQT", "HERA", "HERB", "HERD", "HERF", "HERO", "HES", "HESAY", "HESG", "HESM", "HEWA", "HEWC", "HEWG", "HEWJ", "HEWU", "HEXO", "HEZU", "HFBA", "HFBG", "HFBK", "HFBL", "HFFG", "HFGO", "HFND", "HFWA", "HFXI", "HGBL", "HGEN", "HGER", "HGGGQ", "HGKGY", "HGLC", "HGPI", "HGTXU", "HGTY", "HGV", "HGYN", "HHC", "HHDS", "HHGC", "HHGI", "HHLA", "HHS", "HHSE", "HHULY", "HI", "HIBB", "HIBL", "HIBS", "HIDE", "HIFS", "HIG", "HIGA", "HIGH", "HIGR", "HIHI", "HIHO", "HII", "HIII", "HIL", "HILS", "HIMS", "HIMX", "HINOY", "HIPH", "HIPO", "HIPS", "HIRU", "HISF", "HITC", "HITI", "HIVE", "HIW", "HJEN", "HJGP", "HKD", "HKHHY", "HKMPY", "HKND", "HKTTY", "HKTVY", "HKUOY", "HKXCY", "HL", "HLAH", "HLAL", "HLAN", "HLBZ", "HLDCY", "HLF", "HLFDY", "HLGE", "HLGN", "HLI", "HLIO", "HLIT", "HLLGY", "HLLK", "HLLY", "HLMN", "HLN", "HLNE", "HLOC", "HLPPY", "HLRD", "HLT", "HLTC", "HLTH", "HLTOY", "HLTT", "HLUN", "HLVTY", "HLVX", "HLX", "HLXW", "HLYK", "HMA", "HMAC", "HMBL", "HMC", "HMCO", "HMGN", "HMLA", "HMLN", "HMLSD", "HMLSF", "HMMR", "HMN", "HMNF", "HMNTY", "HMNU", "HMNY", "HMOP", "HMPQ", "HMPT", "HMST", "HMTC", "HMTLY", "HMY", "HNDL", "HNFSA", "HNGKY", "HNI", "HNLGY", "HNNA", "HNNMY", "HNOI", "HNORY", "HNRA", "HNRC", "HNRG", "HNST", "HNTHF", "HNTIY", "HNVR", "HOCPY", "HOFT", "HOFV", "HOG", "HOJI", "HOKCY", "HOLD", "HOLI", "HOLO", "HOLX", "HOM", "HOMB", "HOMU", "HOMZ", "HON", "HONE", "HONT", "HOOD", "HOOK", "HOPE", "HORI", "HOTH", "HOTL", "HOUR", "HOUS", "HOV", "HOWL", "HP", "HPCO", "HPE", "HPGLY", "HPHTY", "HPIFY", "HPIL", "HPK", "HPLT", "HPMM", "HPNN", "HPP", "HPQ", "HPST", "HPSYF", "HPTO", "HPX", "HQDA", "HQGE", "HQI", "HQY", "HR", "HRAL", "HRB", "HRBK", "HRBR", "HRDI", "HRGG", "HRGLY", "HRI", "HRL", "HRMY", "HROEY", "HROW", "HRSR", "HRST", "HRT", "HRTG", "HRTX", "HRZN", "HRZSF", "HSAQ", "HSBC", "HSBI", "HSC", "HSCC", "HSCS", "HSCZ", "HSDT", "HSFI", "HSHCY", "HSIC", "HSII", "HSKA", "HSMV", "HSNGY", "HSON", "HSQVY", "HSRT", "HST", "HSTA", "HSTC", "HSTI", "HSTM", "HSTO", "HSUN", "HSY", "HT", "HTAB", "HTAQ", "HTBI", "HTBK", "HTCMY", "HTCR", "HTDS", "HTEC", "HTGC", "HTGM", "HTH", "HTHIY", "HTHL", "HTHT", "HTLD", "HTLF", "HTOO", "HTPA", "HTRB", "HTRE", "HTSC", "HTSF", "HTSUY", "HTUS", "HTZ", "HUBB", "HUBG", "HUBS", "HUDI", "HUGE", "HUGPF", "HUGS", "HUIHY", "HUIZ", "HUM", "HUMA", "HUML", "HUMT", "HUN", "HUPHY", "HURC", "HURN", "HUSA", "HUSV", "HUT", "HUTCY", "HUYA", "HVAL", "HVBC", "HVCW", "HVLM", "HVRRY", "HVT", "HVT.A", "HWAL", "HWBK", "HWC", "HWDJY", "HWEL", "HWGC", "HWIN", "HWIS", "HWKE", "HWKN", "HWKZ", "HWM", "HWNI", "HXGBY", "HXL", "HXPN", "HY", "HYBB", "HYBE", "HYBL", "HYBT", "HYD", "HYDB", "HYDI", "HYDR", "HYDW", "HYEG", "HYEM", "HYEX", "HYFM", "HYG", "HYGH", "HYGI", "HYGN", "HYGV", "HYGW", "HYHG", "HYHY", "HYIN", "HYLB", "HYLD", "HYLN", "HYLS", "HYLV", "HYMB", "HYMC", "HYMU", "HYPMY", "HYPR", "HYRE", "HYRM", "HYS", "HYSNY", "HYSR", "HYTR", "HYUP", "HYW", "HYXF", "HYXU", "HYZD", "HYZN", "HZBRF", "HZEN", "HZN", "HZNM", "HZNP", "HZO", "HZON", "HZOZF", "HZTVF", "IAA", "IAACF", "IAC", "IACC", "IAG", "IAGG", "IAGX", "IAI", "IAK", "IAPR", "IART", "IAS", "IAT", "IAU", "IAUF", "IAUGY", "IAUM", "IAUX", "IBA", "IBB", "IBBQ", "IBCE", "IBCP", "IBD", "IBDD", "IBDN", "IBDO", "IBDP", "IBDQ", "IBDR", "IBDRY", "IBDS", "IBDT", "IBDU", "IBDV", "IBDW", "IBDX", "IBER", "IBET", "IBEX", "IBGAF", "IBGR", "IBHB", "IBHC", "IBHD", "IBHE", "IBHF", "IBHG", "IBHH", "IBHI", "IBIO", "IBIT", "IBKR", "IBLC", "IBM", "IBMK", "IBML", "IBMM", "IBMN", "IBMO", "IBMP", "IBMQ", "IBN", "IBND", "IBOC", "IBP", "IBRC", "IBRN", "IBRX", "IBTB", "IBTD", "IBTE", "IBTF", "IBTG", "IBTH", "IBTI", "IBTJ", "IBTK", "IBTL", "IBTM", "IBTN", "IBTX", "IBUY", "IBWC", "IBXG", "ICABY", "ICAD", "ICAGY", "ICAP", "ICBU", "ICCC", "ICCH", "ICCM", "ICCO", "ICCT", "ICD", "ICE", "ICF", "ICFI", "ICHR", "ICL", "ICLD", "ICLK", "ICLN", "ICLR", "ICMB", "ICNB", "ICNC", "ICNM", "ICOA", "ICOW", "ICPT", "ICRD", "ICSH", "ICTY", "ICU", "ICUI", "ICVT", "ICVX", "ID", "IDA", "IDAI", "IDAT", "IDBA", "IDCBY", "IDCC", "IDCN", "IDEA", "IDEV", "IDEX", "IDEXY", "IDFB", "IDGC", "IDHD", "IDHQ", "IDIG", "IDIV", "IDKOY", "IDLB", "IDLV", "IDME", "IDMO", "IDN", "IDNA", "IDND", "IDOG", "IDOWF", "IDR", "IDRA", "IDRV", "IDT", "IDTA", "IDU", "IDV", "IDVO", "IDVV", "IDW", "IDX", "IDXG", "IDXX", "IDYA", "IE", "IEA", "IEDI", "IEF", "IEFA", "IEHC", "IEI", "IEMBF", "IEMG", "IEMIF", "IEMMF", "IEMWF", "IEMXF", "IENT", "IEO", "IEP", "IESC", "IESFY", "IETC", "IEUR", "IEUS", "IEV", "IEX", "IEZ", "IFAN", "IFBC", "IFBD", "IFF", "IFGL", "IFHI", "IFIN", "IFJPY", "IFMK", "IFNNY", "IFNY", "IFRA", "IFRX", "IFS", "IFUS", "IFV", "IFXY", "IG", "IGAC", "IGBH", "IGC", "IGE", "IGEB", "IGEX", "IGF", "IGGHY", "IGHG", "IGIB", "IGIC", "IGLB", "IGLD", "IGM", "IGMS", "IGN", "IGNE", "IGNT", "IGNY", "IGOV", "IGPG", "IGPK", "IGRO", "IGRU", "IGRW", "IGSB", "IGSC", "IGT", "IGTA", "IGTR", "IGV", "IH", "IHAI", "IHAK", "IHCNF", "IHDG", "IHE", "IHF", "IHG", "IHGP", "IHHSF", "IHI", "IHICY", "IHRT", "IHS", "IHT", "IHY", "IHYF", "IICN", "IIDDY", "IIGD", "IIGV", "III", "IIII", "IIIN", "IIIV", "IIJIY", "IINN", "IINX", "IIPR", "IIQPF", "IISGF", "IIXFF", "IJAN", "IJH", "IJJ", "IJJP", "IJK", "IJR", "IJS", "IJT", "IJUL", "IKNA", "IKT", "IKTO", "IKTSY", "ILAG", "ILAL", "ILCB", "ILCG", "ILCV", "ILDR", "ILF", "ILIM", "ILKAY", "ILMN", "ILPMY", "ILST", "ILTB", "ILUS", "ILXP", "IMAB", "IMAQ", "IMATF", "IMAX", "IMBBY", "IMBI", "IMBXF", "IMCB", "IMCC", "IMCDY", "IMCG", "IMCI", "IMCID", "IMCR", "IMCV", "IMFL", "IMGI", "IMGN", "IMGO", "IMGX", "IMH", "IMHC", "IMIAY", "IMII", "IMJX", "IMKTA", "IMKXF", "IMLP", "IMMB", "IMMP", "IMMR", "IMMX", "IMNM", "IMNN", "IMO", "IMOM", "IMOS", "IMPL", "IMPP", "IMPPF", "IMPUY", "IMRA", "IMRN", "IMRX", "IMSBF", "IMSCF", "IMSEF", "IMSIF", "IMSXF", "IMTB", "IMTE", "IMTH", "IMTL", "IMTM", "IMTO", "IMTX", "IMUC", "IMUN", "IMUX", "IMV", "IMVT", "IMWSF", "IMXI", "INAB", "INAQ", "INAR", "INBC", "INBI", "INBK", "INBP", "INBS", "INBX", "INC", "INCC", "INCO", "INCR", "INCT", "INCY", "INCZY", "INDA", "INDB", "INDF", "INDI", "INDL", "INDO", "INDOY", "INDP", "INDS", "INDT", "INDY", "INFA", "INFI", "INFL", "INFN", "INFT", "INFU", "INFY", "ING", "INGN", "INGR", "INIS", "INITF", "INKA", "INKM", "INKT", "INKW", "INLB", "INLX", "INM", "INMB", "INMD", "INMU", "INN", "INND", "INNI", "INNO", "INNV", "INNX", "INO", "INOD", "INOH", "INOQ", "INPOY", "INPX", "INQD", "INQQ", "INQQF", "INRD", "INRE", "INSD", "INSE", "INSG", "INSM", "INSO", "INSP", "INST", "INSW", "INT", "INTA", "INTC", "INTE", "INTF", "INTG", "INTI", "INTK", "INTO", "INTR", "INTT", "INTU", "INTV", "INTZ", "INUV", "INVA", "INVE", "INVH", "INVMF", "INVO", "INVU", "INVVY", "INVZ", "INZY", "IOAC", "IOBT", "IOCJY", "IOCT", "IONI", "IONM", "IONQ", "IONR", "IONS", "IOO", "IOOXF", "IOR", "IOSP", "IOT", "IOVA", "IP", "IPA", "IPAC", "IPAR", "IPAX", "IPAY", "IPDN", "IPDP", "IPG", "IPGP", "IPHA", "IPI", "IPIC", "IPIX", "IPKL", "IPKW", "IPLY", "IPO", "IPOD", "IPOF", "IPOS", "IPPIF", "IPPP", "IPRC", "IPSC", "IPSEY", "IPSI", "IPTK", "IPUB", "IPVA", "IPVF", "IPVI", "IPW", "IPWG", "IPWR", "IPX", "IPXHY", "IQ", "IQDE", "IQDF", "IQDG", "IQDY", "IQEPY", "IQHI", "IQIN", "IQLT", "IQM", "IQMD", "IQSHF", "IQSI", "IQSM", "IQST", "IQSU", "IQV", "IR", "IRAA", "IRBA", "IRBL", "IRBO", "IRBT", "IRDEY", "IRDM", "IREN", "IRESF", "IRHG", "IRIDQ", "IRIX", "IRM", "IRMD", "IRME", "IRNT", "IROQ", "IRRRF", "IRRX", "IRS", "IRSHF", "IRT", "IRTC", "IRVH", "IRWD", "IS", "ISAA", "ISACF", "ISAPF", "ISARF", "ISBA", "ISCB", "ISCBF", "ISCF", "ISCG", "ISCKF", "ISCO", "ISCRF", "ISCV", "ISCXF", "ISDAY", "ISDDF", "ISDMF", "ISDR", "ISDX", "ISEE", "ISEJF", "ISELF", "ISEM", "ISFLF", "ISGAF", "ISGN", "ISGPF", "ISHBF", "ISHDF", "ISHG", "ISHM", "ISHP", "ISHUF", "ISHVF", "ISHWF", "ISHXF", "ISHYF", "ISIG", "ISJMF", "ISJPF", "ISLV", "ISMAY", "ISMD", "ISMJF", "ISMVF", "ISNPY", "ISO", "ISOL", "ISON", "ISPC", "ISPO", "ISQWF", "ISR", "ISRA", "ISRCF", "ISRG", "ISRHF", "ISRIF", "ISRNF", "ISRUF", "ISSC", "ISSDY", "ISSHF", "ISSRF", "ISSSF", "ISSXF", "ISSZF", "ISTB", "ISTR", "ISTXF", "ISUDF", "ISUN", "ISUUF", "ISUZY", "ISVBF", "ISVL", "ISVPF", "ISVQF", "ISVTF", "ISVUF", "ISVVF", "ISVXF", "ISVYF", "ISWN", "ISXVF", "ISYX", "ISZE", "ISZXF", "ISZZF", "IT", "ITA", "ITAN", "ITAQ", "ITAYY", "ITB", "ITCB", "ITCFY", "ITCI", "ITDN", "ITEGY", "ITEQ", "ITEX", "ITFY", "ITGR", "ITI", "ITIC", "ITIPF", "ITJTY", "ITKH", "ITLI", "ITM", "ITMC", "ITNF", "ITNS", "ITOCY", "ITOS", "ITOT", "ITOX", "ITP", "ITQ", "ITRG", "ITRI", "ITRM", "ITRN", "ITRO", "ITRX", "ITSXF", "ITT", "ITTOY", "ITTSF", "ITUB", "ITVI", "ITVPY", "ITW", "IUAGF", "IUNSF", "IUQFF", "IUS", "IUSA", "IUSB", "IUSG", "IUSPF", "IUSS", "IUSV", "IUSZF", "IUTSF", "IUVDF", "IVA", "IVAC", "IVAL", "IVATF", "IVBT", "IVBUF", "IVC", "IVCA", "IVCB", "IVCGF", "IVCO", "IVCP", "IVDA", "IVDG", "IVDN", "IVE", "IVEG", "IVES", "IVFH", "IVLC", "IVLU", "IVME", "IVOG", "IVOL", "IVOO", "IVOV", "IVR", "IVRA", "IVRO", "IVSG", "IVSPF", "IVSRF", "IVST", "IVT", "IVV", "IVVD", "IVVPF", "IVVVF", "IVW", "IVZ", "IWAL", "IWB", "IWC", "IWD", "IWF", "IWFG", "IWFH", "IWIN", "IWL", "IWLG", "IWM", "IWN", "IWO", "IWP", "IWR", "IWS", "IWSH", "IWSY", "IWTR", "IWV", "IWX", "IWY", "IX", "IXAQ", "IXC", "IXG", "IXHL", "IXJ", "IXN", "IXP", "IXSE", "IXUS", "IYC", "IYE", "IYF", "IYG", "IYH", "IYJ", "IYK", "IYLD", "IYM", "IYR", "IYT", "IYW", "IYY", "IYZ", "IZEA", "IZNN", "IZRL", "J", "JAAA", "JACK", "JACO", "JADA", "JAGG", "JAGX", "JAKK", "JALC", "JAMF", "JAMN", "JAN", "JANL", "JANT", "JANW", "JANX", "JANZ", "JAPAY", "JAPSY", "JAQC", "JATT", "JAVA", "JAZZ", "JBAXY", "JBBB", "JBFCY", "JBGS", "JBHT", "JBI", "JBL", "JBLU", "JBSAY", "JBSS", "JBT", "JBTC", "JBZY", "JCI", "JCIC", "JCPB", "JCPI", "JCSE", "JCTCF", "JCTR", "JCYGY", "JD", "JDCMF", "JDHIY", "JDSPY", "JDST", "JDVB", "JDWPY", "JEF", "JEHLY", "JELD", "JEMA", "JEPI", "JEPQ", "JERT", "JETR", "JETS", "JEWL", "JEXYY", "JFBC", "JFBR", "JFIL", "JFIN", "JFU", "JFWD", "JFWV", "JG", "JGCCY", "JGGC", "JGLCF", "JGRO", "JHCB", "JHCS", "JHDV", "JHEM", "JHG", "JHMA", "JHMB", "JHMC", "JHMD", "JHME", "JHMF", "JHMH", "JHMI", "JHML", "JHMM", "JHMS", "JHMT", "JHMU", "JHPI", "JHSC", "JHX", "JIB", "JIDA", "JIG", "JIGB", "JILL", "JIRE", "JIREF", "JJSF", "JKHY", "JKS", "JKSM", "JLL", "JLMC", "JMAC", "JMBS", "JMEE", "JMHLY", "JMIA", "JMOM", "JMON", "JMPLY", "JMSB", "JMST", "JMUB", "JNCE", "JNJ", "JNK", "JNPR", "JNSH", "JNUG", "JOAN", "JOB", "JOBY", "JOE", "JOET", "JOEY", "JOFF", "JOJO", "JOUT", "JPDYY", "JPEM", "JPEX", "JPGLF", "JPHY", "JPIB", "JPIE", "JPIN", "JPM", "JPMB", "JPME", "JPPHY", "JPPTY", "JPPYY", "JPRE", "JPSE", "JPST", "JPSWY", "JPUHF", "JPUS", "JPXGY", "JPXN", "JQUA", "JRE", "JRJCY", "JRJRQ", "JRNY", "JRONY", "JRSH", "JRSS", "JRVR", "JRVS", "JSAIY", "JSCP", "JSCPY", "JSGRY", "JSHG", "JSMD", "JSML", "JSPR", "JSTC", "JT", "JTBK", "JTKWY", "JTTRY", "JUCY", "JUGG", "JUKIY", "JULT", "JULW", "JULZ", "JUMSY", "JUN", "JUNZ", "JUPW", "JUSA", "JUST", "JUVF", "JVA", "JVAL", "JVCZY", "JWAC", "JWEL", "JWN", "JWSM", "JXHLY", "JXI", "JXJT", "JXN", "JYAC", "JYNT", "JZ", "JZRO", "JZXN", "JZZI", "K", "KACL", "KAEPY", "KAHC", "KAHTY", "KAI", "KAII", "KAIKY", "KAIR", "KAJMY", "KAL", "KALA", "KALG", "KALL", "KALO", "KALU", "KALV", "KALY", "KAMN", "KANP", "KAOOY", "KAPR", "KAR", "KARB", "KARE", "KARO", "KARS", "KAST", "KATX", "KAVL", "KAYS", "KB", "KBA", "KBAL", "KBCSY", "KBE", "KBH", "KBLB", "KBND", "KBNT", "KBR", "KBUY", "KBWB", "KBWD", "KBWP", "KBWR", "KBWY", "KC", "KCCA", "KCDMY", "KCE", "KCGI", "KCLI", "KD", "KDCE", "KDDIY", "KDIV", "KDKN", "KDNY", "KDP", "KDRN", "KE", "KEFI", "KEGS", "KEJI", "KELN", "KELYA", "KELYB", "KEMQ", "KEMX", "KEN", "KENS", "KEP", "KEQU", "KERN", "KESG", "KEUA", "KEWL", "KEX", "KEY", "KEYS", "KFFB", "KFRC", "KFS", "KFVG", "KFY", "KFYP", "KGBLY", "KGC", "KGDEY", "KGET", "KGFHY", "KGHG", "KGHI", "KGJI", "KGKG", "KGRI", "KGRN", "KGRO", "KGSPY", "KGTFY", "KGTHY", "KHC", "KHNGY", "KHOLY", "KHYB", "KIDS", "KIE", "KIGRY", "KIII", "KIKOY", "KIM", "KIND", "KINS", "KINZ", "KIQ", "KIRK", "KIROY", "KISB", "KITL", "KITT", "KJAN", "KJUL", "KKOYY", "KKPNY", "KKPT", "KKR", "KKUR", "KLAC", "KLAQ", "KLBAY", "KLCD", "KLDI", "KLDO", "KLDW", "KLGG", "KLIC", "KLMR", "KLNE", "KLOC", "KLR", "KLTR", "KLXE", "KLYCY", "KLYG", "KMB", "KMDA", "KMED", "KMET", "KMFI", "KMI", "KMLM", "KMPH", "KMPR", "KMT", "KMTUY", "KMX", "KN", "KNBE", "KNBWY", "KNCAY", "KNCRY", "KNDI", "KNG", "KNGS", "KNGW", "KNIT", "KNKT", "KNOP", "KNOS", "KNRRY", "KNSA", "KNSL", "KNSW", "KNTE", "KNTK", "KNW", "KNX", "KNYJY", "KO", "KOAN", "KOCG", "KOCT", "KOD", "KODK", "KOF", "KOGL", "KOIN", "KOKU", "KOLD", "KOLR", "KOMP", "KONG", "KONMY", "KOP", "KOPN", "KORE", "KORP", "KORU", "KOS", "KOSK", "KOSS", "KOTMY", "KOVR", "KPCPY", "KPEA", "KPELY", "KPLT", "KPLUY", "KPOC", "KPOP", "KPRX", "KPTCY", "KPTI", "KR", "KRANF", "KRBN", "KRBP", "KRC", "KRE", "KRED", "KREF", "KRFG", "KRG", "KRKR", "KRMA", "KRMD", "KRNGY", "KRNL", "KRNT", "KRNTY", "KRNY", "KRO", "KRON", "KROP", "KROS", "KRP", "KRT", "KRTL", "KRTX", "KRUS", "KRYAY", "KRYS", "KSA", "KSBI", "KSCD", "KSCP", "KSET", "KSHTY", "KSI", "KSPN", "KSRYY", "KSS", "KSTR", "KT", "KTB", "KTCC", "KTEC", "KTEL", "KTHN", "KTOS", "KTRA", "KTTA", "KTWIY", "KUBTY", "KUKAY", "KUKE", "KULR", "KURA", "KURE", "KURRY", "KVHI", "KVLE", "KVSA", "KVSC", "KW", "KWAC", "KWBT", "KWEB", "KWHIY", "KWIK", "KWR", "KWT", "KXI", "KXIN", "KYCH", "KYMR", "KYNC", "KYOCY", "KYSEY", "KZIA", "KZR", "L", "LAAA", "LAAB", "LAB", "LABD", "LABP", "LABU", "LAC", "LAD", "LADR", "LADX", "LAIXY", "LAKE", "LAMR", "LANC", "LAND", "LANZ", "LARK", "LASE", "LASLY", "LASR", "LATF", "LATG", "LAUR", "LAW", "LAX", "LAZ", "LAZR", "LAZY", "LBAI", "LBAS", "LBAY", "LBBB", "LBC", "LBEV", "LBGF", "LBNW", "LBPH", "LBRDA", "LBRDB", "LBRDK", "LBRG", "LBRT", "LBSR", "LBTD", "LBTI", "LBTYA", "LBTYB", "LBTYK", "LBUY", "LBWR", "LBYE", "LC", "LCA", "LCAA", "LCDX", "LCF", "LCFY", "LCG", "LCI", "LCID", "LCII", "LCLG", "LCLP", "LCNB", "LCR", "LCTC", "LCTD", "LCTU", "LCTX", "LCUT", "LCW", "LCYFF", "LDEM", "LDGYY", "LDHA", "LDI", "LDOS", "LDSCY", "LDSF", "LDSN", "LDUR", "LE", "LEA", "LEAD", "LEAI", "LEAS", "LEAT", "LECO", "LEDS", "LEE", "LEG", "LEGA", "LEGH", "LEGN", "LEGR", "LEIC", "LEJU", "LEMB", "LEN", "LEN.B", "LEON", "LESL", "LETB", "LEU", "LEV", "LEVI", "LEXI", "LEXX", "LFAC", "LFAP", "LFCHY", "LFCR", "LFEQ", "LFER", "LFEV", "LFEX", "LFG", "LFGP", "LFIN", "LFLS", "LFLY", "LFMD", "LFPI", "LFST", "LFT", "LFTR", "LFUS", "LFVN", "LGAC", "LGBI", "LGBS", "LGCP", "LGF.A", "LGF.B", "LGFRY", "LGGNY", "LGH", "LGHL", "LGIH", "LGL", "LGLV", "LGLw", "LGMH", "LGMK", "LGND", "LGO", "LGOV", "LGRDY", "LGST", "LGSXY", "LGTO", "LGV", "LGVC", "LGVN", "LH", "LHAA", "LHC", "LHCG", "LHDX", "LHGI", "LHRP", "LHX", "LI", "LIAN", "LIBY", "LICH", "LICT", "LICY", "LIDR", "LIFD", "LIFE", "LIFS", "LIGA", "LII", "LILA", "LILAB", "LILAK", "LILM", "LIN", "LINC", "LIND", "LINK", "LINS", "LINSA", "LINUF", "LION", "LIQDQ", "LIQT", "LIT", "LITB", "LITE", "LITH", "LITM", "LITT", "LIV", "LIVB", "LIVC", "LIVE", "LIVN", "LIXT", "LIZI", "LJAQ", "LKAI", "LKCO", "LKFN", "LKHLY", "LKNCY", "LKOR", "LKQ", "LKSB", "LKST", "LL", "LLAP", "LLBO", "LLESY", "LLL", "LLLI", "LLY", "LMACA", "LMAO", "LMAT", "LMB", "LMBS", "LMDX", "LMFA", "LMND", "LMNL", "LMNR", "LMPMY", "LMPX", "LMST", "LMT", "LMTI", "LNBY", "LNC", "LND", "LNDC", "LNG", "LNGT", "LNKB", "LNN", "LNNGY", "LNNNY", "LNSR", "LNSTY", "LNT", "LNTH", "LNTO", "LNVGY", "LNW", "LNXSY", "LOAN", "LOB", "LOCC", "LOCL", "LOCM", "LOCO", "LODE", "LOGC", "LOGI", "LOGL", "LOGN", "LOGQ", "LOKM", "LOMA", "LONZ", "LOOP", "LOPE", "LOPP", "LOTE", "LOTZ", "LOUP", "LOV", "LOVE", "LOW", "LPCN", "LPG", "LPHM", "LPI", "LPL", "LPLA", "LPPI", "LPRO", "LPSN", "LPTH", "LPTI", "LPTV", "LPTX", "LPX", "LQD", "LQDA", "LQDB", "LQDH", "LQDI", "LQDT", "LQDW", "LQIG", "LQMT", "LQWC", "LRCX", "LRDC", "LRDG", "LRDR", "LRENY", "LRFC", "LRGE", "LRGF", "LRGR", "LRLCY", "LRMR", "LRN", "LRND", "LRNZ", "LRSV", "LSAF", "LSAK", "LSAT", "LSBK", "LSCC", "LSEA", "LSF", "LSFG", "LSI", "LSMG", "LSPD", "LSPR", "LSRCY", "LSST", "LSTA", "LSTR", "LSXMA", "LSXMB", "LSXMK", "LTBR", "LTC", "LTCH", "LTCN", "LTCP", "LTES", "LTGHY", "LTGJ", "LTH", "LTHCF", "LTHM", "LTHUQ", "LTL", "LTMAQ", "LTMAY", "LTNC", "LTPZ", "LTRE", "LTRN", "LTRPA", "LTRPB", "LTRX", "LTRY", "LTTC", "LTUM", "LTUS", "LU", "LUCD", "LUCY", "LUDG", "LULU", "LUMB", "LUMN", "LUMO", "LUNA", "LUNG", "LUV", "LUVU", "LUXA", "LUXE", "LUXH", "LVAC", "LVCA", "LVCE", "LVCLY", "LVGI", "LVHD", "LVHI", "LVLU", "LVLV", "LVMUY", "LVO", "LVOL", "LVOX", "LVRA", "LVS", "LVTX", "LVVV", "LVWD", "LVWR", "LW", "LWAY", "LWCL", "LWLG", "LWLW", "LX", "LXEH", "LXFR", "LXP", "LXRX", "LXU", "LYB", "LYBC", "LYEL", "LYFE", "LYFT", "LYG", "LYJN", "LYL", "LYLP", "LYLT", "LYRA", "LYSDY", "LYSFY", "LYT", "LYTS", "LYV", "LZ", "LZAGY", "LZB", "LZGI", "LZRFY", "M", "MA", "MAA", "MAAL", "MAAQ", "MAAX", "MAC", "MACA", "MACC", "MACE", "MACK", "MADI", "MAEOY", "MAG", "MAGA", "MAGE", "MAHLY", "MAIA", "MAIN", "MAKSY", "MAKX", "MALRY", "MAMB", "MAN", "MANA", "MANH", "MANU", "MAPS", "MAPT", "MAQC", "MAR", "MARA", "MARB", "MARK", "MARPS", "MARUY", "MARZ", "MAS", "MASI", "MASN", "MASS", "MAT", "MATV", "MATW", "MATX", "MAURY", "MAWHY", "MAX", "MAXD", "MAXI", "MAXN", "MAXR", "MAYS", "MAYZ", "MBAC", "MBAY", "MBB", "MBBB", "MBBC", "MBCC", "MBCI", "MBCN", "MBGYY", "MBI", "MBIC", "MBIN", "MBIO", "MBKL", "MBLU", "MBLV", "MBLY", "MBND", "MBNE", "MBOF", "MBOT", "MBOX", "MBRX", "MBSC", "MBSD", "MBTC", "MBUMY", "MBUU", "MBWM", "MC", "MCAA", "MCAC", "MCAE", "MCAF", "MCAG", "MCAP", "MCARY", "MCB", "MCBC", "MCBI", "MCBK", "MCBS", "MCCK", "MCD", "MCELQ", "MCEM", "MCET", "MCFT", "MCG", "MCH", "MCHA", "MCHI", "MCHOY", "MCHP", "MCHT", "MCHVY", "MCHX", "MCIC", "MCK", "MCLD", "MCNO", "MCO", "MCOA", "MCPH", "MCRAA", "MCRAB", "MCRB", "MCRI", "MCRO", "MCS", "MCSE", "MCVT", "MCW", "MCY", "MCZAF", "MD", "MDAV", "MDB", "MDBPF", "MDC", "MDCE", "MDCN", "MDCP", "MDDM", "MDEV", "MDEVY", "MDEX", "MDGL", "MDGS", "MDH", "MDIA", "MDIBY", "MDIN", "MDIT", "MDIV", "MDJH", "MDLM", "MDLZ", "MDMN", "MDMP", "MDNA", "MDPEF", "MDRM", "MDRR", "MDRX", "MDT", "MDTC", "MDU", "MDV", "MDVL", "MDVT", "MDWD", "MDWK", "MDWT", "MDXG", "MDXH", "MDXL", "MDY", "MDYG", "MDYV", "ME", "MEAC", "MEAR", "MEC", "MED", "MEDH", "MEDI", "MEDP", "MEDS", "MEEC", "MEG", "MEGH", "MEGL", "MEI", "MEIL", "MEIP", "MEJHY", "MEKA", "MELI", "MEM", "MEME", "MEMI", "MEOA", "MEOH", "MERC", "MESA", "MESO", "MET", "META", "METC", "METV", "METX", "MEXX", "MF", "MFA", "MFBP", "MFC", "MFCO", "MFDB", "MFDX", "MFEM", "MFG", "MFGI", "MFGP", "MFH", "MFIC", "MFIN", "MFLX", "MFON", "MFUL", "MFUS", "MG", "MGA", "MGAM", "MGAWY", "MGC", "MGDDY", "MGEE", "MGHL", "MGI", "MGIC", "MGK", "MGLD", "MGLG", "MGLUY", "MGM", "MGMT", "MGNI", "MGNX", "MGON", "MGPI", "MGRC", "MGTA", "MGTC", "MGTI", "MGTX", "MGUY", "MGV", "MGY", "MGYOY", "MGYR", "MHGI", "MHGU", "MHGVY", "MHH", "MHHC", "MHK", "MHLD", "MHO", "MHPC", "MHTX", "MHUA", "MICR", "MICS", "MICT", "MID", "MIDD", "MIDE", "MIDU", "MIELY", "MIESY", "MIFF", "MIG", "MIGI", "MIKP", "MILC", "MILN", "MIMO", "MINC", "MIND", "MINE", "MINM", "MINN", "MINO", "MINT", "MINV", "MIR", "MIRM", "MIRO", "MISL", "MIST", "MIT", "MITA", "MITEY", "MITFY", "MITI", "MITK", "MITO", "MITQ", "MITSY", "MITT", "MITUY", "MIUFY", "MIXT", "MIXX", "MJ", "MJDS", "MJHI", "MJIN", "MJLB", "MJNA", "MJNE", "MJUS", "MJWL", "MJWNY", "MJXL", "MKC", "MKC.V", "MKDTY", "MKFG", "MKGP", "MKKGY", "MKL", "MKSI", "MKTAY", "MKTW", "MKTX", "ML", "MLAB", "MLAC", "MLAI", "MLCG", "MLCO", "MLCT", "MLFB", "MLGF", "MLHC", "MLI", "MLKN", "MLKNA", "MLM", "MLMN", "MLN", "MLNK", "MLP", "MLPA", "MLPH", "MLPX", "MLR", "MLRT", "MLSS", "MLTX", "MLVF", "MLYBY", "MMAT", "MMC", "MMCA", "MMEX", "MMI", "MMIN", "MMIT", "MMLG", "MMLP", "MMM", "MMMB", "MMMM", "MMMW", "MMND", "MMNT", "MMP", "MMRTY", "MMS", "MMSB", "MMSC", "MMSI", "MMSMY", "MMTM", "MMX", "MMYT", "MN", "MNA", "MNAT", "MNBD", "MNBEY", "MNBP", "MNDO", "MNDP", "MNDY", "MNGG", "MNII", "MNIZ", "MNK", "MNKD", "MNM", "MNMB", "MNMD", "MNOIY", "MNOV", "MNPP", "MNPR", "MNRL", "MNRO", "MNSB", "MNSO", "MNST", "MNTHY", "MNTK", "MNTN", "MNTR", "MNTS", "MNTV", "MNTX", "MNVN", "MNZO", "MO", "MOAEY", "MOAT", "MOB", "MOBO", "MOBQ", "MOBV", "MOCI", "MOD", "MODC", "MODD", "MODG", "MODL", "MODN", "MODV", "MOFG", "MOG.A", "MOG.B", "MOGO", "MOGU", "MOH", "MOHOY", "MOHR", "MOJO", "MOLN", "MOMO", "MOMT", "MON", "MOND", "MONDY", "MONI", "MONOY", "MONRY", "MOO", "MOOD", "MOON", "MOPN", "MOR", "MORF", "MORN", "MORT", "MOS", "MOST", "MOTE", "MOTG", "MOTI", "MOTO", "MOTS", "MOV", "MOVE", "MOXC", "MP", "MPAA", "MPAC", "MPAD", "MPAY", "MPB", "MPC", "MPCB", "MPCMF", "MPEG", "MPFRY", "MPIR", "MPLN", "MPLX", "MPNGY", "MPRA", "MPRO", "MPTI", "MPTIw", "MPW", "MPWR", "MPX", "MPZAY", "MPZZF", "MQ", "MQBKY", "MRAAY", "MRAD", "MRAI", "MRAM", "MRBK", "MRC", "MRCC", "MRCR", "MRCY", "MRDH", "MREO", "MRES", "MRGE", "MRGO", "MRGR", "MRIB", "MRIN", "MRK", "MRKR", "MRM", "MRNA", "MRND", "MRNJ", "MRNS", "MRO", "MRPI", "MRPLY", "MRPT", "MRRTY", "MRSK", "MRSN", "MRTI", "MRTN", "MRTX", "MRUS", "MRVI", "MRVL", "MRVSY", "MRZM", "MS", "MSA", "MSAC", "MSADY", "MSAH", "MSB", "MSBC", "MSBI", "MSBM", "MSBN", "MSC", "MSCI", "MSDA", "MSEX", "MSEZ", "MSFD", "MSFT", "MSFU", "MSGE", "MSGM", "MSGP", "MSGR", "MSGS", "MSI", "MSIU", "MSLOY", "MSLP", "MSM", "MSMR", "MSMY", "MSN", "MSOS", "MSOX", "MSPC", "MSPR", "MSSA", "MSSMY", "MSSV", "MSTB", "MSTF", "MSTH", "MSTO", "MSTQ", "MSTR", "MSVB", "MSVI", "MSVX", "MSWV", "MSYN", "MTA", "MTAC", "MTAL", "MTB", "MTBC", "MTC", "MTCH", "MTCPY", "MTCR", "MTD", "MTDR", "MTEI", "MTEK", "MTEM", "MTEX", "MTFC", "MTG", "MTGP", "MTGRY", "MTH", "MTHRY", "MTLHY", "MTLS", "MTMT", "MTN", "MTNB", "MTNOY", "MTNX", "MTP", "MTPP", "MTPVY", "MTR", "MTRI", "MTRN", "MTRT", "MTRX", "MTRY", "MTSFY", "MTSI", "MTTR", "MTTRY", "MTUAY", "MTUM", "MTVC", "MTVR", "MTVX", "MTW", "MTX", "MTZ", "MU", "MUB", "MUEL", "MUFG", "MULN", "MUNI", "MUR", "MURF", "MURGY", "MUSA", "MUSI", "MUST", "MUX", "MVBF", "MVCO", "MVES", "MVIS", "MVLY", "MVNT", "MVO", "MVPS", "MVPT", "MVST", "MVV", "MWA", "MWWC", "MX", "MXC", "MXCHY", "MXCT", "MXI", "MXL", "MXSG", "MYBF", "MYE", "MYFT", "MYFW", "MYGN", "MYHI", "MYMD", "MYMX", "MYNA", "MYNZ", "MYO", "MYOV", "MYPS", "MYRG", "MYSZ", "MYTAY", "MYTE", "MYTHY", "MYY", "MZDAY", "MZZ", "NA", "NAAC", "NAAS", "NABL", "NABZY", "NACB", "NACP", "NADA", "NAFS", "NAII", "NAIL", "NAK", "NAMX", "NANR", "NANX", "NAOV", "NAPA", "NAPR", "NARI", "NASB", "NASO", "NAT", "NATH", "NATI", "NATR", "NAUH", "NAUT", "NAVB", "NAVI", "NBCC", "NBCM", "NBCT", "NBDR", "NBDS", "NBEVQ", "NBGRY", "NBHC", "NBIO", "NBIX", "NBLD", "NBN", "NBR", "NBRI", "NBRV", "NBSE", "NBST", "NBTB", "NBTX", "NBVG", "NBY", "NC", "NCAC", "NCBDY", "NCEN", "NCLH", "NCLTY", "NCMGY", "NCMI", "NCNA", "NCNO", "NCPL", "NCR", "NCRA", "NCRE", "NCSM", "NCTW", "NCTY", "NCXS", "NDAC", "NDAQ", "NDBKY", "NDEKY", "NDEV", "NDGPY", "NDIV", "NDJI", "NDLS", "NDRA", "NDSN", "NDTP", "NDVG", "NDVLY", "NDVNQ", "NE", "NEAR", "NECA", "NECB", "NEE", "NEFB", "NEGG", "NEM", "NEMKY", "NEN", "NEO", "NEOG", "NEOM", "NEON", "NEOV", "NEP", "NEPH", "NEPT", "NERD", "NERG", "NERV", "NESR", "NET", "NETC", "NETI", "NETL", "NETO", "NETZ", "NEU", "NEWG", "NEWH", "NEWP", "NEWR", "NEWT", "NEWYY", "NEX", "NEXA", "NEXD", "NEXI", "NEXNY", "NEXOY", "NEXT", "NEXXY", "NFBK", "NFEI", "NFG", "NFGC", "NFLT", "NFLX", "NFNT", "NFRA", "NFTFF", "NFTI", "NFTN", "NFTY", "NFTZ", "NFYS", "NG", "NGC", "NGCG", "NGCRY", "NGD", "NGE", "NGEY", "NGG", "NGKSY", "NGL", "NGLD", "NGLOY", "NGM", "NGMC", "NGMS", "NGRC", "NGS", "NGTF", "NGVC", "NGVT", "NH", "NHC", "NHEL", "NHFOF", "NHHS", "NHI", "NHIC", "NHLE", "NHLG", "NHLI", "NHMD", "NHNKY", "NHTC", "NHVP", "NHWK", "NHYDY", "NHYF", "NI", "NIABY", "NIC", "NICE", "NICH", "NICK", "NIDB", "NIFCY", "NIHK", "NILA", "NILE", "NIMU", "NINE", "NINOY", "NIO", "NIPMY", "NISN", "NIU", "NIWM", "NJAN", "NJDCY", "NJR", "NJUL", "NKE", "NKEL", "NKEQ", "NKLA", "NKRKY", "NKRN", "NKSH", "NKTR", "NKTX", "NL", "NLBS", "NLCP", "NLLSY", "NLMP", "NLOK", "NLR", "NLS", "NLSC", "NLSN", "NLSP", "NLST", "NLTX", "NLY", "NM", "NMBF", "NMEX", "NMFC", "NMG", "NMGC", "NMGX", "NMHLY", "NMIH", "NMM", "NMR", "NMRD", "NMRK", "NMTC", "NMTR", "NMXS", "NN", "NNAX", "NNBP", "NNBR", "NNDM", "NNFC", "NNGRY", "NNI", "NNLX", "NNMX", "NNN", "NNOX", "NNPEF", "NNRI", "NNRX", "NNUP", "NNVC", "NNYR", "NOA", "NOAC", "NOAH", "NOBH", "NOBL", "NOC", "NOCT", "NODB", "NODK", "NOEC", "NOG", "NOGN", "NOHO", "NOK", "NOMD", "NOPE", "NORNQ", "NORW", "NORX", "NOTE", "NOTR", "NOTV", "NOUV", "NOV", "NOVA", "NOVC", "NOVN", "NOVT", "NOVV", "NOVZ", "NOW", "NOWG", "NPAB", "NPACY", "NPCE", "NPHC", "NPK", "NPKYY", "NPNTQ", "NPNYY", "NPO", "NPPNY", "NPSCY", "NPSKY", "NPSNY", "NPSTF", "NPTX", "NR", "NRAC", "NRBO", "NRBT", "NRC", "NRCD", "NRDBY", "NRDS", "NRDY", "NREF", "NRG", "NRGV", "NRILY", "NRIM", "NRIS", "NRIX", "NROM", "NRP", "NRPI", "NRPR", "NRSDY", "NRSN", "NRT", "NRWS", "NRXP", "NS", "NSA", "NSANY", "NSAV", "NSC", "NSCS", "NSHBY", "NSIT", "NSLPQ", "NSMG", "NSP", "NSPI", "NSPL", "NSPR", "NSPT", "NSPY", "NSRGY", "NSRS", "NSSC", "NSTB", "NSTC", "NSTD", "NSTG", "NSTM", "NSTS", "NSTYY", "NSYC", "NSYS", "NTAC", "NTAP", "NTB", "NTBP", "NTCO", "NTCT", "NTDOY", "NTDTY", "NTEI", "NTEK", "NTES", "NTFL", "NTGL", "NTGR", "NTIC", "NTII", "NTIP", "NTKI", "NTLA", "NTLK", "NTNX", "NTOIY", "NTPL", "NTPY", "NTR", "NTRA", "NTRB", "NTRR", "NTRS", "NTRU", "NTSE", "NTSI", "NTST", "NTSX", "NTTYY", "NTWK", "NTZ", "NTZG", "NU", "NUAG", "NUBC", "NUBD", "NUBI", "NUDM", "NUDV", "NUE", "NUEM", "NUGL", "NUGN", "NUGO", "NUGS", "NUGT", "NUHY", "NUKK", "NULC", "NULG", "NULV", "NUMD", "NUMG", "NUMV", "NUNZ", "NURE", "NURO", "NUS", "NUSA", "NUSC", "NUSI", "NUTX", "NUUU", "NUVA", "NUVB", "NUVG", "NUVI", "NUVL", "NUVM", "NUVR", "NUWE", "NUZE", "NVAC", "NVAX", "NVBT", "NVBW", "NVCN", "NVCR", "NVCT", "NVDA", "NVDS", "NVEC", "NVEE", "NVFY", "NVGI", "NVGS", "NVGT", "NVIV", "NVMI", "NVNO", "NVNT", "NVO", "NVOS", "NVQ", "NVR", "NVRO", "NVS", "NVSA", "NVST", "NVT", "NVTA", "NVTS", "NVVE", "NVX", "NVZMY", "NWAU", "NWBI", "NWBO", "NWCI", "NWE", "NWFL", "NWG", "NWGC", "NWITY", "NWKHY", "NWL", "NWLG", "NWLI", "NWMH", "NWN", "NWPG", "NWPN", "NWPP", "NWPX", "NWS", "NWSA", "NWSGY", "NWTN", "NWTT", "NWYF", "NWYU", "NX", "NXE", "NXGB", "NXGL", "NXGM", "NXGN", "NXGPY", "NXGT", "NXL", "NXMH", "NXMR", "NXPI", "NXPL", "NXRA", "NXRT", "NXST", "NXTC", "NXTE", "NXTG", "NXTH", "NXTN", "NXTP", "NYAX", "NYC", "NYCB", "NYF", "NYMT", "NYMX", "NYT", "NYXH", "NZAC", "NZIH", "NZRO", "NZUS", "O", "OABI", "OACP", "OAEM", "OAIE", "OAIM", "OAKV", "OALC", "OASMY", "OATN", "OB", "OBCN", "OBDP", "OBE", "OBIL", "OBLG", "OBND", "OBNK", "OBOR", "OBSV", "OBT", "OBTX", "OC", "OCAX", "OCC", "OCCI", "OCDDY", "OCEL", "OCEN", "OCFC", "OCFCP", "OCFT", "OCG", "OCGN", "OCIO", "OCLDY", "OCLG", "OCLN", "OCN", "OCPNY", "OCSL", "OCTT", "OCTW", "OCTX", "OCTZ", "OCUL", "OCUP", "OCX", "ODC", "ODDS", "ODFL", "ODII", "ODP", "ODTC", "ODV", "ODYY", "OEC", "OEDVQ", "OEF", "OEPW", "OESX", "OEUR", "OEZVY", "OFC", "OFED", "OFG", "OFIX", "OFLX", "OFS", "OG", "OGAA", "OGE", "OGEN", "OGFGY", "OGI", "OGIG", "OGN", "OGNG", "OGNT", "OGS", "OHAA", "OHCS", "OHI", "OHPA", "OI", "OIBRQ", "OIBZQ", "OICT", "OIG", "OIH", "OII", "OIIM", "OILK", "OILY", "OIS", "OJIPY", "OJOC", "OKE", "OKIEY", "OKTA", "OKYO", "OLB", "OLCLY", "OLED", "OLIT", "OLK", "OLLI", "OLMA", "OLMM", "OLN", "OLO", "OLP", "OLPX", "OLVI", "OM", "OMAB", "OMAGQ", "OMC", "OMCL", "OMEG", "OMER", "OMEX", "OMF", "OMFL", "OMFS", "OMGA", "OMHE", "OMHI", "OMI", "OMIC", "OMID", "OMQS", "OMRNY", "OMRX", "OMTK", "OMVE", "OMVKY", "OMWS", "ON", "ONB", "ONCI", "ONCR", "ONCS", "ONCT", "ONCY", "OND", "ONDS", "ONEI", "ONEM", "ONEO", "ONEQ", "ONEV", "ONEW", "ONEY", "ONFO", "ONG", "ONL", "ONLN", "ONOF", "ONON", "ONOV", "ONPH", "ONSS", "ONTF", "ONTO", "ONTX", "ONVC", "ONVO", "ONYX", "OOAG", "OODH", "OOGI", "OOMA", "OOTO", "OP", "OPA", "OPAD", "OPAL", "OPBK", "OPCH", "OPEN", "OPER", "OPFI", "OPGN", "OPHC", "OPHLY", "OPI", "OPK", "OPMG", "OPMZ", "OPNT", "OPOF", "OPPX", "OPRA", "OPRT", "OPRX", "OPST", "OPT", "OPTI", "OPTN", "OPTT", "OPVS", "OPXS", "OPY", "OR", "ORA", "ORAN", "ORBN", "ORBT", "ORC", "ORCC", "ORCL", "ORFN", "ORGN", "ORGO", "ORGS", "ORHB", "ORI", "ORIA", "ORIC", "ORKLY", "ORLA", "ORLY", "ORMP", "ORN", "OROVY", "ORPB", "ORRF", "ORRRY", "ORRYY", "ORTX", "ORXOY", "OSBC", "OSBK", "OSCI", "OSCR", "OSCV", "OSEA", "OSG", "OSGSY", "OSH", "OSI", "OSIS", "OSK", "OSKA", "OSPN", "OSS", "OST", "OSTK", "OSTO", "OSTR", "OSUR", "OSW", "OTCM", "OTEC", "OTEX", "OTGLY", "OTIC", "OTIS", "OTLC", "OTLK", "OTLY", "OTMN", "OTMO", "OTRK", "OTSKY", "OTTR", "OTTV", "OTTW", "OUKPY", "OUNZ", "OUSA", "OUSM", "OUST", "OUT", "OUTKY", "OVB", "OVBC", "OVCHY", "OVF", "OVID", "OVIT", "OVL", "OVLH", "OVLY", "OVM", "OVS", "OVT", "OVV", "OWCP", "OWL", "OWLT", "OWNS", "OWPC", "OWUV", "OWVI", "OXAC", "OXBC", "OXBR", "OXLC", "OXM", "OXSQ", "OXUS", "OXY", "OYST", "OZK", "OZSC", "PAA", "PAAS", "PAB", "PABN", "PABU", "PAC", "PACB", "PACC", "PACI", "PACK", "PACV", "PACW", "PACX", "PAFO", "PAFRY", "PAG", "PAGS", "PAHC", "PAK", "PALC", "PALI", "PALL", "PALT", "PAM", "PAMC", "PANA", "PANC", "PANDY", "PANL", "PANW", "PAOG", "PAPR", "PAQC", "PAR", "PARA", "PARAA", "PARNF", "PARR", "PASG", "PASO", "PATH", "PATI", "PATK", "PAUG", "PAVE", "PAVM", "PAWZ", "PAX", "PAY", "PAYA", "PAYC", "PAYD", "PAYO", "PAYS", "PAYX", "PB", "PBA", "PBAJ", "PBAM", "PBAX", "PBBK", "PBCO", "PBCRY", "PBD", "PBDC", "PBDM", "PBE", "PBEE", "PBF", "PBFS", "PBFX", "PBH", "PBHC", "PBHG", "PBI", "PBIO", "PBJ", "PBKC", "PBKX", "PBLA", "PBMRY", "PBND", "PBNK", "PBP", "PBPB", "PBR", "PBR.A", "PBS", "PBSFY", "PBSM", "PBSV", "PBT", "PBTP", "PBTS", "PBUS", "PBW", "PBYA", "PBYI", "PCAR", "PCB", "PCCT", "PCCWY", "PCEF", "PCFBY", "PCG", "PCH", "PCHK", "PCHM", "PCLB", "PCLI", "PCMC", "PCNT", "PCOR", "PCPC", "PCPJ", "PCRFY", "PCRX", "PCSA", "PCSB", "PCST", "PCSV", "PCT", "PCTI", "PCTL", "PCTY", "PCVX", "PCX", "PCY", "PCYG", "PCYN", "PCYO", "PCYS", "PD", "PDBA", "PDBC", "PDCE", "PDCO", "PDD", "PDEC", "PDER", "PDEX", "PDFS", "PDGO", "PDIV", "PDLB", "PDM", "PDMI", "PDN", "PDNLB", "PDOT", "PDP", "PDPG", "PDPR", "PDRX", "PDS", "PDSB", "PDXP", "PDYPY", "PEAK", "PEAR", "PEASF", "PEB", "PEBC", "PEBK", "PEBO", "PECD", "PECO", "PED", "PEG", "PEGA", "PEGR", "PEGRY", "PEGY", "PEI", "PEJ", "PEN", "PENN", "PEP", "PEPG", "PEPL", "PERF", "PERI", "PERL", "PESI", "PET", "PETQ", "PETRY", "PETS", "PETV", "PETZ", "PEV", "PEX", "PEXL", "PEXNY", "PEY", "PEYE", "PEYED", "PEZ", "PFBC", "PFBN", "PFBX", "PFC", "PFDR", "PFE", "PFEB", "PFEL", "PFES", "PFF", "PFFA", "PFFD", "PFFR", "PFFV", "PFG", "PFGC", "PFHC", "PFHD", "PFHO", "PFI", "PFIE", "PFIG", "PFIN", "PFIS", "PFIX", "PFLC", "PFLD", "PFLT", "PFM", "PFMT", "PFNO", "PFRL", "PFS", "PFSI", "PFSW", "PFTA", "PFTI", "PFUT", "PFWIQ", "PFX", "PFXF", "PG", "PGAI", "PGAL", "PGAS", "PGC", "PGEN", "PGENY", "PGF", "PGFY", "PGHY", "PGIE", "PGJ", "PGNE", "PGNN", "PGNT", "PGNY", "PGPM", "PGR", "PGRE", "PGRO", "PGRU", "PGRW", "PGSS", "PGTI", "PGTK", "PGUCY", "PGX", "PGY", "PGYC", "PH", "PHAR", "PHAS", "PHASQ", "PHAT", "PHB", "PHBI", "PHCF", "PHCG", "PHCI", "PHDG", "PHGE", "PHI", "PHIC", "PHIG", "PHIL", "PHIO", "PHM", "PHMB", "PHO", "PHOT", "PHOTD", "PHPPY", "PHR", "PHRX", "PHUN", "PHVS", "PHX", "PHYL", "PHYMF", "PHYS", "PHYT", "PI", "PIAC", "PIAI", "PICB", "PICC", "PICK", "PID", "PIE", "PIFI", "PIFMY", "PIFR", "PIHG", "PIHN", "PII", "PIII", "PIK", "PILL", "PIN", "PINC", "PINE", "PING", "PINK", "PINS", "PIO", "PIPI", "PIPP", "PIPR", "PIRS", "PITPY", "PIUTQ", "PIXY", "PIZ", "PJAN", "PJET", "PJP", "PJT", "PJUL", "PJUN", "PK", "PKB", "PKBK", "PKBO", "PKCOY", "PKDC", "PKE", "PKG", "PKI", "PKIN", "PKKW", "PKOH", "PKPH", "PKTX", "PKW", "PKX", "PL", "PLAB", "PLAG", "PLAO", "PLAT", "PLAY", "PLBC", "PLBY", "PLCE", "PLD", "PLDIF", "PLDR", "PLFF", "PLFRY", "PLFX", "PLG", "PLKT", "PLL", "PLM", "PLMI", "PLMR", "PLNT", "PLNTQ", "PLOW", "PLPC", "PLPL", "PLQC", "PLRG", "PLRX", "PLSE", "PLSH", "PLSI", "PLTK", "PLTL", "PLTM", "PLTR", "PLUG", "PLUR", "PLUS", "PLW", "PLWN", "PLX", "PLXP", "PLXS", "PLYA", "PLYM", "PLYN", "PLYZ", "PM", "PMAH", "PMAR", "PMAY", "PMBY", "PMCB", "PMD", "PMDKY", "PMDP", "PME", "PMGM", "PMHG", "PMIR", "PMKY", "PMN", "PMOZ", "PMPG", "PMT", "PMTS", "PMVC", "PMVP", "PMXX", "PNAC", "PNBI", "PNBK", "PNC", "PNFP", "PNGAF", "PNGAY", "PNGB", "PNM", "PNNT", "PNNX", "PNOV", "PNPL", "PNQI", "PNR", "PNRG", "PNT", "PNTG", "PNTM", "PNW", "POAHY", "POAI", "POCI", "POCT", "PODD", "POET", "POFCY", "POGS", "POGWY", "POL", "POLA", "POLR", "POND", "PONO", "POOL", "POR", "PORT", "POSC", "POSH", "POST", "POTN", "POTX", "POW", "POWI", "POWL", "POWW", "PPA", "PPAL", "PPBB", "PPBI", "PPBN", "PPBT", "PPBV", "PPC", "PPCB", "PPCCY", "PPCLY", "PPERY", "PPG", "PPH", "PPHI", "PPHP", "PPI", "PPIH", "PPJE", "PPL", "PPLFY", "PPLL", "PPLT", "PPMH", "PPRG", "PPRUY", "PPSI", "PPTA", "PPTL", "PPTY", "PPYA", "PQDI", "PQIN", "PR", "PRA", "PRAA", "PRAX", "PRAY", "PRBM", "PRCH", "PRCT", "PRCX", "PRDL", "PRDO", "PRDS", "PRDSY", "PRE", "PREC", "PRED", "PREF", "PRF", "PRFT", "PRFX", "PRFZ", "PRG", "PRGO", "PRGS", "PRHB", "PRHL", "PRI", "PRIM", "PRK", "PRKA", "PRKI", "PRKR", "PRKV", "PRLB", "PRLD", "PRLH", "PRM", "PRMD", "PRME", "PRMO", "PRMW", "PRMY", "PRN", "PRNDY", "PRNT", "PRO", "PROC", "PROF", "PROK", "PROM", "PROSY", "PROV", "PRPC", "PRPH", "PRPI", "PRPL", "PRPM", "PRPO", "PRPS", "PRQR", "PRRFY", "PRRY", "PRSI", "PRSO", "PRSR", "PRST", "PRTA", "PRTC", "PRTG", "PRTH", "PRTK", "PRTM", "PRTS", "PRTT", "PRTY", "PRU", "PRVA", "PRVB", "PRXIQ", "PRXM", "PRYMY", "PSA", "PSAG", "PSBP", "PSBQ", "PSC", "PSCC", "PSCD", "PSCE", "PSCF", "PSCH", "PSCI", "PSCJ", "PSCM", "PSCO", "PSCQ", "PSCR", "PSCT", "PSCU", "PSCW", "PSCX", "PSDN", "PSEC", "PSEP", "PSET", "PSFD", "PSFE", "PSFF", "PSFJ", "PSFM", "PSFO", "PSGI", "PSGR", "PSGTY", "PSHG", "PSI", "PSIL", "PSIQ", "PSIX", "PSJ", "PSK", "PSL", "PSLV", "PSMB", "PSMC", "PSMD", "PSMG", "PSMJ", "PSMM", "PSMMY", "PSMO", "PSMR", "PSMT", "PSN", "PSNL", "PSNY", "PSO", "PSP", "PSPC", "PSPW", "PSQ", "PSR", "PSRU", "PSSR", "PSSS", "PST", "PSTG", "PSTL", "PSTNY", "PSTO", "PSTP", "PSTV", "PSTVY", "PSTX", "PSUD", "PSWW", "PSX", "PSYC", "PSYK", "PT", "PTAH", "PTAIY", "PTAM", "PTAUY", "PTBD", "PTBRY", "PTBS", "PTC", "PTCO", "PTCP", "PTCT", "PTE", "PTEL", "PTEN", "PTEU", "PTF", "PTGX", "PTH", "PTIC", "PTIN", "PTIX", "PTJSY", "PTLC", "PTLF", "PTLO", "PTMC", "PTMN", "PTN", "PTNDY", "PTNQ", "PTNR", "PTOC", "PTOG", "PTOI", "PTON", "PTOP", "PTOS", "PTPI", "PTRA", "PTRB", "PTRC", "PTRCY", "PTRS", "PTSH", "PTSI", "PTTN", "PTVE", "PTVLF", "PTWO", "PTXKY", "PTZH", "PUBC", "PUBGY", "PUBM", "PUCK", "PUDA", "PUGE", "PUI", "PUK", "PULM", "PULS", "PUMP", "PUMSY", "PUNK", "PUODY", "PUPS", "PURA", "PURE", "PUTKY", "PUTW", "PUYI", "PV", "PVAL", "PVBC", "PVBK", "PVCT", "PVEG", "PVH", "PVI", "PVL", "PVRS", "PVSP", "PW", "PWB", "PWBO", "PWC", "PWCO", "PWEI", "PWFL", "PWOD", "PWP", "PWQQF", "PWR", "PWS", "PWSC", "PWUP", "PWV", "PWZ", "PX", "PXCLY", "PXD", "PXE", "PXF", "PXFG", "PXH", "PXHI", "PXI", "PXJ", "PXLW", "PXMD", "PXQ", "PXS", "PXUS", "PY", "PYBX", "PYCR", "PYCT", "PYPD", "PYPL", "PYPS", "PYPT", "PYR", "PYTCY", "PYXS", "PYYX", "PYZ", "PZA", "PZG", "PZN", "PZOO", "PZRXQ", "PZT", "PZZA", "QABA", "QABSY", "QAI", "QARP", "QAT", "QBAK", "QBAN", "QBIEY", "QBIO", "QBTS", "QCCO", "QCLN", "QCLR", "QCOM", "QCON", "QCRH", "QD", "QDEC", "QDEF", "QDEL", "QDF", "QDIV", "QDPL", "QDYN", "QEBR", "QED", "QEDN", "QEFA", "QEMM", "QEPC", "QFIN", "QFTA", "QGEN", "QGRO", "QGSI", "QH", "QIAN", "QID", "QIND", "QINT", "QIPT", "QJUN", "QLC", "QLD", "QLGN", "QLI", "QLIS", "QLS", "QLTA", "QLV", "QLVD", "QLVE", "QLYS", "QMAR", "QMCI", "QMCO", "QMDT", "QMED", "QMEI", "QMN", "QMOM", "QNBC", "QNCX", "QNGY", "QNRX", "QNST", "QNTA", "QNTO", "QNTQY", "QNXC", "QOEG", "QOIL", "QPFF", "QPRC", "QPT", "QPX", "QQC", "QQD", "QQEW", "QQH", "QQJG", "QQMG", "QQQ", "QQQA", "QQQE", "QQQJ", "QQQM", "QQQN", "QQQS", "QQXT", "QREE", "QRFT", "QRHC", "QRMI", "QRON", "QRTEA", "QRTEB", "QRVO", "QS", "QSAM", "QSEP", "QSI", "QSPT", "QSPW", "QSR", "QSWN", "QTAP", "QTCI", "QTEC", "QTEK", "QTJA", "QTJL", "QTNT", "QTOC", "QTR", "QTRX", "QTT", "QTUM", "QTWO", "QTXB", "QUAD", "QUAL", "QUAN", "QUBT", "QUCT", "QUIK", "QUMU", "QUOT", "QURE", "QURT", "QUS", "QVAL", "QVML", "QVMM", "QVMS", "QWLD", "QWTR", "QYBX", "QYLD", "QYLG", "R", "RAAS", "RAAX", "RACB", "RACE", "RACY", "RAD", "RADA", "RADI", "RADLY", "RAFA", "RAFE", "RAFX", "RAHGF", "RAIFY", "RAIL", "RAIN", "RAIO", "RAKR", "RAM", "RAMP", "RAND", "RANI", "RANJY", "RAPT", "RARE", "RASP", "RATE", "RAVE", "RAVI", "RAYC", "RAYD", "RAYE", "RAYS", "RAYT", "RBA", "RBAZ", "RBB", "RBBN", "RBC", "RBCAA", "RBCN", "RBGLY", "RBII", "RBKB", "RBLD", "RBLX", "RBND", "RBNW", "RBOT", "RBSFY", "RBSH", "RBSY", "RBT", "RBYC", "RC", "RCAC", "RCAR", "RCAT", "RCBC", "RCD", "RCEL", "RCFA", "RCHG", "RCHN", "RCI", "RCII", "RCIT", "RCKT", "RCKY", "RCL", "RCLF", "RCM", "RCMT", "RCON", "RCOR", "RCPIQ", "RCRT", "RCRUY", "RCUS", "RDAR", "RDBBY", "RDCM", "RDEIY", "RDFI", "RDFN", "RDGL", "RDHL", "RDI", "RDIB", "RDIV", "RDMX", "RDN", "RDNT", "RDOG", "RDRUY", "RDSMY", "RDVI", "RDVT", "RDVY", "RDW", "RDWD", "RDWR", "RDY", "RE", "REAL", "REAX", "REBN", "REC", "RECS", "REDFY", "REE", "REED", "REET", "REFG", "REFI", "REFR", "REG", "REGL", "REGN", "REI", "REIT", "REK", "REKR", "RELI", "RELL", "RELM", "RELT", "RELV", "RELX", "RELY", "REM", "REMG", "REMI", "REMX", "REMYY", "RENE", "RENN", "RENO", "RENT", "RENU", "RENW", "REOP", "REOS", "REPL", "REPO", "REPX", "REPYY", "RERE", "RES", "RESD", "RESE", "RESI", "RESP", "RETA", "RETC", "RETL", "RETO", "REUN", "REV", "REVB", "REVE", "REVG", "REVH", "REVRQ", "REVS", "REW", "REX", "REXR", "REYN", "REZ", "REZI", "RF", "RFAC", "RFBC", "RFCI", "RFDA", "RFDI", "RFEM", "RFEU", "RFFC", "RFG", "RFIL", "RFL", "RFLFY", "RFP", "RFV", "RGA", "RGBP", "RGC", "RGCO", "RGEN", "RGF", "RGGI", "RGI", "RGIN", "RGLD", "RGLG", "RGLS", "RGLXY", "RGMP", "RGNX", "RGP", "RGR", "RGRX", "RGS", "RGSG", "RGST", "RGTI", "RGUS", "RH", "RHCB", "RHCO", "RHE", "RHHBY", "RHI", "RHP", "RHRX", "RHS", "RHTX", "RIBS", "RIBT", "RICK", "RICOY", "RIDE", "RIET", "RIG", "RIGH", "RIGL", "RIGS", "RIGZ", "RIHT", "RIII", "RILY", "RINF", "RING", "RINO", "RIO", "RIOT", "RISN", "RISR", "RITA", "RITE", "RITM", "RITT", "RIVN", "RIVU", "RIVX", "RJAC", "RJDG", "RJF", "RKDA", "RKFL", "RKLB", "RKLC", "RKLY", "RKOS", "RKT", "RKTA", "RKUNY", "RL", "RLAB", "RLAY", "RLBD", "RLBY", "RLFTY", "RLGT", "RLI", "RLJ", "RLMD", "RLTR", "RLX", "RLY", "RLYB", "RM", "RMAX", "RMBI", "RMBL", "RMBS", "RMCF", "RMD", "RMED", "RMGC", "RMGGY", "RMHB", "RMNI", "RMO", "RMR", "RMRK", "RMSL", "RMTD", "RMTI", "RMYHY", "RNA", "RNAZ", "RNDB", "RNDM", "RNDV", "RNECY", "RNEM", "RNER", "RNEW", "RNG", "RNGG", "RNGR", "RNLC", "RNLSY", "RNLX", "RNMBY", "RNMC", "RNR", "RNRG", "RNRTY", "RNSC", "RNST", "RNVA", "RNW", "RNWEY", "RNWF", "RNWK", "RNWR", "RNXT", "ROAD", "ROAG", "ROAM", "ROBO", "ROBT", "ROC", "ROCC", "ROCG", "ROCI", "ROCK", "ROCL", "RODE", "RODI", "RODM", "ROG", "ROHCY", "ROIC", "ROIV", "ROK", "ROKT", "ROKU", "ROL", "ROM", "ROMO", "RONI", "ROOF", "ROOT", "ROP", "RORO", "ROSC", "ROSE", "ROSGQ", "ROSN", "ROSS", "ROST", "ROTH", "ROUS", "ROVR", "ROWC", "ROYL", "ROYMY", "ROYTL", "RPAR", "RPAY", "RPD", "RPG", "RPHM", "RPHS", "RPID", "RPM", "RPMT", "RPRX", "RPT", "RPTX", "RPV", "RRAC", "RRBI", "RRC", "RRETY", "RRGB", "RRGI", "RRH", "RRIF", "RRR", "RRRI", "RRRT", "RRTS", "RRX", "RS", "RSAU", "RSCF", "RSCI", "RSEE", "RSG", "RSHN", "RSI", "RSKD", "RSKIA", "RSLS", "RSP", "RSPE", "RSPI", "RSPY", "RSRV", "RSSS", "RSTN", "RSVR", "RSX", "RSXJ", "RTAI", "RTGN", "RTH", "RTL", "RTM", "RTME", "RTMVY", "RTO", "RTON", "RTSL", "RTX", "RTYD", "RUBY", "RUFF", "RULE", "RUM", "RUN", "RUSHA", "RUSHB", "RUTH", "RVBR", "RVCB", "RVIC", "RVIV", "RVLP", "RVLV", "RVMD", "RVNC", "RVNU", "RVP", "RVPH", "RVRB", "RVSB", "RVSN", "RVTI", "RVYL", "RWAY", "RWCB", "RWEOY", "RWGI", "RWJ", "RWK", "RWL", "RWLK", "RWM", "RWMI", "RWO", "RWOD", "RWR", "RWT", "RWWI", "RWX", "RXD", "RXDX", "RXEEY", "RXI", "RXL", "RXMD", "RXO", "RXRA", "RXRX", "RXST", "RXT", "RY", "RYAAY", "RYAM", "RYAN", "RYCEY", "RYE", "RYF", "RYH", "RYHTY", "RYI", "RYJ", "RYKKY", "RYLD", "RYLG", "RYN", "RYNL", "RYT", "RYTM", "RYU", "RZG", "RZLT", "RZV", "S", "SA", "SAA", "SAABY", "SABK", "SABR", "SABS", "SACH", "SAEF", "SAEI", "SAEYY", "SAFE", "SAFRY", "SAFS", "SAFT", "SAGA", "SAGD", "SAGE", "SAGP", "SAH", "SAI", "SAIA", "SAIC", "SAKL", "SAL", "SALM", "SALRY", "SAM", "SAMA", "SAMG", "SAML", "SAMT", "SAN", "SANA", "SANB", "SAND", "SANG", "SANM", "SANP", "SANT", "SANW", "SAP", "SAPMD", "SAPX", "SAR", "SARK", "SASBQ", "SASI", "SASR", "SATL", "SATO", "SATS", "SATT", "SATX", "SAUHY", "SAVA", "SAVE", "SAVN", "SAXPY", "SB", "SBAC", "SBB", "SBCF", "SBDG", "SBES", "SBET", "SBEV", "SBFFY", "SBFG", "SBFM", "SBGI", "SBGSY", "SBH", "SBIG", "SBII", "SBIO", "SBKO", "SBLK", "SBNC", "SBND", "SBNY", "SBOEY", "SBOW", "SBOX", "SBR", "SBRA", "SBS", "SBSAA", "SBSI", "SBSW", "SBT", "SBTX", "SBUM", "SBUX", "SCAL", "SCAQ", "SCBFY", "SCBS", "SCBZ", "SCC", "SCCO", "SCFR", "SCGLY", "SCGPY", "SCHA", "SCHB", "SCHC", "SCHD", "SCHE", "SCHF", "SCHG", "SCHH", "SCHI", "SCHJ", "SCHK", "SCHL", "SCHM", "SCHN", "SCHO", "SCHP", "SCHQ", "SCHR", "SCHV", "SCHW", "SCHX", "SCHY", "SCHYY", "SCHZ", "SCI", "SCIA", "SCIE", "SCJ", "SCKT", "SCL", "SCLE", "SCLX", "SCM", "SCMA", "SCMB", "SCMWY", "SCNA", "SCND", "SCNG", "SCNTQ", "SCO", "SCOA", "SCOB", "SCOO", "SCOR", "SCPH", "SCPJ", "SCPL", "SCPS", "SCPT", "SCRD", "SCRH", "SCRM", "SCRYY", "SCS", "SCSC", "SCTBY", "SCTC", "SCTH", "SCTL", "SCTN", "SCTQ", "SCU", "SCUA", "SCVL", "SCVPY", "SCWO", "SCWX", "SCX", "SCXLB", "SCYT", "SCYX", "SCZ", "SCZC", "SD", "SDAC", "SDAD", "SDC", "SDCH", "SDCI", "SDD", "SDEC", "SDEF", "SDEI", "SDEM", "SDG", "SDGA", "SDGR", "SDGS", "SDHY", "SDIG", "SDIV", "SDOG", "SDON", "SDOW", "SDP", "SDPI", "SDRC", "SDRL", "SDS", "SDSI", "SDSS", "SDTTU", "SDVI", "SDVKY", "SDVY", "SDXAY", "SDY", "SE", "SEA", "SEAC", "SEAS", "SEAT", "SEAV", "SEB", "SEBC", "SEBYY", "SECI", "SECO", "SECT", "SECTF", "SEDA", "SEDG", "SEDN", "SEE", "SEED", "SEEK", "SEEL", "SEER", "SEF", "SEGI", "SEIC", "SEII", "SEIM", "SEIQ", "SEIV", "SEIX", "SEKEY", "SELB", "SELF", "SELV", "SEM", "SEMI", "SEMR", "SENEA", "SENEB", "SENR", "SENS", "SENT", "SEOAY", "SEPGY", "SEPJY", "SEPZ", "SERA", "SES", "SESG", "SESI", "SESN", "SETO", "SEV", "SEVN", "SEVT", "SF", "SFBC", "SFBE", "SFBS", "SFCO", "SFDL", "SFE", "SFET", "SFIG", "SFIN", "SFIO", "SFIX", "SFL", "SFLM", "SFLR", "SFM", "SFNC", "SFPI", "SFRGY", "SFRX", "SFST", "SFT", "SFTBY", "SFUNY", "SFWJ", "SFY", "SFYF", "SFYX", "SG", "SGA", "SGAMY", "SGAPY", "SGASF", "SGBG", "SGBI", "SGBLY", "SGBX", "SGC", "SGDH", "SGDJ", "SGDM", "SGEN", "SGER", "SGFY", "SGGKY", "SGH", "SGHC", "SGHL", "SGHT", "SGII", "SGIOY", "SGLN", "SGLY", "SGMA", "SGMD", "SGML", "SGMO", "SGOL", "SGOO", "SGOV", "SGPYY", "SGRP", "SGRY", "SGRZ", "SGSOY", "SGTB", "SGTM", "SGTX", "SGU", "SGYI", "SH", "SHAC", "SHAG", "SHAK", "SHALY", "SHAP", "SHBI", "SHC", "SHCA", "SHCAY", "SHCR", "SHDG", "SHE", "SHECY", "SHEL", "SHEN", "SHFS", "SHG", "SHGI", "SHGKY", "SHGXY", "SHGY", "SHIIY", "SHIP", "SHKLY", "SHLDQ", "SHLS", "SHLX", "SHM", "SHMN", "SHMP", "SHMUY", "SHO", "SHOC", "SHOM", "SHOO", "SHOP", "SHPH", "SHPMY", "SHPP", "SHPW", "SHQA", "SHRG", "SHTDY", "SHUA", "SHUS", "SHV", "SHW", "SHWGY", "SHY", "SHYD", "SHYF", "SHYG", "SHYL", "SHZHY", "SI", "SIAF", "SIBN", "SID", "SIDGQ", "SIDU", "SIEB", "SIEGY", "SIEN", "SIER", "SIETY", "SIF", "SIFI", "SIFY", "SIG", "SIGA", "SIGCY", "SIGI", "SIGL", "SIGO", "SIGY", "SIHBY", "SIHY", "SII", "SIJ", "SIL", "SILC", "SILJ", "SILK", "SILO", "SILS", "SILV", "SILX", "SILXY", "SIM", "SIMA", "SIMO", "SIMPQ", "SIMS", "SINC", "SING", "SINGY", "SINT", "SINX", "SIO", "SIOLY", "SIOX", "SIPC", "SIPN", "SIRC", "SIRE", "SIRI", "SISI", "SITC", "SITE", "SITIY", "SITM", "SITOQ", "SITS", "SIVB", "SIVR", "SIX", "SIXA", "SIXH", "SIXJ", "SIXL", "SIXO", "SIXS", "SIZE", "SJ", "SJB", "SJI", "SJM", "SJMHY", "SJNK", "SJR", "SJT", "SJW", "SKAS", "SKBSY", "SKCBY", "SKE", "SKF", "SKFG", "SKFRY", "SKGO", "SKGR", "SKHHY", "SKHSY", "SKIL", "SKIN", "SKKRF", "SKKY", "SKLKY", "SKLTY", "SKLZ", "SKM", "SKOR", "SKPO", "SKSUY", "SKT", "SKTO", "SKTP", "SKVI", "SKX", "SKY", "SKYA", "SKYE", "SKYF", "SKYH", "SKYI", "SKYT", "SKYU", "SKYW", "SKYX", "SKYY", "SLAB", "SLAC", "SLAM", "SLB", "SLCA", "SLCH", "SLCJY", "SLDB", "SLDP", "SLDX", "SLF", "SLFPY", "SLG", "SLGC", "SLGD", "SLGG", "SLGL", "SLGN", "SLI", "SLJB", "SLLDY", "SLM", "SLN", "SLNA", "SLNG", "SLNH", "SLNO", "SLNX", "SLOIY", "SLP", "SLQD", "SLQT", "SLRC", "SLRK", "SLRX", "SLS", "SLUP", "SLV", "SLVM", "SLVO", "SLVP", "SLVR", "SLVYY", "SLX", "SLY", "SLYG", "SLYV", "SM", "SMAA", "SMAL", "SMAP", "SMAR", "SMAS", "SMB", "SMBC", "SMBK", "SMBMY", "SMCAY", "SMCE", "SMCI", "SMCP", "SMDD", "SMDPY", "SMDV", "SMDY", "SMEV", "SMFG", "SMFKY", "SMFL", "SMFR", "SMFX", "SMG", "SMGBY", "SMGI", "SMGZY", "SMH", "SMHI", "SMI", "SMID", "SMIG", "SMIH", "SMIN", "SMIT", "SMKG", "SMLE", "SMLF", "SMLP", "SMLR", "SMLV", "SMMD", "SMME", "SMMF", "SMMNY", "SMMR", "SMMT", "SMMU", "SMMV", "SMMYY", "SMN", "SMNEY", "SMNNY", "SMOG", "SMOT", "SMP", "SMPL", "SMPNY", "SMPP", "SMR", "SMRT", "SMSEY", "SMSI", "SMSMY", "SMTC", "SMTGY", "SMTI", "SMTK", "SMTOY", "SMTS", "SMUUY", "SMWB", "SMWCF", "SMWFF", "SNA", "SNAL", "SNAP", "SNAX", "SNBH", "SNBR", "SNCE", "SNCF", "SNCR", "SNCY", "SND", "SNDA", "SNDD", "SNDL", "SNDR", "SNDX", "SNES", "SNEX", "SNFCA", "SNGX", "SNHO", "SNLAY", "SNLC", "SNLN", "SNMCY", "SNMN", "SNMP", "SNMRY", "SNN", "SNNC", "SNNF", "SNOA", "SNOW", "SNPD", "SNPE", "SNPG", "SNPHY", "SNPO", "SNPS", "SNPTY", "SNPV", "SNPW", "SNPX", "SNRG", "SNRH", "SNRR", "SNRS", "SNRY", "SNSE", "SNSR", "SNST", "SNT", "SNTG", "SNTI", "SNTW", "SNTX", "SNUG", "SNV", "SNVP", "SNWR", "SNWV", "SNX", "SNY", "SO", "SOAGY", "SOBKY", "SOBR", "SOBS", "SOCL", "SODE", "SODI", "SOEN", "SOFI", "SOFO", "SOFT", "SOGU", "SOHI", "SOHO", "SOHU", "SOHVY", "SOI", "SOL", "SOLLY", "SOLO", "SOLR", "SOLS", "SOMC", "SOME", "SOMLY", "SOMMY", "SON", "SOND", "SONM", "SONN", "SONO", "SONVY", "SONX", "SONY", "SOPA", "SOPH", "SOPV", "SORT", "SOS", "SOSO", "SOTGY", "SOTK", "SOUB", "SOUHY", "SOUN", "SOVO", "SOWG", "SOXL", "SOXQ", "SOXS", "SOXX", "SOYB", "SOYO", "SP", "SPAB", "SPAGF", "SPAX", "SPB", "SPBC", "SPBO", "SPBV", "SPC", "SPCB", "SPCE", "SPCM", "SPCO", "SPCX", "SPCZ", "SPD", "SPDN", "SPDRF", "SPDV", "SPDW", "SPEM", "SPEU", "SPFF", "SPFI", "SPFX", "SPG", "SPGI", "SPGM", "SPGP", "SPGS", "SPGX", "SPH", "SPHB", "SPHD", "SPHQ", "SPHRY", "SPHY", "SPI", "SPIB", "SPIP", "SPIR", "SPK", "SPKB", "SPKKY", "SPKOY", "SPKX", "SPKY", "SPLB", "SPLG", "SPLK", "SPLM", "SPLP", "SPLV", "SPLY", "SPMB", "SPMD", "SPMI", "SPMO", "SPMV", "SPMYY", "SPND", "SPNE", "SPNS", "SPNT", "SPOC", "SPOI", "SPOK", "SPOM", "SPOT", "SPOWF", "SPPI", "SPPJY", "SPPP", "SPQS", "SPR", "SPRB", "SPRC", "SPRE", "SPRJ", "SPRL", "SPRN", "SPRO", "SPRS", "SPRU", "SPRV", "SPRX", "SPRY", "SPSB", "SPSC", "SPSK", "SPSM", "SPSO", "SPSTY", "SPT", "SPTI", "SPTK", "SPTL", "SPTM", "SPTN", "SPTS", "SPTY", "SPUC", "SPUS", "SPUU", "SPVM", "SPVU", "SPWH", "SPWR", "SPWUF", "SPXB", "SPXC", "SPXCY", "SPXE", "SPXL", "SPXN", "SPXS", "SPXSY", "SPXT", "SPXU", "SPXV", "SPY", "SPYC", "SPYD", "SPYG", "SPYI", "SPYR", "SPYV", "SPYX", "SPZI", "SQ", "SQCC", "SQCF", "SQEW", "SQFT", "SQL", "SQLV", "SQM", "SQNNY", "SQNS", "SQQQ", "SQSP", "SQZ", "SR", "SRAD", "SRAX", "SRBT", "SRC", "SRCE", "SRCH", "SRCL", "SRCO", "SRCX", "SRDX", "SRE", "SRET", "SRG", "SRGA", "SRGHY", "SRGZ", "SRHQ", "SRHYY", "SRI", "SRL", "SRLN", "SRLP", "SRLY", "SRMX", "SRNE", "SRNN", "SRNW", "SRPT", "SRRE", "SRRK", "SRS", "SRSA", "SRSG", "SRSR", "SRT", "SRTOY", "SRTS", "SRTTY", "SRTY", "SRUS", "SRVR", "SRXIF", "SRYB", "SRZN", "SSAA", "SSAAY", "SSB", "SSBBF", "SSBI", "SSBK", "SSBP", "SSCDF", "SSD", "SSDOY", "SSEHF", "SSET", "SSEUF", "SSEXF", "SSEZY", "SSFI", "SSFT", "SSG", "SSGAF", "SSGBF", "SSGEF", "SSGUF", "SSGWF", "SSGXF", "SSHLF", "SSHLY", "SSHT", "SSIC", "SSKN", "SSL", "SSLY", "SSLZY", "SSMXY", "SSNC", "SSNT", "SSO", "SSOF", "SSOK", "SSP", "SSPX", "SSPY", "SSREY", "SSRM", "SSSEF", "SSSPF", "SSSS", "SST", "SSTI", "SSTK", "SSTT", "SSU", "SSUMY", "SSUS", "SSXU", "SSY", "SSYS", "ST", "STAA", "STAB", "STAEY", "STAF", "STAG", "STAL", "STAR", "STBA", "STBFY", "STBI", "STBK", "STBMY", "STBX", "STC", "STCB", "STCC", "STCE", "STCN", "STE", "STEK", "STEL", "STEM", "STEP", "STER", "STET", "STEV", "STG", "STGF", "STGW", "STGZ", "STHC", "STHI", "STIM", "STIP", "STIX", "STJO", "STKH", "STKL", "STKS", "STLA", "STLD", "STLG", "STLV", "STLY", "STN", "STNC", "STNE", "STNG", "STNT", "STOK", "STON", "STOR", "STOT", "STPZ", "STQN", "STR", "STRA", "STRB", "STRC", "STRE", "STRG", "STRH", "STRI", "STRL", "STRM", "STRN", "STRNY", "STRO", "STRR", "STRS", "STRT", "STRV", "STRW", "STRY", "STSA", "STSFF", "STSN", "STSS", "STT", "STTK", "STTX", "STVN", "STWC", "STWD", "STWRY", "STX", "STXD", "STXG", "STXK", "STXS", "STXV", "STZ", "STZ.B", "STZU", "SU", "SUAC", "SUB", "SUBB", "SUBCY", "SUBS", "SUGBY", "SUHJY", "SUI", "SUIC", "SUM", "SUME", "SUMO", "SUN", "SUNC", "SUND", "SUNL", "SUNW", "SUOPY", "SUP", "SUPL", "SUPN", "SUPV", "SURE", "SURF", "SURG", "SURRY", "SURYY", "SUSA", "SUSB", "SUSC", "SUSL", "SUSTF", "SUTI", "SUTNY", "SUWN", "SUZ", "SVAD", "SVAL", "SVBT", "SVC", "SVFA", "SVFB", "SVFD", "SVII", "SVIN", "SVIX", "SVLT", "SVM", "SVNA", "SVNBY", "SVNDY", "SVNLY", "SVOL", "SVRA", "SVRE", "SVRZF", "SVSE", "SVSN", "SVSO", "SVT", "SVTE", "SVVB", "SVVC", "SVXA", "SVXY", "SWAN", "SWAR", "SWAV", "SWBI", "SWCH", "SWDBY", "SWEB", "SWET", "SWGAY", "SWI", "SWIM", "SWIR", "SWK", "SWKH", "SWKS", "SWMAY", "SWN", "SWNM", "SWOOF", "SWRAY", "SWRBY", "SWRI", "SWRL", "SWRM", "SWSS", "SWTX", "SWVL", "SWX", "SXC", "SXERF", "SXI", "SXQG", "SXT", "SXTC", "SXUS", "SXYAY", "SY", "SYBT", "SYBX", "SYEV", "SYF", "SYIEY", "SYII", "SYK", "SYLD", "SYM", "SYN", "SYNA", "SYNB", "SYNE", "SYNH", "SYPR", "SYQH", "SYRS", "SYSX", "SYTA", "SYUP", "SYUS", "SYY", "SZGPY", "SZK", "SZKMY", "SZLMY", "SZNE", "SZZL", "T", "TA", "TAC", "TACBY", "TACI", "TACK", "TACT", "TACYY", "TAER", "TAFI", "TAGG", "TAGP", "TAGS", "TAGYY", "TAIL", "TAIPY", "TAIT", "TAK", "TAKD", "TAL", "TALK", "TALN", "TALO", "TALS", "TAMG", "TAN", "TANH", "TAOP", "TAP", "TAP.A", "TAPM", "TAPP", "TARA", "TARK", "TARO", "TARS", "TASK", "TAST", "TATT", "TATYY", "TAUG", "TAVHY", "TAXF", "TAYD", "TAYO", "TBBA", "TBBC", "TBBK", "TBCP", "TBEV", "TBF", "TBI", "TBIL", "TBJL", "TBK", "TBLA", "TBLD", "TBLMY", "TBLT", "TBNGY", "TBNK", "TBPH", "TBSA", "TBT", "TBTC", "TBUX", "TBX", "TC", "TCBC", "TCBI", "TCBK", "TCBP", "TCBS", "TCBX", "TCCO", "TCCPY", "TCDA", "TCEHY", "TCFC", "TCGGY", "TCHC", "TCHH", "TCHI", "TCHP", "TCI", "TCLRY", "TCMD", "TCN", "TCNB", "TCOA", "TCOM", "TCON", "TCOR", "TCPC", "TCRI", "TCRR", "TCRT", "TCRX", "TCS", "TCVA", "TCX", "TD", "TDC", "TDCB", "TDCX", "TDG", "TDHOY", "TDIV", "TDNT", "TDOC", "TDPAY", "TDRK", "TDS", "TDSA", "TDSB", "TDSC", "TDSD", "TDSE", "TDTF", "TDTT", "TDUP", "TDV", "TDVG", "TDW", "TDWRF", "TDY", "TEAM", "TECB", "TECH", "TECK", "TECL", "TECS", "TEDU", "TEF", "TEGR", "TEGY", "TEKK", "TEL", "TELA", "TELL", "TELNY", "TEMP", "TEN", "TENB", "TENX", "TEO", "TEQI", "TER", "TERA", "TERN", "TESS", "TETAA", "TETC", "TETE", "TEUFF", "TEUM", "TEVA", "TEX", "TEZNY", "TFC", "TFFP", "TFGL", "TFI", "TFII", "TFJL", "TFLO", "TFLR", "TFPM", "TFRNF", "TFSL", "TFX", "TG", "TGA", "TGAA", "TGAN", "TGB", "TGCB", "TGEN", "TGGI", "TGH", "TGHI", "TGI", "TGIC", "TGIF", "TGL", "TGLO", "TGLS", "TGLVY", "TGMR", "TGN", "TGNA", "TGNT", "TGOPY", "TGOSY", "TGR", "TGRO", "TGRP", "TGRR", "TGRW", "TGS", "TGSGY", "TGT", "TGTX", "TGVC", "TH", "THAC", "THC", "THCA", "THCH", "THCP", "THCT", "THCX", "THD", "THDDY", "THER", "THFF", "THG", "THKLY", "THLLY", "THLV", "THM", "THMO", "THNPY", "THNQ", "THO", "THR", "THRA", "THRD", "THRGF", "THRM", "THRN", "THRX", "THRY", "THS", "THST", "THTX", "THUPY", "THVB", "THY", "THYCY", "THYF", "TIAIY", "TIDE", "TIG", "TIGE", "TIGO", "TIGR", "TIIAY", "TIKK", "TIL", "TILE", "TILL", "TILT", "TIMB", "TIME", "TINLY", "TINO", "TINT", "TINV", "TINY", "TIOA", "TIP", "TIPD", "TIPL", "TIPS", "TIPT", "TIPX", "TIPZ", "TIRX", "TISCY", "TISI", "TITN", "TIVC", "TIXC", "TIXT", "TJX", "TK", "TKAGY", "TKAMY", "TKAT", "TKC", "TKCBY", "TKECY", "TKGBY", "TKGSY", "TKHVY", "TKLF", "TKLS", "TKNO", "TKOI", "TKOMY", "TKR", "TLCC", "TLDE", "TLF", "TLFX", "TLGA", "TLGHY", "TLGN", "TLGPY", "TLGY", "TLH", "TLIF", "TLIS", "TLK", "TLKGY", "TLLEQ", "TLOG", "TLPFY", "TLRY", "TLS", "TLSA", "TLSNY", "TLSS", "TLSYY", "TLT", "TLTD", "TLTE", "TLTW", "TLTZY", "TLYS", "TM", "TMAC", "TMAK", "TMAT", "TMBR", "TMC", "TMCI", "TMCV", "TMDI", "TMDV", "TMDX", "TME", "TMEB", "TMEN", "TMF", "TMFC", "TMFE", "TMFG", "TMFM", "TMFS", "TMFX", "TMGI", "TMHC", "TMICY", "TMKR", "TMMI", "TMNA", "TMO", "TMOAY", "TMP", "TMPM", "TMQ", "TMRAY", "TMRC", "TMRR", "TMSH", "TMSNY", "TMST", "TMUS", "TMV", "TMVWY", "TMX", "TMXN", "TNA", "TNABY", "TNBI", "TNC", "TNDM", "TNEN", "TNET", "TNGL", "TNGX", "TNK", "TNKE", "TNL", "TNLX", "TNMD", "TNON", "TNP", "TNPH", "TNRG", "TNTRQ", "TNXP", "TNYA", "TOAC", "TOELY", "TOFB", "TOI", "TOK", "TOKE", "TOKTY", "TOKUY", "TOL", "TOLZ", "TOMYY", "TOMZ", "TONR", "TOOD", "TOP", "TOPPY", "TOPS", "TORM", "TORW", "TOST", "TOSYY", "TOTDY", "TOTL", "TOTR", "TOUR", "TOVX", "TOWN", "TPB", "TPBA", "TPC", "TPCS", "TPDKY", "TPG", "TPGY", "TPH", "TPHD", "TPHE", "TPHS", "TPIA", "TPIC", "TPIF", "TPII", "TPL", "TPLC", "TPLE", "TPNI", "TPOR", "TPPM", "TPR", "TPRKY", "TPRP", "TPSC", "TPST", "TPTW", "TPVG", "TPX", "TPYP", "TQLB", "TQQQ", "TR", "TRAA", "TRAC", "TRAE", "TRAQ", "TRBD", "TRBK", "TRBO", "TRC", "TRCA", "TRCC", "TRCK", "TRCNF", "TRCY", "TRDA", "TRDX", "TREE", "TREN", "TREP", "TREX", "TRFE", "TRFK", "TRFM", "TRGP", "TRHC", "TRI", "TRIB", "TRII", "TRIN", "TRIP", "TRIQ", "TRIS", "TRKA", "TRKNY", "TRKR", "TRMB", "TRMD", "TRMK", "TRMR", "TRN", "TRND", "TRNF", "TRNLY", "TRNO", "TRNS", "TRNX", "TROLB", "TRON", "TROO", "TROW", "TROX", "TRP", "TRPL", "TRQ", "TRRE", "TRRI", "TRS", "TRSI", "TRST", "TRT", "TRTK", "TRTL", "TRTN", "TRTX", "TRTY", "TRU", "TRUE", "TRUL", "TRUMY", "TRUP", "TRUX", "TRV", "TRVG", "TRVI", "TRVN", "TRVR", "TRX", "TRXA", "TRYIY", "TS", "TSAT", "TSBA", "TSBK", "TSCDY", "TSCO", "TSE", "TSEM", "TSGTY", "TSHA", "TSIB", "TSJA", "TSL", "TSLA", "TSLH", "TSLI", "TSLL", "TSLQ", "TSLS", "TSLX", "TSM", "TSME", "TSN", "TSOC", "TSOI", "TSP", "TSPA", "TSPG", "TSPQ", "TSQ", "TSRI", "TSRR", "TSRYY", "TSSI", "TSTS", "TSUKY", "TSVT", "TSYHY", "TT", "TTAC", "TTAI", "TTC", "TTCF", "TTCM", "TTD", "TTDKY", "TTE", "TTEC", "TTEK", "TTGT", "TTHG", "TTI", "TTM", "TTMI", "TTNDY", "TTNN", "TTNP", "TTOO", "TTSH", "TTT", "TTWO", "TTYP", "TU", "TUA", "TUEM", "TUFBY", "TUG", "TUGN", "TUP", "TUR", "TURA", "TURN", "TUSI", "TUSK", "TUWOY", "TUXS", "TUYA", "TV", "TVBCY", "TVCE", "TVER", "TVLF", "TVOG", "TVPC", "TVTV", "TVTX", "TW", "TWCB", "TWCF", "TWEB", "TWER", "TWI", "TWIN", "TWIO", "TWKS", "TWLO", "TWLV", "TWM", "TWND", "TWNI", "TWNK", "TWO", "TWOA", "TWODY", "TWOU", "TWSI", "TWST", "TWTR", "TX", "TXCB", "TXCCQ", "TXG", "TXGE", "TXHE", "TXHG", "TXMC", "TXMD", "TXMIF", "TXN", "TXRH", "TXT", "TXTM", "TYA", "TYBT", "TYCB", "TYCMY", "TYD", "TYDE", "TYFG", "TYIDY", "TYL", "TYNE", "TYO", "TYOBY", "TYOYY", "TYRA", "TYTN", "TZA", "TZOO", "TZPC", "TZPS", "U", "UA", "UAA", "UAE", "UAHC", "UAL", "UAMA", "UAMM", "UAMY", "UAN", "UAPC", "UAPR", "UATG", "UAUG", "UAV", "UAVS", "UBA", "UBAB", "UBCB", "UBCP", "UBER", "UBEX", "UBFO", "UBISF", "UBNC", "UBND", "UBOH", "UBOT", "UBP", "UBQU", "UBR", "UBS", "UBSFY", "UBSI", "UBT", "UBX", "UBYH", "UCBI", "UCBJY", "UCC", "UCL", "UCLE", "UCO", "UCON", "UCPA", "UCRD", "UCTT", "UCYB", "UDEC", "UDI", "UDIV", "UDMY", "UDN", "UDOW", "UDR", "UDSG", "UE", "UEC", "UEEC", "UEIC", "UELKY", "UEVM", "UFAB", "UFCS", "UFEB", "UFI", "UFO", "UFPI", "UFPT", "UG", "UGA", "UGE", "UGHB", "UGI", "UGL", "UGP", "UGRO", "UHAL", "UHALB", "UHID", "UHS", "UHT", "UI", "UIHC", "UIS", "UITA", "UITB", "UIVM", "UJAN", "UJB", "UJUL", "UJUN", "UK", "UL", "ULBI", "ULCC", "ULE", "ULGX", "ULH", "ULNV", "ULST", "ULTA", "ULTR", "ULTRF", "ULVM", "UMAR", "UMAV", "UMAX", "UMAY", "UMBF", "UMC", "UMCN", "UMDD", "UMFG", "UMGP", "UMH", "UMHL", "UMI", "UMICY", "UMMA", "UMPQ", "UNAM", "UNB", "UNBK", "UNCRY", "UNCY", "UNDR", "UNF", "UNFI", "UNG", "UNH", "UNIB", "UNICY", "UNIF", "UNIR", "UNIT", "UNL", "UNLRY", "UNM", "UNMK", "UNOV", "UNP", "UNQL", "UNRG", "UNRV", "UNSS", "UNTC", "UNTN", "UNTY", "UNVC", "UNVGY", "UNVR", "UNXLQ", "UOCT", "UOLGY", "UOMO", "UONE", "UONEK", "UOVEY", "UP", "UPAR", "UPC", "UPCHY", "UPCO", "UPDC", "UPH", "UPIN", "UPLD", "UPMMY", "UPRM", "UPRO", "UPS", "UPST", "UPTD", "UPV", "UPW", "UPWD", "UPWK", "UPXI", "UPYY", "URA", "URBN", "URBT", "URE", "URG", "URGN", "URHG", "URI", "URNM", "UROY", "URTH", "URTY", "URYL", "USAC", "USAE", "USAI", "USAP", "USAQ", "USAS", "USAU", "USB", "USBF", "USBL", "USCB", "USCI", "USCS", "USCT", "USD", "USDC", "USDP", "USDR", "USDU", "USEA", "USEG", "USEI", "USEP", "USEQ", "USER", "USFD", "USFR", "USHY", "USI", "USIG", "USIO", "USL", "USLB", "USLG", "USLM", "USM", "USMC", "USMF", "USMJ", "USMT", "USMV", "USNA", "USNL", "USNU", "USNZ", "USNZY", "USO", "USOI", "USPH", "USPS", "USPX", "USRC", "USRM", "USRT", "USSG", "UST", "USTB", "USTC", "USVM", "USVT", "USWF", "USWS", "USX", "USXF", "UTAA", "UTEN", "UTES", "UTHR", "UTI", "UTL", "UTMD", "UTME", "UTRN", "UTRS", "UTRX", "UTSI", "UTSL", "UTWO", "UTZ", "UUGRY", "UUP", "UUU", "UUUU", "UVCL", "UVDV", "UVE", "UVFT", "UVIX", "UVRBY", "UVSE", "UVSP", "UVSS", "UVV", "UVXY", "UWHR", "UWM", "UWMC", "UXI", "UXIN", "UYG", "UYLD", "UYM", "V", "VABK", "VABS", "VAC", "VACC", "VACNY", "VAL", "VALE", "VALN", "VALQ", "VALT", "VALU", "VAMO", "VANI", "VANVF", "VAPO", "VAPR", "VAQC", "VARTY", "VASO", "VATE", "VAW", "VAXX", "VAYK", "VB", "VBB", "VBFC", "VBHI", "VBIV", "VBIX", "VBK", "VBLT", "VBND", "VBNK", "VBOC", "VBR", "VBTX", "VBVT", "VC", "VCAR", "VCBDQ", "VCEB", "VCEL", "VCISY", "VCIT", "VCKA", "VCKVF", "VCLN", "VCLO", "VCLT", "VCNX", "VCR", "VCRPF", "VCSA", "VCSH", "VCTR", "VCXA", "VCXB", "VCYT", "VDAHY", "VDC", "VDE", "VDKB", "VDMCY", "VDNI", "VDRM", "VEA", "VECO", "VECT", "VEDU", "VEEE", "VEEV", "VEGA", "VEGI", "VEGN", "VEII", "VEL", "VELO", "VEMLY", "VENA", "VEOEY", "VEON", "VERA", "VERB", "VERI", "VERO", "VERS", "VERU", "VERV", "VERX", "VERY", "VEST", "VET", "VEU", "VEV", "VFAWF", "VFC", "VFDEF", "VFEAF", "VFF", "VFH", "VFLQ", "VFMF", "VFMO", "VFMV", "VFPAF", "VFPEF", "VFQY", "VFRM", "VFUUF", "VFVA", "VGDFF", "VGDTF", "VGFC", "VGFPF", "VGFUF", "VGID", "VGIT", "VGK", "VGLS", "VGLT", "VGR", "VGRDF", "VGRSF", "VGSH", "VGT", "VGTL", "VGUDF", "VGZ", "VHAQ", "VHC", "VHI", "VHLD", "VHNA", "VHT", "VIA", "VIAAY", "VIAO", "VIAV", "VICA", "VICE", "VICI", "VICR", "VIDE", "VIDI", "VIEW", "VIG", "VIGI", "VIGL", "VIHD", "VIHDD", "VII", "VINC", "VINE", "VINO", "VINP", "VINS", "VIOG", "VIOO", "VIOT", "VIOV", "VIPS", "VIR", "VIRA", "VIRC", "VIRI", "VIRS", "VIRT", "VIRX", "VIS", "VISL", "VISM", "VISMD", "VIST", "VITL", "VITX", "VIV", "VIVC", "VIVE", "VIVHY", "VIVK", "VIVO", "VIXM", "VIXY", "VIZC", "VJET", "VKIN", "VKSC", "VKTX", "VLAT", "VLBI", "VLCN", "VLD", "VLDR", "VLEEY", "VLGEA", "VLMTY", "VLN", "VLNS", "VLO", "VLON", "VLOWY", "VLPNY", "VLRS", "VLTA", "VLU", "VLUE", "VLVLY", "VLXC", "VLY", "VMAR", "VMAT", "VMBS", "VMC", "VMCA", "VMCS", "VMD", "VMEO", "VMGA", "VMHG", "VMI", "VMNT", "VMOT", "VMRI", "VMSI", "VMTF", "VMTG", "VMW", "VNAM", "VNCE", "VNDA", "VNET", "VNFGF", "VNGBF", "VNGCF", "VNGDF", "VNGGF", "VNGLF", "VNGUF", "VNLA", "VNM", "VNMC", "VNO", "VNOM", "VNQ", "VNQI", "VNRDF", "VNRFY", "VNRX", "VNSE", "VNT", "VNTA", "VNTH", "VNTN", "VNTR", "VNUE", "VO", "VOC", "VOD", "VOE", "VOHO", "VOIS", "VONE", "VONG", "VONOY", "VONV", "VOO", "VOOG", "VOOV", "VOPKY", "VOR", "VORB", "VOSSY", "VOT", "VOTE", "VOX", "VOXR", "VOXX", "VOYA", "VPC", "VPCB", "VPER", "VPG", "VPL", "VPLCF", "VPLM", "VPN", "VPOR", "VPRB", "VPRO", "VPU", "VQS", "VR", "VRA", "VRAI", "VRAR", "VRAX", "VRAY", "VRCA", "VRCI", "VRCM", "VRDN", "VRDR", "VRE", "VRED", "VREX", "VRGFF", "VRIG", "VRM", "VRME", "VRNA", "VRNS", "VRNT", "VRP", "VRPX", "VRRM", "VRSK", "VRSN", "VRT", "VRTB", "VRTC", "VRTS", "VRTV", "VRTX", "VRUS", "VRVR", "VS", "VSAC", "VSAT", "VSBC", "VSCO", "VSDA", "VSEC", "VSGX", "VSH", "VSLU", "VSMR", "VSMV", "VSPC", "VSPY", "VSS", "VSST", "VST", "VSTA", "VSTM", "VSTO", "VSYM", "VT", "VTAGY", "VTC", "VTEB", "VTEX", "VTGN", "VTHR", "VTI", "VTIP", "VTIQ", "VTKLY", "VTMB", "VTNR", "VTOL", "VTR", "VTRS", "VTRU", "VTSCY", "VTSI", "VTV", "VTVT", "VTWG", "VTWO", "VTWV", "VTXB", "VTYB", "VTYX", "VUG", "VULC", "VUSB", "VUSE", "VUZI", "VV", "VVI", "VVNT", "VVOS", "VVPR", "VVSMF", "VVV", "VVX", "VWAGY", "VWAPY", "VWDRY", "VWFB", "VWID", "VWO", "VWOB", "VXF", "VXIT", "VXRT", "VXUS", "VXX", "VXZ", "VYBE", "VYCO", "VYDR", "VYEY", "VYGG", "VYGPF", "VYGR", "VYM", "VYMI", "VYNE", "VYNT", "VYON", "VYOND", "VYST", "VZ", "VZIO", "VZLA", "W", "WAB", "WABC", "WACC", "WACLY", "WACMY", "WAFD", "WAFU", "WAKE", "WAL", "WALD", "WANT", "WARAF", "WARFY", "WARM", "WASH", "WAT", "WATT", "WAVC", "WAVD", "WAVE", "WAVS", "WAXS", "WAYN", "WB", "WBA", "WBAT", "WBBA", "WBBW", "WBD", "WBEV", "WBIF", "WBIG", "WBII", "WBIL", "WBIT", "WBIY", "WBND", "WBRBY", "WBS", "WBSR", "WBWB", "WBX", "WCBR", "WCC", "WCCP", "WCFB", "WCIG", "WCLD", "WCN", "WCRS", "WCUI", "WCYN", "WD", "WDAY", "WDBG", "WDC", "WDDD", "WDFC", "WDFN", "WDGJY", "WDH", "WDHR", "WDIV", "WDLF", "WDMTF", "WDNA", "WDRP", "WDS", "WDSSF", "WDTK", "WDTRF", "WE", "WEAT", "WEAV", "WEBB", "WEBC", "WEBL", "WEBR", "WEBS", "WEC", "WEED", "WEEUF", "WEGRY", "WEGZY", "WEICY", "WEIDY", "WEIX", "WEJO", "WEL", "WELL", "WELX", "WEN", "WEQL", "WERN", "WES", "WESC", "WEST", "WETF", "WETG", "WETH", "WEX", "WEYS", "WF", "WFAFY", "WFC", "WFCF", "WFCL", "WFG", "WFH", "WFHG", "WFHY", "WFIG", "WFRD", "WGEI", "WGMI", "WGNR", "WGO", "WGRO", "WH", "WHD", "WHEN", "WHF", "WHG", "WHGLY", "WHLM", "WHLR", "WHLT", "WHR", "WHSI", "WIL", "WILC", "WILYY", "WIMI", "WINA", "WINC", "WING", "WINH", "WINN", "WINR", "WINSF", "WINT", "WINV", "WIP", "WIRE", "WISA", "WISH", "WIT", "WIX", "WIZ", "WIZEY", "WJRYY", "WK", "WKEY", "WKHS", "WKLY", "WKME", "WKSP", "WKYN", "WLAB", "WLAN", "WLDN", "WLDR", "WLDS", "WLFC", "WLFDY", "WLK", "WLKP", "WLMIY", "WLMS", "WLSI", "WLTG", "WLTH", "WLY", "WLYB", "WLYW", "WM", "WMB", "WMC", "WMG", "WMGR", "WMK", "WMMVY", "WMPN", "WMS", "WMT", "WMTN", "WNBD", "WNC", "WNDW", "WNDY", "WNEB", "WNFT", "WNNR", "WNRS", "WNS", "WNW", "WNWG", "WOBK", "WOFA", "WOLF", "WOLV", "WOMN", "WOOD", "WOOF", "WOR", "WORX", "WOW", "WOWI", "WOWU", "WPC", "WPCA", "WPCB", "WPFH", "WPM", "WPP", "WPRT", "WPS", "WPUR", "WQGA", "WQNI", "WRAC", "WRAP", "WRB", "WRBY", "WRDLY", "WRE", "WRGL", "WRIT", "WRIV", "WRK", "WRLC", "WRLD", "WRMA", "WRN", "WRND", "WRPT", "WRTBY", "WSBC", "WSBF", "WSC", "WSCO", "WSDMF", "WSFGQ", "WSFL", "WSFS", "WSHE", "WSM", "WSML", "WSO", "WSO.B", "WSPCF", "WSR", "WSRC", "WSSE", "WSSH", "WST", "WSTG", "WSTL", "WT", "WTAI", "WTAIF", "WTBA", "WTBDY", "WTBFB", "WTER", "WTFC", "WTI", "WTII", "WTIPF", "WTKN", "WTKWY", "WTM", "WTMA", "WTMF", "WTNW", "WTRE", "WTRG", "WTRH", "WTRV", "WTS", "WTT", "WTTHF", "WTTR", "WTV", "WTW", "WTXR", "WU", "WUGI", "WUHN", "WULF", "WUXAY", "WVE", "WVFC", "WVVI", "WW", "WWAC", "WWD", "WWDH", "WWE", "WWHC", "WWII", "WWIO", "WWJD", "WWNG", "WWPW", "WWR", "WWRL", "WWSG", "WWW", "WXXWY", "WY", "WYGPY", "WYNMY", "WYNN", "WYPH", "WYY", "WZZZY", "X", "XAIR", "XALL", "XAR", "XB", "XBAP", "XBB", "XBI", "XBIO", "XBIT", "XBJA", "XBJL", "XBOC", "XBTF", "XC", "XCCC", "XCEM", "XCLL", "XCLR", "XCOMQ", "XCOR", "XCPL", "XCPT", "XCRP", "XCRT", "XCUR", "XDAP", "XDAT", "XDEC", "XDJA", "XDJL", "XDNA", "XDOC", "XDQQ", "XDSL", "XDSQ", "XDWFF", "XDWHF", "XEL", "XELA", "XELB", "XEMD", "XENE", "XERI", "XERS", "XES", "XESP", "XFCI", "XFIN", "XFIV", "XFLS", "XFOR", "XGN", "XHB", "XHE", "XHLF", "XHR", "XHS", "XHYC", "XHYD", "XHYE", "XHYF", "XHYH", "XHYI", "XHYT", "XIACF", "XIACY", "XIN", "XISHY", "XITK", "XITO", "XJH", "XJR", "XJUN", "XL", "XLB", "XLC", "XLE", "XLF", "XLG", "XLI", "XLISF", "XLK", "XLO", "XLP", "XLRE", "XLSR", "XLU", "XLV", "XLWH", "XLY", "XM", "XME", "XMHQ", "XMLV", "XMMO", "XMPT", "XMTIF", "XMTR", "XMVM", "XNAV", "XNCR", "XNDA", "XNET", "XNGSY", "XNNHQ", "XNTK", "XOEEF", "XOM", "XOMA", "XONE", "XOP", "XOS", "XOUT", "XP", "XPAX", "XPDB", "XPEL", "XPER", "XPEV", "XPH", "XPL", "XPND", "XPO", "XPOF", "XPON", "XPP", "XPRO", "XRAY", "XREG", "XRLV", "XRMI", "XRT", "XRTX", "XRX", "XSD", "XSEP", "XSHD", "XSHQ", "XSLV", "XSMO", "XSNX", "XSOE", "XSPA", "XSPT", "XSPUF", "XSVM", "XSVN", "XSVT", "XSW", "XT", "XTAP", "XTEN", "XTJA", "XTJL", "XTL", "XTLB", "XTN", "XTNT", "XTOC", "XTPT", "XTR", "XTRE", "XTRKF", "XTRM", "XTRTF", "XTRXF", "XTTRF", "XTTXF", "XTWO", "XTWY", "XUSP", "XVIPY", "XVOL", "XVV", "XWEB", "XWEL", "XXII", "XYF", "XYIGY", "XYL", "XYLB", "XYLD", "XYLG", "XYNH", "Y", "YAHOY", "YALA", "YALL", "YAMCY", "YAMHY", "YANG", "YARIY", "YASKY", "YATRY", "YAYO", "YBCN", "YBGJ", "YCBD", "YCL", "YCRM", "YCS", "YDEC", "YDUQY", "YEAR", "YECO", "YELL", "YELP", "YETI", "YEWB", "YEXT", "YGMZ", "YGYI", "YI", "YINN", "YIPI", "YJ", "YJUN", "YKLTY", "YLD", "YLDE", "YMAB", "YMAR", "YMM", "YMTX", "YMZBY", "YOKEY", "YOLO", "YORW", "YOSH", "YOTA", "YOU", "YPF", "YPS", "YQ", "YRD", "YRIV", "YSEP", "YSG", "YSGG", "YTEN", "YTFD", "YTPG", "YTRA", "YUEIY", "YUKA", "YUM", "YUMAQ", "YUMC", "YUMY", "YVR", "YXI", "YY", "YYY", "YYYH", "YZCAY", "Z", "ZAAG", "ZBH", "ZBRA", "ZCBD", "ZCMD", "ZCSH", "ZD", "ZDEC", "ZDGE", "ZDPY", "ZECP", "ZEN", "ZENO", "ZENV", "ZEPP", "ZEST", "ZETA", "ZEUS", "ZEV", "ZFOX", "ZG", "ZGEN", "ZGN", "ZH", "ZHCLF", "ZHDG", "ZHUD", "ZHUZY", "ZI", "ZICX", "ZIG", "ZIJMY", "ZIM", "ZIMV", "ZING", "ZION", "ZIP", "ZIVO", "ZKIN", "ZLAB", "ZLIOY", "ZLNDY", "ZM", "ZMENY", "ZMGD", "ZMRK", "ZNAE", "ZNH", "ZNKKY", "ZNNC", "ZNOG", "ZNRG", "ZNTL", "ZNXT", "ZOM", "ZONX", "ZPAS", "ZPRVF", "ZRFY", "ZROZ", "ZRSEF", "ZS", "ZSANQ", "ZSHGY", "ZSL", "ZT", "ZTEK", "ZTNO", "ZTO", "ZTS", "ZUKI", "ZULU", "ZUMZ", "ZUO", "ZURVY", "ZUSFF", "ZUUS", "ZVIA", "ZVLO", "ZVO", "ZVOI", "ZWBC", "ZWRK", "ZWS", "ZY", "ZYME", "ZYNE", "ZYXI", "ZZLL"];
+        $input.typeahead({
+            source: slist
+        });
+
+        $input.change(function() {
+            window.location.href = "/dark/symbol?symbol=" + $input.val();
+        });
+
+    });
+</script>
+</html>

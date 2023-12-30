@@ -1,0 +1,116 @@
+curl 'https://demostocks.bigshot-station.com/front/trader/place_order' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Cookie: _kyc_session=m6hCV7bT9liw7aGdVNmu%2BXZu95U69vheaI4b38fKPg637h6DzEq40sw4SZSg6HBXoqNbWphNjpvnp%2FvrJVbYvqBftgQymkTnj1TYwghIVNL1GpJqh8j94xHYDFAKcTenggJRQYh4JxOykVxUH01zrCIedv5FKxxUQ%2FHlxP4%3D--BWDNF%2Bz2D6EiQ5Gx--TT3IUSVMPkCk5MnJsFkZtQ%3D%3D' \
+  -H 'DNT: 1' \
+  -H 'Origin: https://demostocks.bigshot-station.com' \
+  -H 'Referer: https://demostocks.bigshot-station.com/dark/symbol?symbol=TSLA' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="119", "Not?A_Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'utf8=%E2%9C%93&authenticity_token=Zht3fwtc3R33mf8ijhEkeZRDUJKl85RVok6cr%2BxxX%2FlyA3uPowQjYgRxgjAdUcFLoTGerpCmQDT6i%2BZ0ESqshA%3D%3D&symbol=TSLA&account=2636&account_uid=2636&user=2447&market_price=254.98&op=BUY&order_type=LMT&aux_price=&lmt_price=200&stop_loss_price=199&take_profit_price=201.50&qty=20&tif=DAY&commit=%D7%A9%D7%99%D7%92%D7%95%D7%A8+%D7%94%D7%95%D7%A8%D7%90%D7%94' \
+  --compressed
+
+
+
+curl 'https://demostocks.bigshot-station.com/dark/cancel_order?cid=171162' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _kyc_session=cqaCd8fOnIZmDOjmrZajGEno94%2BIIFnoG404H25zQuYvzSbp7QLE8cmVBWdiAM08ZyWAm52KY4S09FS0jxwxU32aPl6rJ0O5bhhkjuUFGjJIBA3KQRmuFlnpm3yvOgYQXUmqmb7QNaF48SZIuqBStv8yoq3xvaeE%2FPJSHzE%3D--W%2BseEQVbIzuVJnJA--%2FYiMouphfJeapqWZNsDI%2Fw%3D%3D' \
+  -H 'DNT: 1' \
+  -H 'Referer: https://demostocks.bigshot-station.com/dark/symbol?symbol=TSLA' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="119", "Not?A_Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --compressed
+
+
+
+curl 'https://demostocks.bigshot-station.com/dark/update_order' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Cookie: _kyc_session=f4DR4PuusIFe0BGgM8wJdN7sJeAESPzB2CDQFd7JfEmmCbA%2BTlnVF5AN%2BccgiizvwJ0%2FsrrmYIq2w9p5oY7phYvzcqgMUbGELruYbPGZF%2B068isvNS8lFPEAe%2FkrHKUOiE9zN2esCvREG8XYDww8XmcppogmE6cP8w6hUWU%3D--Itu4hKds7fJzbIAU--TyX5slIaj0ctQ8FY13Tn6w%3D%3D' \
+  -H 'DNT: 1' \
+  -H 'Origin: https://demostocks.bigshot-station.com' \
+  -H 'Referer: https://demostocks.bigshot-station.com/dark/symbol?symbol=NIO' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="119", "Not?A_Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'utf8=%E2%9C%93&authenticity_token=dB6pKtr7qEpFqOzp89oqAbraDWDaH9%2BsVOimXm%2BuaxJgBqXacqNWNbZAkftgms8zj6jDXO9KC80MLdyFkvWYbw%3D%3D&account_id=2636&order_id=171260&lmt_price=&stop_price=9.10&commit=%D7%A9%D7%9E%D7%95%D7%A8' \
+  --compressed
+
+
+
+
+
+curl 'https://demostocks.bigshot-station.com/front/trader/place_order' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Cookie: _kyc_session=blWttX5eLGH6QCCT7k2aekQPrni2CkggXi13logS40Y5Cejo2dPnx9KAU5j%2FFOdEGD3%2BUyyFThhvBs65uhc6pbG0Qmemj3oeHG%2FkoVjQTOk9p8Tmt%2F88iw9dxlGsTaek3DQeymR3qWTPDEUBnq7LmqLHkxaIgO3HYcZsA1g%3D--WanywUJfnR%2BwjjH1--OwuiC%2Bveeox0pS3ByJNNDw%3D%3D' \
+  -H 'DNT: 1' \
+  -H 'Origin: https://demostocks.bigshot-station.com' \
+  -H 'Referer: https://demostocks.bigshot-station.com/dark/symbol?symbol=TSLA' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="119", "Not?A_Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'utf8=%E2%9C%93&authenticity_token=NYMwm7ZFZKqMNAQlqQH13GYO5MEcw5ytnHqqSWfg8ZkhmzxrHh2a1X%2FceTc6QRDuU3wq%2FSmWSMzEv9CSmrsC5A%3D%3D&symbol=TSLA&account=2636&account_uid=2636&user=2447&market_price=253.9&op=BUY&order_type=STP+LMT&aux_price=300&lmt_price=300.05&stop_loss_price=299&take_profit_price=301.50&qty=20&tif=DAY&commit=%D7%A9%D7%99%D7%92%D7%95%D7%A8+%D7%94%D7%95%D7%A8%D7%90%D7%94' \
+  --compressed
+
+then another request to get the cid:
+curl 'https://demostocks.bigshot-station.com/dark/symbol?symbol=TSLA' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _kyc_session=YtJyZecy9kJUzdhV1jk7Oru0W3McrpTK6iAevuzcc8oEM4CHaALjniP4IvEJO2D8jTTjI3r%2B60yAYh%2BQtd0ZFVWP1G9SIh7exrU29zMUHLXWdbGlEyUCn8rNJ0iohjKUe6jE%2FGLjPeg2EUjvkdGM9PVrsK7vTIi1kWNOrXedlUezstfC8MMHM9p9GCD2WBd%2F41gQjD7nlEZcKe3sm4RgtOd3Xdd3apWcsqtNGbg5N9BiHOxjJRJFbrnILFw7BtDg5XqS--Wsy6gmvlsWM28JK%2B--EJHkVEuasDuU%2FVbow8Dq2w%3D%3D' \
+  -H 'DNT: 1' \
+  -H 'If-None-Match: W/"a23099d8da2778d402dfd2bdad3edf02"' \
+  -H 'Referer: https://demostocks.bigshot-station.com/dark/symbol?symbol=TSLA' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="119", "Not?A_Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --compressed
+
+and its response:
+
+
